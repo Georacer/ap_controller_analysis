@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "63-18-ardupilot-controller-analysis"
+version = "0.1.0"
+description = ""
+authors = ["George Zogopoulos <tailwhipx4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "63"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+penbegone = {path = "/home/george/Dropbox/George/60-69 Personal hobby projects/65 Software and computing/65.13 penbegone", develop = true}
+ipykernel = "^6.29.5"
+sympy = "^1.13.3"
+blackcellmagic = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
