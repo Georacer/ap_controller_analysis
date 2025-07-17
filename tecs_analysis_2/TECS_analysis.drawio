@@ -1,0 +1,124 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="wfCVup5LtOu9OgpNbz4Q">
+    <mxGraphModel dx="2422" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GokYQmmLiiYzOL45nOz0-29" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-6" target="GokYQmmLiiYzOL45nOz0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-1" target="GokYQmmLiiYzOL45nOz0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-39" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-1" target="GokYQmmLiiYzOL45nOz0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-1" value="Parameters to check&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- TECS_TIME_CONST&lt;/div&gt;&lt;div&gt;- TECS_THR_DAMP&lt;/div&gt;&lt;div&gt;- TECS_INTEG_GAIN&lt;/div&gt;&lt;div&gt;- TECS_VERT_ACC&lt;/div&gt;&lt;div&gt;- TECS_HGT_OMEGA&lt;/div&gt;&lt;div&gt;- TECS_SPD_OMEGA&lt;/div&gt;&lt;div&gt;- TECS_SPDWEIGHT&lt;/div&gt;&lt;div&gt;- TECS_PTCH_DAMP&lt;/div&gt;&lt;div&gt;- TECS_HDEM_TCONST&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Pitch control latency&lt;/div&gt;&lt;div&gt;- Pitch control overshoot&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-40" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-3" target="GokYQmmLiiYzOL45nOz0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-3" value="Visualize how each parameter affects performance." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-41" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-4" target="GokYQmmLiiYzOL45nOz0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-4" value="Performance items:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Stability (damping during regulation)&lt;/div&gt;&lt;div&gt;- Response time&lt;/div&gt;&lt;div&gt;- Overshoot&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1240" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-27" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-5" target="GokYQmmLiiYzOL45nOz0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-5" value="Classic longitudinal modes:&lt;div&gt;1. Short-period (alpha - pitch)&lt;/div&gt;&lt;div&gt;2. Phygoid (airspeed, altitude)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-38" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-6" target="GokYQmmLiiYzOL45nOz0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-6" value="Root locus plot when sweeping a gain." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-7" value="Strategies for tuning?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-26" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-8" target="GokYQmmLiiYzOL45nOz0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-8" value="Can these be integrated into a simplified model?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-9" value="Extract linear model and its modes from the simplified model." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Linear theory&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="640" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Nonlinear models&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="440" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="599" as="sourcePoint" />
+            <mxPoint x="810" y="599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="400" as="sourcePoint" />
+            <mxPoint x="810" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Actionable results&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="1000" as="sourcePoint" />
+            <mxPoint x="810" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Result analysis&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1040" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-21" target="GokYQmmLiiYzOL45nOz0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-21" value="Parse a .bin log:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Isolate the flight segments.&lt;/div&gt;&lt;div&gt;- Carry out FFT for each variable/pole&lt;/div&gt;&lt;div&gt;- Write out results in a small database.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1070" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-42" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-22" target="GokYQmmLiiYzOL45nOz0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-22" value="Does the linear model behave the same as SITL?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-23" value="Assumptions:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Airspeed enabled.&lt;/div&gt;&lt;div&gt;- Powered flight.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-28" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-24" target="GokYQmmLiiYzOL45nOz0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-24" value="FFT: Detect peaks above a certain amplitude." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Simulations&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="851" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-200" y="810" as="sourcePoint" />
+            <mxPoint x="810" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GokYQmmLiiYzOL45nOz0-32" target="GokYQmmLiiYzOL45nOz0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GokYQmmLiiYzOL45nOz0-32" value="Run a standard aircraft through a standard flight profile." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
