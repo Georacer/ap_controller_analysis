@@ -123,7 +123,9 @@ dependencies = [
     "webencodings==0.5.1 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "websocket-client==1.8.0 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "widgetsnbextension==4.0.13 ; python_full_version >= '3.12' and python_full_version < '4.0'",
+    "control>=0.10.2",
+    "penbegone",
 ]
 
 [tool.uv.sources]
-penbegone = { path = "../../65 Software and computing/65.13 penbegone" }
+penbegone = { path = "../../65 Software and computing/65.13 penbegone", editable = true }
