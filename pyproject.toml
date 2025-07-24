@@ -125,7 +125,15 @@ dependencies = [
     "widgetsnbextension==4.0.13 ; python_full_version >= '3.12' and python_full_version < '4.0'",
     "control>=0.10.2",
     "penbegone",
+    "pymavlink>=2.4.48",
+    "scipy>=1.16.0",
+    "rich>=14.0.0",
 ]
 
 [tool.uv.sources]
 penbegone = { path = "../../65 Software and computing/65.13 penbegone", editable = true }
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.4",
+]

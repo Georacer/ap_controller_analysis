@@ -5,5 +5,7 @@
         "hdot",
         "integ",
         "TCONST"
-    ]
+    ],
+    "editor.formatOnSave": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
