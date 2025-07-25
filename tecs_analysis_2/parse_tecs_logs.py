@@ -50,8 +50,6 @@ class SegmentMetadata:
 
     airspeed_frequency: float | None
     airspeed_amplitude: float | None
-    airspeed_overshoot: float | None
-    airspeed_rise_time: float | None
     altitude_frequency: float | None
     altitude_amplitude: float | None
     altitude_overshoot: float | None
@@ -84,6 +82,56 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
         return freq, peak
 
 
+def calc_rise_stats(
+    timeseries: Tuple[np.ndarray, np.ndarray], target: Tuple[np.ndarray, np.ndarray]
+):
+    """Find the rise time and overshoot of a response.
+
+    Args:
+        timeseries:
+            A length-2 iterable with the series timestamps and the series values.
+        target:
+            A length-2 iterable with the target value timestamps and the series values.
+
+    Returns:
+        overshoot, in % of target value.
+        rise time, in seconds to reach 95% of target.
+    """
+
+    # Interpolate the target.
+    target_timestamps = target[0]
+    target_values = target[1]
+    if (timeseries[0] != target[0]).all():
+        target_timestamps = timeseries[0]
+        target_values = np.interp(timeseries[0], target_timestamps, target_values)
+
+    error = timeseries[1] - target_values
+
+    # Do a linear fit to see the general trend of the response (upwards, downards)
+    response_coeffs = np.polyfit(timeseries[0], timeseries[1], deg=1)
+    # Check if this is an ascending or descending response.
+    if response_coeffs[0] < 0:
+        # Flip to an ascending response.
+        error = -error
+
+    # Normalize to a unit step.
+    error_normalized = error / (np.abs(error.min())) + 1
+    print(f"Error stats: max: {error.max()}, min: {error.min()}")
+    print(
+        f"Normalized error stats: max: {error_normalized.max()}, min: {error_normalized.min()}"
+    )
+
+    overshoot = (error_normalized.max() - 1) * 100
+    rise_time = timeseries[0][np.argmax(error_normalized > 0.95)] - timeseries[0][0]
+
+    # If the error never converged to a ramp response, then don't bother.
+    if error_normalized[-1] < error_normalized[0]:
+        overshoot = None
+        rise_time = None
+
+    return overshoot, rise_time
+
+
 def extract_metadata(raw_data: SegmentRawData):
     """Extract the metadata of interest from raw log data.
 
@@ -96,16 +144,17 @@ def extract_metadata(raw_data: SegmentRawData):
 
     airspeed_frequency, airspeed_amplitude = do_fft(raw_data.airspeed)
     altitude_frequency, altitude_amplitude = do_fft(raw_data.altitude)
+    altitude_overshoot, altitude_rise_time = calc_rise_stats(
+        raw_data.altitude, raw_data.altitude_target
+    )
 
     return SegmentMetadata(
         airspeed_frequency=airspeed_frequency,
         airspeed_amplitude=airspeed_amplitude,
-        airspeed_overshoot=None,
-        airspeed_rise_time=None,
         altitude_frequency=altitude_frequency,
         altitude_amplitude=altitude_amplitude,
-        altitude_overshoot=None,
-        altitude_rise_time=None,
+        altitude_overshoot=altitude_overshoot,
+        altitude_rise_time=altitude_rise_time,
     )
 
 
@@ -189,11 +238,11 @@ def parse_log(log_path):
             for key_name, value in msg_data.items():
                 topics[msg_name][key_name].append(value)
 
-    fig, ax = plt.subplots()
-    for raw_data in data.values():
-        ax.plot(raw_data.altitude[0], raw_data.altitude[1])
-    ax.grid()
-    fig.savefig("altitude.png")
+    # fig, ax = plt.subplots()
+    # for raw_data in data.values():
+    #     ax.plot(raw_data.altitude[0], raw_data.altitude[1])
+    # ax.grid()
+    # fig.savefig("altitude.png")
 
     return {
         segment_name: extract_metadata(raw_data)
