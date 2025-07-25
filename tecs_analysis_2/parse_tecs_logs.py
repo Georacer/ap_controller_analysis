@@ -24,7 +24,6 @@ from tinydb import TinyDB, Query
 sys.path.append("..")
 import ardupilot_utils as apu
 
-RAD2HZ = 1 / np.pi
 LOGS_DIR = "~/Dropbox/George/60-69 Personal hobby projects/63 Aerospace/63.18_ardupilot_controller_analysis/tecs_analysis_2/temp_dir/logs"
 
 segments = {
@@ -68,14 +67,15 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
         The biggest peak frequency and amplitude.
     """
 
-    peaks = np.fft.rfft(timeseries[1])
-    freqs = (
-        np.fft.fftfreq(len(timeseries[0])) * np.average(np.diff(timeseries[0])) * RAD2HZ
-    )
+    peaks = np.absolute(
+        np.fft.rfft(timeseries[1] - timeseries[1].mean())
+    )  # Remove the signal DC value.
+    freqs = np.fft.rfftfreq(len(timeseries[0]), d=np.average(np.diff(timeseries[0])))
     peak_idx = np.argmax(peaks)
 
     freq = freqs[peak_idx]
     peak = peaks[peak_idx]
+    print(f"Freq: {freq}, Mag: {peak}")
 
     if freq < 0.1:
         return None, None
