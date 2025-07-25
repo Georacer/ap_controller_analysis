@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <root>
  <tabbed_widget name="Main Window" parent="main_window">
-  <Tab tab_name="Altitude response" containers="1">
+  <Tab containers="1" tab_name="Altitude response">
    <Container>
-    <DockSplitter count="3" sizes="0.333333;0.333333;0.333333" orientation="-">
+    <DockSplitter orientation="-" count="3" sizes="0.3337;0.332599;0.3337">
      <DockArea name="...">
-      <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
-       <range right="241.440051" left="26.740133" bottom="-20.355925" top="308.536522"/>
+      <plot flip_x="false" flip_y="false" mode="TimeSeries" style="Lines">
+       <range top="308.024400" bottom="-29.000404" right="262.200077" left="41.600020"/>
        <limitY/>
        <curve name="/TECS/h&#x9;[m]" color="#1f77b4"/>
        <curve name="/TECS/hdem&#x9;[m]" color="#d62728"/>
@@ -15,15 +15,15 @@
       </plot>
      </DockArea>
      <DockArea name="...">
-      <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
-       <range right="241.440051" left="26.740133" bottom="-53.129458" top="76.139704"/>
+      <plot flip_x="false" flip_y="false" mode="TimeSeries" style="Lines">
+       <range top="175.257085" bottom="-126.969960" right="262.200077" left="41.600020"/>
        <limitY/>
        <curve name="height error" color="#1f77b4"/>
       </plot>
      </DockArea>
      <DockArea name="...">
-      <plot mode="TimeSeries" flip_x="false" style="Lines" flip_y="false">
-       <range right="241.440051" left="26.740133" bottom="0.775000" top="10.225000"/>
+      <plot flip_x="false" flip_y="false" mode="TimeSeries" style="Lines">
+       <range top="10.225000" bottom="0.775000" right="262.200077" left="41.600020"/>
        <limitY/>
        <curve name="/MISE/CNum" color="#1f77b4"/>
       </plot>
@@ -31,7 +31,35 @@
     </DockSplitter>
    </Container>
   </Tab>
-  <currentTabIndex index="0"/>
+  <Tab containers="1" tab_name="Airspeed response">
+   <Container>
+    <DockSplitter orientation="-" count="3" sizes="0.3337;0.332599;0.3337">
+     <DockArea name="...">
+      <plot flip_x="false" flip_y="false" mode="TimeSeries" style="Lines">
+       <range top="30.005448" bottom="2.341331" right="262.200077" left="41.600020"/>
+       <limitY/>
+       <curve name="/TECS/sp&#x9;[m s⁻¹]" color="#1f77b4"/>
+       <curve name="/TECS/spdem&#x9;[m s⁻¹]" color="#d62728"/>
+      </plot>
+     </DockArea>
+     <DockArea name="...">
+      <plot flip_x="false" flip_y="false" mode="TimeSeries" style="Lines">
+       <range top="7.254354" bottom="-20.286588" right="262.200077" left="41.600020"/>
+       <limitY/>
+       <curve name="airspeed error" color="#1f77b4"/>
+      </plot>
+     </DockArea>
+     <DockArea name="...">
+      <plot flip_x="false" flip_y="false" mode="TimeSeries" style="Lines">
+       <range top="10.225000" bottom="0.775000" right="262.200077" left="41.600020"/>
+       <limitY/>
+       <curve name="/MISE/CNum" color="#1f77b4"/>
+      </plot>
+     </DockArea>
+    </DockSplitter>
+   </Container>
+  </Tab>
+  <currentTabIndex index="1"/>
  </tabbed_widget>
  <use_relative_time_offset enabled="1"/>
  <!-- - - - - - - - - - - - - - - -->
@@ -57,6 +85,14 @@
  <!-- - - - - - - - - - - - - - - -->
  <!-- - - - - - - - - - - - - - - -->
  <customMathEquations>
+  <snippet name="airspeed error">
+   <global></global>
+   <function>return value - v1</function>
+   <linked_source>/TECS/sp	[m s⁻¹]</linked_source>
+   <additional_sources>
+    <v1>/TECS/spdem	[m s⁻¹]</v1>
+   </additional_sources>
+  </snippet>
   <snippet name="height error">
    <global></global>
    <function>return value - v1</function>

@@ -74,7 +74,7 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
     peak_idx = np.argmax(peaks)
 
     freq = freqs[peak_idx]
-    peak = peaks[peak_idx]
+    peak = peaks[peak_idx] / len(timeseries[0]) * 2
     print(f"Freq: {freq}, Mag: {peak}")
 
     if freq < 0.1:
