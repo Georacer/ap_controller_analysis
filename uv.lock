@@ -120,6 +120,7 @@ dependencies = [
     { name = "sympy", marker = "python_full_version < '4.0'" },
     { name = "terminado", marker = "python_full_version < '4.0'" },
     { name = "tinycss2", marker = "python_full_version < '4.0'" },
+    { name = "tinydb" },
     { name = "tomli", marker = "python_full_version < '4.0'" },
     { name = "tornado", marker = "python_full_version < '4.0'" },
     { name = "traitlets", marker = "python_full_version < '4.0'" },
@@ -251,6 +252,7 @@ requires-dist = [
     { name = "sympy", marker = "python_full_version >= '3.12' and python_full_version < '4.0'", specifier = "==1.13.3" },
     { name = "terminado", marker = "python_full_version >= '3.12' and python_full_version < '4.0'", specifier = "==0.18.1" },
     { name = "tinycss2", marker = "python_full_version >= '3.12' and python_full_version < '4.0'", specifier = "==1.3.0" },
+    { name = "tinydb", specifier = ">=4.8.2" },
     { name = "tomli", marker = "python_full_version >= '3.12' and python_full_version < '4.0'", specifier = "==1.2.3" },
     { name = "tornado", marker = "python_full_version >= '3.12' and python_full_version < '4.0'", specifier = "==6.4.1" },
     { name = "traitlets", marker = "python_full_version >= '3.12' and python_full_version < '4.0'", specifier = "==5.14.3" },
@@ -2016,6 +2018,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/44/6f/38d2335a2b70b9982d112bb177e3dbe169746423e33f718bf5e9c7b3ddd3/tinycss2-1.3.0.tar.gz", hash = "sha256:152f9acabd296a8375fbca5b84c961ff95971fcfc32e79550c8df8e29118c54d", size = 67360 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/2c/4d/0db5b8a613d2a59bbc29bc5bb44a2f8070eb9ceab11c50d477502a8a0092/tinycss2-1.3.0-py3-none-any.whl", hash = "sha256:54a8dbdffb334d536851be0226030e9505965bb2f30f21a4a82c55fb2a80fae7", size = 22532 },
+]
+
+[[package]]
+name = "tinydb"
+version = "4.8.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a0/79/4af51e2bb214b6ea58f857c51183d92beba85b23f7ba61c983ab3de56c33/tinydb-4.8.2.tar.gz", hash = "sha256:f7dfc39b8d7fda7a1ca62a8dbb449ffd340a117c1206b68c50b1a481fb95181d", size = 32566 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/78/17/853354204e1ca022d6b7d011ca7f3206c4f8faa3cc743e92609b49c1d83f/tinydb-4.8.2-py3-none-any.whl", hash = "sha256:f97030ee5cbc91eeadd1d7af07ab0e48ceb04aa63d4a983adbaca4cba16e86c3", size = 24888 },
 ]
 
 [[package]]

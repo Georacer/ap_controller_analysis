@@ -11,7 +11,7 @@
 # Store the information in a lightweight database.
 
 from pathlib import Path
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 from typing import Tuple
 import sys
 
@@ -19,6 +19,7 @@ import numpy as np
 from pymavlink import DFReader
 from rich.pretty import pprint
 import matplotlib.pyplot as plt
+from tinydb import TinyDB, Query
 
 sys.path.append("..")
 import ardupilot_utils as apu
@@ -116,10 +117,6 @@ def calc_rise_stats(
 
     # Normalize to a unit step.
     error_normalized = error / (np.abs(error.min())) + 1
-    print(f"Error stats: max: {error.max()}, min: {error.min()}")
-    print(
-        f"Normalized error stats: max: {error_normalized.max()}, min: {error_normalized.min()}"
-    )
 
     overshoot = (error_normalized.max() - 1) * 100
     rise_time = timeseries[0][np.argmax(error_normalized > 0.95)] - timeseries[0][0]
@@ -250,8 +247,38 @@ def parse_log(log_path):
     }
 
 
+def convert_data_to_dict(data):
+    """Convert the result of parse_log() into a pure dict."""
+
+    return {segment_name: asdict(metadata) for segment_name, metadata in data.items()}
+
+
+def add_to_db(data):
+    """Add this script's data to the database.
+
+    This will overwrite older data.
+    """
+    db = TinyDB("performance_results.json", sort_keys=True, indent=4)
+    logdata = Query()
+
+    for log_data in data:
+        # Find if this log exists in the db.
+        # Retrieve its structure.
+        # Add in the new data.
+        # Insert it back.
+        db.upsert(log_data, logdata.log_name == log_data["log_name"])
+
+
 if __name__ == "__main__":
     logs_dir = Path(LOGS_DIR).expanduser()
     log_path = logs_dir / "00000002.BIN"
-    data = parse_log(log_path)
-    pprint(data)
+    logs_paths = [log_path]
+
+    all_data = []
+    for log_path in logs_paths:
+        data_one_log = {}
+        data_one_log["data"] = convert_data_to_dict(parse_log(log_path))
+        data_one_log["log_name"] = log_path.name
+        all_data.append(data_one_log)
+    pprint(all_data)
+    add_to_db(all_data)
