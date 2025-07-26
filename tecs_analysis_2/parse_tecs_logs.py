@@ -21,11 +21,14 @@ from rich.pretty import pprint
 import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
 
+import common
+
 sys.path.append("..")
 import ardupilot_utils as apu
 
 LOGS_DIR = "~/Dropbox/George/60-69 Personal hobby projects/63 Aerospace/63.18_ardupilot_controller_analysis/tecs_analysis_2/temp_dir/logs"
 
+# A dictionary with the start and end waypoint numbers of each segment.
 segments = {
     "level": (4, 5),
     "step_up": (5, 6),
@@ -75,7 +78,6 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
 
     freq = freqs[peak_idx]
     peak = peaks[peak_idx] / len(timeseries[0]) * 2
-    print(f"Freq: {freq}, Mag: {peak}")
 
     if freq < 0.1:
         return None, None
@@ -271,8 +273,7 @@ def add_to_db(data):
 
 if __name__ == "__main__":
     logs_dir = Path(LOGS_DIR).expanduser()
-    log_path = logs_dir / "00000002.BIN"
-    logs_paths = [log_path]
+    logs_paths = Path(common.ARTIFACTS_PATH).glob("*.BIN")
 
     all_data = []
     for log_path in logs_paths:
@@ -280,5 +281,5 @@ if __name__ == "__main__":
         data_one_log["data"] = convert_data_to_dict(parse_log(log_path))
         data_one_log["log_name"] = log_path.name
         all_data.append(data_one_log)
-    pprint(all_data)
+    # pprint(all_data)
     add_to_db(all_data)
