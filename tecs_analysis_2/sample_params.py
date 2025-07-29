@@ -17,17 +17,8 @@ import os
 import common
 
 # Create the sampling space.
-parameter_matrix = {
-    # "TECS_HDEM_TCONST": np.linspace(0.5, 5, 5),
-    # "TECS_HGT_OMEGA": np.linspace(1, 10, 5),
-    # "TECS_INTEG_GAIN": np.linspace(0.1, 1, 5),
-    "TECS_PTCH_DAMP": np.linspace(0.1, 1.0, 5),
-    # "TECS_SPD_OMEGA": np.linspace(0.5, 5, 5),
-    # "TECS_TIME_CONST": np.linspace(1, 10, 5),
-    # "TECS_VERT_ACC": np.linspace(3, 10, 5),
-}
 combinations = []
-for parameter, values in parameter_matrix.items():
+for parameter, values in common.parameter_matrix.items():
     for value in values:
         combinations.append((parameter, value))
 

@@ -4,6 +4,7 @@
         "HDEM",
         "hdot",
         "integ",
+        "PTCH",
         "TCONST"
     ],
     "editor.formatOnSave": true,

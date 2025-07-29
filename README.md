@@ -29,3 +29,11 @@ uv run ./parse_tecs_logs.py
 ```
 
 to extract the response metadata from the logs.
+
+5. Run
+
+```bash
+uv run ./simulation_analysis.py
+```
+
+to generate the plots.

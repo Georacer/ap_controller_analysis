@@ -45,6 +45,7 @@ class SegmentRawData:
     airspeed: Tuple[np.ndarray, np.ndarray]
     altitude: Tuple[np.ndarray, np.ndarray]
     altitude_target: Tuple[np.ndarray, np.ndarray]
+    parameters: dict
 
 
 @dataclass
@@ -57,6 +58,7 @@ class SegmentMetadata:
     altitude_amplitude: float | None
     altitude_overshoot: float | None
     altitude_rise_time: float | None
+    parameters: dict
 
 
 def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
@@ -154,6 +156,7 @@ def extract_metadata(raw_data: SegmentRawData):
         altitude_amplitude=altitude_amplitude,
         altitude_overshoot=altitude_overshoot,
         altitude_rise_time=altitude_rise_time,
+        parameters=raw_data.parameters,
     )
 
 
@@ -169,13 +172,10 @@ def parse_log(log_path):
     log.rewind()
 
     topics = dict()
-    topic_filter = [
-        "CTUN",
-        "TECS",
-        "MISE",
-    ]
+    topic_filter = ["CTUN", "TECS", "MISE", "PARM"]
 
     data = dict()
+    parameters = dict()
 
     segment_idx = 0
     segment_start = list(segments.values())[segment_idx][0]
@@ -193,6 +193,10 @@ def parse_log(log_path):
         msg_name = m.get_type()
         msg_data = m.to_dict()
 
+        # Capture the parameters.
+        if msg_name == "PARM" and (msg_data["Name"] in common.parameter_matrix.keys()):
+            parameters[msg_data["Name"]] = msg_data["Value"]
+
         # Split the segments.
         if msg_name == "MISE":
             if msg_data["CNum"] == segment_start:
@@ -206,6 +210,7 @@ def parse_log(log_path):
                         airspeed=topics["CTUN"].as_numpy("As"),
                         altitude=topics["TECS"].as_numpy("h"),
                         altitude_target=topics["TECS"].as_numpy("hin"),
+                        parameters=parameters,
                     )
 
                     # Reset the topic ledger.
@@ -264,10 +269,6 @@ def add_to_db(data):
     logdata = Query()
 
     for log_data in data:
-        # Find if this log exists in the db.
-        # Retrieve its structure.
-        # Add in the new data.
-        # Insert it back.
         db.upsert(log_data, logdata.log_name == log_data["log_name"])
 
 
