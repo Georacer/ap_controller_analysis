@@ -19,15 +19,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.012190721216313049,
+                    "airspeed_amplitude": 0.01219072121631305,
                     "airspeed_frequency": 0.33011293124010943,
                     "airspeed_overshoot": 0.05933380126953125,
                     "airspeed_undershoot": 0.04112434387207031,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.010749096524076959,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
                     "parameters": {
@@ -38,11 +40,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07464799836281809,
+                    "pitch_target_frequency": 1.0374977838974868
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011905261137309244,
+                    "airspeed_frequency": 0.2221908990349168,
                     "airspeed_overshoot": 0.3168296813964844,
                     "airspeed_undershoot": -0.00042724609375,
                     "altitude_amplitude": null,
@@ -57,11 +61,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011567040209074113,
+                    "airspeed_frequency": 0.2816156151182303,
                     "airspeed_overshoot": 0.22327423095703125,
                     "airspeed_undershoot": 0.09267234802246094,
                     "altitude_amplitude": null,
@@ -76,11 +82,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.005404505819373346,
+                    "airspeed_frequency": 1.0326311521391596,
                     "airspeed_overshoot": 0.1172637939453125,
                     "airspeed_undershoot": 0.2191486358642578,
                     "altitude_amplitude": null,
@@ -95,7 +103,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.11753744481814864,
+                    "pitch_target_frequency": 1.0326311521391596
                 }
             },
             "log_name": "TECS_HDEM_TCONST_5.0.BIN"
@@ -103,8 +113,8 @@
         "10": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.029655888928795313,
+                    "airspeed_frequency": 0.1444890040683992,
                     "airspeed_overshoot": 0.017999649047851562,
                     "airspeed_undershoot": 0.49265480041503906,
                     "altitude_amplitude": null,
@@ -119,15 +129,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.012691833152537252,
                     "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.044559478759765625,
                     "airspeed_undershoot": 0.04528236389160156,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.011277819853420237,
+                    "altitude_frequency": 0.4693777964268907,
                     "altitude_overshoot": 24.478716248678765,
                     "altitude_rise_time": 10.100125074386597,
                     "parameters": {
@@ -138,11 +150,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.046231756203931315,
+                    "pitch_target_frequency": 1.0795689317818487
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010596116415072711,
+                    "airspeed_frequency": 0.29552533338785514,
                     "airspeed_overshoot": 0.4393119812011719,
                     "airspeed_undershoot": 0.011732101440429688,
                     "altitude_amplitude": null,
@@ -157,7 +171,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
                     "airspeed_amplitude": null,
@@ -176,7 +192,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -195,7 +213,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_HGT_OMEGA_1.0.BIN"
@@ -203,8 +223,8 @@
         "11": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.14067904146082283,
+                    "airspeed_frequency": 0.823415079211462,
                     "airspeed_overshoot": 0.6286773681640625,
                     "airspeed_undershoot": 0.6229515075683594,
                     "altitude_amplitude": null,
@@ -219,14 +239,16 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.574368359788386,
+                    "pitch_target_frequency": 0.823415079211462
                 },
                 "level": {
-                    "airspeed_amplitude": 0.16577223872236937,
+                    "airspeed_amplitude": 0.1657722387223694,
                     "airspeed_frequency": 0.8448800430701261,
                     "airspeed_overshoot": 0.336151123046875,
                     "airspeed_undershoot": 0.27860450744628906,
-                    "altitude_amplitude": 0.4452574516934175,
+                    "altitude_amplitude": 0.44525745169341757,
                     "altitude_frequency": 0.8448800430701261,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
@@ -238,11 +260,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.954131666433005,
+                    "pitch_target_frequency": 0.8448800430701261
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.15173763550734748,
+                    "airspeed_frequency": 0.8352232230597412,
                     "airspeed_overshoot": 0.19123458862304688,
                     "airspeed_undershoot": 2.728731155395508,
                     "altitude_amplitude": null,
@@ -257,15 +281,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.8819284506884832,
+                    "pitch_target_frequency": 0.8352232230597412
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.17261516759359,
+                    "airspeed_frequency": 0.8331358128760655,
                     "airspeed_overshoot": 0.40775108337402344,
                     "airspeed_undershoot": 1.1709251403808594,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.5467911496926773,
+                    "altitude_frequency": 0.8331358128760655,
                     "altitude_overshoot": 7.427908126524874,
                     "altitude_rise_time": 10.699885129928589,
                     "parameters": {
@@ -276,15 +302,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 4.247925047153369,
+                    "pitch_target_frequency": 0.8331358128760655
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.16989382397100908,
+                    "airspeed_frequency": 0.8448468358537146,
                     "airspeed_overshoot": 0.5151424407958984,
                     "airspeed_undershoot": 0.44725608825683594,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.42742022164569804,
+                    "altitude_frequency": 0.8448468358537146,
                     "altitude_overshoot": 5.94361289895895,
                     "altitude_rise_time": 7.5003321170806885,
                     "parameters": {
@@ -295,7 +323,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.924780205168875,
+                    "pitch_target_frequency": 0.8448468358537146
                 }
             },
             "log_name": "TECS_PTCH_DAMP_1.0.BIN"
@@ -319,15 +349,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.009028409115359882,
+                    "airspeed_frequency": 0.2346796792651919,
                     "airspeed_overshoot": 0.06039237976074219,
                     "airspeed_undershoot": 0.042041778564453125,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.00987247303848118,
+                    "altitude_frequency": 0.37548748682430705,
                     "altitude_overshoot": 12.97751782123926,
                     "altitude_rise_time": 12.800710916519165,
                     "parameters": {
@@ -338,7 +370,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0970387919598723,
+                    "pitch_target_frequency": 1.0325905887668443
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -357,11 +391,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012285755857021557,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.32503318786621094,
                     "airspeed_undershoot": 0.16947555541992188,
                     "altitude_amplitude": null,
@@ -376,7 +412,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -395,7 +433,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_HGT_OMEGA_10.0.BIN"
@@ -419,15 +459,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.026057804033344064,
+                    "airspeed_frequency": 0.2369114727595137,
                     "airspeed_overshoot": 0.26702308654785156,
                     "airspeed_undershoot": 0.030767440795898438,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.025581719210155437,
+                    "altitude_frequency": 0.4738229455190274,
                     "altitude_overshoot": 5.695311249799961,
                     "altitude_rise_time": 17.99946403503418,
                     "parameters": {
@@ -438,7 +480,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0877916171289639,
+                    "pitch_target_frequency": 1.0424104801418603
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -457,11 +501,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012298193446836067,
+                    "airspeed_frequency": 0.42244002153506305,
                     "airspeed_overshoot": 0.39046669006347656,
                     "airspeed_undershoot": 0.10644340515136719,
                     "altitude_amplitude": null,
@@ -476,7 +522,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -495,7 +543,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.11749390417047108,
+                    "pitch_target_frequency": 0.9856692157134959
                 }
             },
             "log_name": "TECS_TIME_CONST_7.75.BIN"
@@ -503,8 +553,8 @@
         "14": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.014145074060313371,
+                    "airspeed_frequency": 0.28814150319431064,
                     "airspeed_overshoot": 0.0277862548828125,
                     "airspeed_undershoot": 0.4861412048339844,
                     "altitude_amplitude": null,
@@ -519,15 +569,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.015641609873225288,
                     "airspeed_frequency": 0.33011293124010943,
                     "airspeed_overshoot": 0.054599761962890625,
                     "airspeed_undershoot": 0.04402923583984375,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.013174433878333393,
+                    "altitude_frequency": 0.2829539410629509,
                     "altitude_overshoot": 34.45448460508702,
                     "altitude_rise_time": 12.200118064880371,
                     "parameters": {
@@ -538,7 +590,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.024767180853784432,
+                    "pitch_target_frequency": 0.33011293124010943
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -557,11 +611,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010912204986632944,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.31961822509765625,
                     "airspeed_undershoot": 0.08600425720214844,
                     "altitude_amplitude": null,
@@ -576,7 +632,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -595,7 +653,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_PTCH_DAMP_0.1.BIN"
@@ -619,15 +679,17 @@
                         "TECS_SPD_OMEGA": 5.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.009399710705798252,
                     "airspeed_frequency": 0.2829539410629509,
                     "airspeed_overshoot": 0.05815315246582031,
                     "airspeed_undershoot": 0.05282783508300781,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.015024079632263466,
+                    "altitude_frequency": 0.18863596070863395,
                     "altitude_overshoot": 15.10363820843601,
                     "altitude_rise_time": 9.69945216178894,
                     "parameters": {
@@ -638,11 +700,13 @@
                         "TECS_SPD_OMEGA": 5.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.08826500918580767,
+                    "pitch_target_frequency": 1.0374977838974868
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013316782978956988,
+                    "airspeed_frequency": 0.5664390047654193,
                     "airspeed_overshoot": 0.48360443115234375,
                     "airspeed_undershoot": 0.0010662078857421875,
                     "altitude_amplitude": null,
@@ -657,11 +721,13 @@
                         "TECS_SPD_OMEGA": 5.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011590843872268067,
+                    "airspeed_frequency": 0.4693778017056256,
                     "airspeed_overshoot": 0.3670215606689453,
                     "airspeed_undershoot": 0.15252685546875,
                     "altitude_amplitude": null,
@@ -676,11 +742,13 @@
                         "TECS_SPD_OMEGA": 5.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.022580432404155703,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.17458343505859375,
                     "airspeed_undershoot": 0.3733673095703125,
                     "altitude_amplitude": null,
@@ -695,7 +763,9 @@
                         "TECS_SPD_OMEGA": 5.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_SPD_OMEGA_5.0.BIN"
@@ -719,15 +789,17 @@
                         "TECS_SPD_OMEGA": 2.75,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.009479883811512558,
                     "airspeed_frequency": 0.2816156151182303,
                     "airspeed_overshoot": 0.056285858154296875,
                     "airspeed_undershoot": 0.04794502258300781,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.010423242498705665,
+                    "altitude_frequency": 0.9387187170607676,
                     "altitude_overshoot": 15.89201332403749,
                     "altitude_rise_time": 11.300477981567383,
                     "parameters": {
@@ -738,11 +810,13 @@
                         "TECS_SPD_OMEGA": 2.75,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07636358966225087,
+                    "pitch_target_frequency": 0.9387187170607676
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.020855434478736452,
+                    "airspeed_frequency": 0.17239447971121458,
                     "airspeed_overshoot": 0.47290611267089844,
                     "airspeed_undershoot": -0.00376129150390625,
                     "altitude_amplitude": null,
@@ -757,11 +831,13 @@
                         "TECS_SPD_OMEGA": 2.75,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01357081365216191,
+                    "airspeed_frequency": 0.42244002153506305,
                     "airspeed_overshoot": 0.3426780700683594,
                     "airspeed_undershoot": 0.17076492309570312,
                     "altitude_amplitude": null,
@@ -776,11 +852,13 @@
                         "TECS_SPD_OMEGA": 2.75,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.007079702153681117,
+                    "airspeed_frequency": 0.7107344263477247,
                     "airspeed_overshoot": 0.17971420288085938,
                     "airspeed_undershoot": 0.34432220458984375,
                     "altitude_amplitude": null,
@@ -795,7 +873,9 @@
                         "TECS_SPD_OMEGA": 2.75,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_SPD_OMEGA_2.75.BIN"
@@ -803,8 +883,8 @@
         "17": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010869740077225163,
+                    "airspeed_frequency": 0.20287241362573258,
                     "airspeed_overshoot": 0.038173675537109375,
                     "airspeed_undershoot": 0.37890625,
                     "altitude_amplitude": null,
@@ -819,15 +899,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.012785103958049635,
+                    "airspeed_amplitude": 0.012785103958049633,
                     "airspeed_frequency": 0.32856446119393795,
                     "airspeed_overshoot": 0.05155754089355469,
                     "airspeed_undershoot": 0.047515869140625,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.015524867228963611,
+                    "altitude_frequency": 0.18775112068225025,
                     "altitude_overshoot": 22.25684975977145,
                     "altitude_rise_time": 9.700284957885742,
                     "parameters": {
@@ -838,11 +920,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06729376888967367,
+                    "pitch_target_frequency": 1.0326311637523764
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013733952614154487,
+                    "airspeed_frequency": 0.19653314339444125,
                     "airspeed_overshoot": 0.3757762908935547,
                     "airspeed_undershoot": 0.0030193328857421875,
                     "altitude_amplitude": null,
@@ -857,11 +941,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01768479085238922,
+                    "airspeed_frequency": 0.2829539410629509,
                     "airspeed_overshoot": 0.29051971435546875,
                     "airspeed_undershoot": 0.15578460693359375,
                     "altitude_amplitude": null,
@@ -876,11 +962,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.007928331363031511,
+                    "airspeed_frequency": 0.37550223714151254,
                     "airspeed_overshoot": 0.18093490600585938,
                     "airspeed_undershoot": 0.2774085998535156,
                     "altitude_amplitude": null,
@@ -895,7 +983,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.09364031884238322,
+                    "pitch_target_frequency": 1.0326311521391596
                 }
             },
             "log_name": "TECS_TIME_CONST_3.25.BIN"
@@ -919,15 +1009,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.013920769128253461,
                     "airspeed_frequency": 0.18775112068225025,
                     "airspeed_overshoot": 0.05463600158691406,
                     "airspeed_undershoot": 0.04485511779785156,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.007918055269244412,
+                    "altitude_frequency": 0.3755022413645005,
                     "altitude_overshoot": 21.760536479775894,
                     "altitude_rise_time": 7.600291967391968,
                     "parameters": {
@@ -938,11 +1030,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.05703516695303199,
+                    "pitch_target_frequency": 1.079568943922939
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01129960846088123,
+                    "airspeed_frequency": 0.2955314120315829,
                     "airspeed_overshoot": 0.5039215087890625,
                     "airspeed_undershoot": 0.003387451171875,
                     "altitude_amplitude": null,
@@ -957,7 +1051,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
                     "airspeed_amplitude": null,
@@ -976,7 +1072,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -995,7 +1093,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_HDEM_TCONST_2.75.BIN"
@@ -1019,15 +1119,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.18961208656726794,
+                    "pitch_target_frequency": 1.040295710043469
                 },
                 "level": {
                     "airspeed_amplitude": 0.01640424115731454,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.06267547607421875,
                     "airspeed_undershoot": 0.04588890075683594,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.007850351890155774,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 17.709986180068583,
                     "altitude_rise_time": 12.100157976150513,
                     "parameters": {
@@ -1038,11 +1140,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.04075715890018769,
+                    "pitch_target_frequency": 1.0374977838974868
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012179419792205732,
+                    "airspeed_frequency": 0.2955273168459134,
                     "airspeed_overshoot": 0.4431915283203125,
                     "airspeed_undershoot": -0.0039196014404296875,
                     "altitude_amplitude": null,
@@ -1057,11 +1161,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01274296153700465,
+                    "airspeed_frequency": 0.32856446119393795,
                     "airspeed_overshoot": 0.3463554382324219,
                     "airspeed_undershoot": 0.1361255645751953,
                     "altitude_amplitude": null,
@@ -1076,7 +1182,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1095,7 +1203,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_10.0.BIN"
@@ -1119,7 +1229,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": null,
@@ -1138,7 +1250,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.08153193174639531,
+                    "pitch_target_frequency": 1.0625627781409337
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -1157,11 +1271,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01604779583911595,
+                    "airspeed_frequency": 0.42244002153506305,
                     "airspeed_overshoot": 0.4088897705078125,
                     "airspeed_undershoot": 0.12891006469726562,
                     "altitude_amplitude": null,
@@ -1176,7 +1292,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1195,7 +1313,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.13470139620834087,
+                    "pitch_target_frequency": 1.0326311521391596
                 }
             },
             "log_name": "TECS_TIME_CONST_10.0.BIN"
@@ -1203,8 +1323,8 @@
         "20": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.014200908493994326,
+                    "airspeed_frequency": 0.25932497154014245,
                     "airspeed_overshoot": 0.030752182006835938,
                     "airspeed_undershoot": 0.5085353851318359,
                     "altitude_amplitude": null,
@@ -1219,15 +1339,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.014381206698910846,
                     "airspeed_frequency": 0.18775112068225025,
                     "airspeed_overshoot": 0.05574607849121094,
                     "airspeed_undershoot": 0.04401206970214844,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.012429684538731297,
+                    "altitude_frequency": 0.2816266810233754,
                     "altitude_overshoot": 20.603977198555334,
                     "altitude_rise_time": 10.499964952468872,
                     "parameters": {
@@ -1238,11 +1360,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0648159145193035,
+                    "pitch_target_frequency": 1.079568943922939
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01327375906527607,
+                    "airspeed_frequency": 0.22164548632964978,
                     "airspeed_overshoot": 0.44774627685546875,
                     "airspeed_undershoot": 0.01454925537109375,
                     "altitude_amplitude": null,
@@ -1257,11 +1381,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010114011810986442,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.338531494140625,
                     "airspeed_undershoot": 0.1339874267578125,
                     "altitude_amplitude": null,
@@ -1276,7 +1402,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1295,7 +1423,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_3.0.BIN"
@@ -1303,8 +1433,8 @@
         "21": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011866957257459971,
+                    "airspeed_frequency": 0.2889806759291493,
                     "airspeed_overshoot": 0.031124114990234375,
                     "airspeed_undershoot": 0.42980384826660156,
                     "altitude_amplitude": null,
@@ -1319,15 +1449,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.014929071574509449,
                     "airspeed_frequency": 0.33011293124010943,
                     "airspeed_overshoot": 0.05585479736328125,
                     "airspeed_undershoot": 0.04428291320800781,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.009039922690948011,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 23.685302662002726,
                     "altitude_rise_time": 9.300445079803467,
                     "parameters": {
@@ -1338,7 +1470,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0810388616800083,
+                    "pitch_target_frequency": 0.9903387937203282
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -1357,11 +1491,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013036479536119671,
+                    "airspeed_frequency": 0.42242966387721254,
                     "airspeed_overshoot": 0.34087562561035156,
                     "airspeed_undershoot": 0.10123825073242188,
                     "altitude_amplitude": null,
@@ -1376,7 +1512,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1395,7 +1533,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.10459964781977271,
+                    "pitch_target_frequency": 1.03259057715454
                 }
             },
             "log_name": "TECS_INTEG_GAIN_0.325.BIN"
@@ -1403,8 +1543,8 @@
         "22": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.008218304399695077,
+                    "airspeed_frequency": 0.25932497154014245,
                     "airspeed_overshoot": 0.06634712219238281,
                     "airspeed_undershoot": 0.3450603485107422,
                     "altitude_amplitude": null,
@@ -1419,11 +1559,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010497845489997534,
+                    "airspeed_frequency": 0.23579495088579244,
                     "airspeed_overshoot": 0.0599212646484375,
                     "airspeed_undershoot": 0.03783226013183594,
                     "altitude_amplitude": 0.013834780939338267,
@@ -1438,11 +1580,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.1653377067834729,
+                    "pitch_target_frequency": 0.9903387937203282
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.0169939702425184,
+                    "airspeed_frequency": 0.17196764868938497,
                     "airspeed_overshoot": 0.30642127990722656,
                     "airspeed_undershoot": -0.00232696533203125,
                     "altitude_amplitude": null,
@@ -1457,11 +1601,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.17916291906279386,
+                    "pitch_target_frequency": 1.0072390851806834
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.014859560734645847,
+                    "airspeed_frequency": 0.42244002153506305,
                     "airspeed_overshoot": 0.23198509216308594,
                     "airspeed_undershoot": 0.07487297058105469,
                     "altitude_amplitude": null,
@@ -1476,11 +1622,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.15584856083749246,
+                    "pitch_target_frequency": 0.9387556034112512
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012630025241355985,
+                    "airspeed_frequency": 0.9431798035431698,
                     "airspeed_overshoot": 0.10830879211425781,
                     "airspeed_undershoot": 0.2627735137939453,
                     "altitude_amplitude": null,
@@ -1495,7 +1643,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.25664988945774125,
+                    "pitch_target_frequency": 0.9431798035431698
                 }
             },
             "log_name": "TECS_INTEG_GAIN_0.775.BIN"
@@ -1519,15 +1669,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.00968862980376931,
+                    "airspeed_amplitude": 0.009688629803769309,
                     "airspeed_frequency": 0.2816156119512382,
                     "airspeed_overshoot": 0.051959991455078125,
                     "airspeed_undershoot": 0.04412078857421875,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.011029938601435725,
+                    "altitude_frequency": 0.51629528857727,
                     "altitude_overshoot": 18.364197530864203,
                     "altitude_rise_time": 13.600391149520874,
                     "parameters": {
@@ -1538,11 +1690,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.09132041849417041,
+                    "pitch_target_frequency": 0.9856546418293337
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011480839767956249,
+                    "airspeed_frequency": 0.2221969783155645,
                     "airspeed_overshoot": 0.4561138153076172,
                     "airspeed_undershoot": 0.009889602661132812,
                     "altitude_amplitude": null,
@@ -1557,7 +1711,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
                     "airspeed_amplitude": null,
@@ -1576,11 +1732,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012871596910384208,
+                    "airspeed_frequency": 0.4264406558086348,
                     "airspeed_overshoot": 0.13464927673339844,
                     "airspeed_undershoot": 0.31378746032714844,
                     "altitude_amplitude": null,
@@ -1595,7 +1753,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_HGT_OMEGA_3.25.BIN"
@@ -1603,8 +1763,8 @@
         "24": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01916274365540068,
+                    "airspeed_frequency": 0.9508582289805223,
                     "airspeed_overshoot": 0.027130126953125,
                     "airspeed_undershoot": 0.3275146484375,
                     "altitude_amplitude": null,
@@ -1619,7 +1779,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.5126674045637297,
+                    "pitch_target_frequency": 0.9508582289805223
                 },
                 "level": {
                     "airspeed_amplitude": 0.013385051464071637,
@@ -1638,11 +1800,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.2446296928052004,
+                    "pitch_target_frequency": 0.9856933835818138
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.016306105980775865,
+                    "airspeed_frequency": 0.29552533338785514,
                     "airspeed_overshoot": 0.2766990661621094,
                     "airspeed_undershoot": -0.011957168579101562,
                     "altitude_amplitude": null,
@@ -1657,11 +1821,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.14075730961853364,
+                    "pitch_target_frequency": 1.0097115557418384
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.015542500204159426,
+                    "airspeed_frequency": 0.2829539410629509,
                     "airspeed_overshoot": 0.1837635040283203,
                     "airspeed_undershoot": 0.04991340637207031,
                     "altitude_amplitude": null,
@@ -1676,11 +1842,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.26240031693196203,
+                    "pitch_target_frequency": 0.9431798035431698
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013236851437141397,
+                    "airspeed_frequency": 0.9387555928537814,
                     "airspeed_overshoot": 0.11373519897460938,
                     "airspeed_undershoot": 0.227569580078125,
                     "altitude_amplitude": null,
@@ -1695,7 +1863,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.3420091177501871,
+                    "pitch_target_frequency": 0.9387555928537814
                 }
             },
             "log_name": "TECS_INTEG_GAIN_1.0.BIN"
@@ -1703,8 +1873,8 @@
         "25": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.02247232794886524,
+                    "airspeed_frequency": 0.14449033796457464,
                     "airspeed_overshoot": 0.029977798461914062,
                     "airspeed_undershoot": 0.5098075866699219,
                     "altitude_amplitude": null,
@@ -1719,15 +1889,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.012658766278402367,
                     "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.05780220031738281,
                     "airspeed_undershoot": 0.0433349609375,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.014786437442435286,
+                    "altitude_frequency": 0.2816266778561344,
                     "altitude_overshoot": 7.155067155067152,
                     "altitude_rise_time": 11.5003981590271,
                     "parameters": {
@@ -1738,7 +1910,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06695152840292408,
+                    "pitch_target_frequency": 1.0326311521391596
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -1757,11 +1931,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012186729126726154,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.3083820343017578,
                     "airspeed_undershoot": 0.1548137664794922,
                     "altitude_amplitude": null,
@@ -1776,7 +1952,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1795,7 +1973,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
-                    }
+                    },
+                    "pitch_target_amplitude": 0.09610764243144113,
+                    "pitch_target_frequency": 1.0374977838974868
                 }
             },
             "log_name": "TECS_VERT_ACC_6.5.BIN"
@@ -1803,8 +1983,8 @@
         "26": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.026202431628612126,
+                    "airspeed_frequency": 0.14490886687552326,
                     "airspeed_overshoot": 0.018278121948242188,
                     "airspeed_undershoot": 0.5020275115966797,
                     "altitude_amplitude": null,
@@ -1819,15 +1999,17 @@
                         "TECS_SPD_OMEGA": 1.625,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.012462855403627278,
                     "airspeed_frequency": 0.18775112068225025,
                     "airspeed_overshoot": 0.055751800537109375,
                     "airspeed_undershoot": 0.03997039794921875,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.015214134488904504,
+                    "altitude_frequency": 0.2816266810233754,
                     "altitude_overshoot": 7.757283930465997,
                     "altitude_rise_time": 11.600358009338379,
                     "parameters": {
@@ -1838,7 +2020,9 @@
                         "TECS_SPD_OMEGA": 1.625,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06297084430348224,
+                    "pitch_target_frequency": 1.0326311637523764
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -1857,11 +2041,13 @@
                         "TECS_SPD_OMEGA": 1.625,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.00963315530936023,
+                    "airspeed_frequency": 0.42242342267734545,
                     "airspeed_overshoot": 0.29256629943847656,
                     "airspeed_undershoot": 0.1511516571044922,
                     "altitude_amplitude": null,
@@ -1876,7 +2062,9 @@
                         "TECS_SPD_OMEGA": 1.625,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1895,7 +2083,9 @@
                         "TECS_SPD_OMEGA": 1.625,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.10586695044415317,
+                    "pitch_target_frequency": 1.0374977838974868
                 }
             },
             "log_name": "TECS_SPD_OMEGA_1.625.BIN"
@@ -1919,15 +2109,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.008776936735201421,
+                    "airspeed_amplitude": 0.008776936735201423,
                     "airspeed_frequency": 0.23468889821344535,
                     "airspeed_overshoot": 0.05260276794433594,
                     "airspeed_undershoot": 0.044185638427734375,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.011969233570366977,
+                    "altitude_frequency": 0.4693777964268907,
                     "altitude_overshoot": 22.56877518836515,
                     "altitude_rise_time": 10.499965190887451,
                     "parameters": {
@@ -1938,7 +2130,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07510233000957825,
+                    "pitch_target_frequency": 0.9387555928537814
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -1957,11 +2151,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010283145335150484,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.3468894958496094,
                     "airspeed_undershoot": 0.1447887420654297,
                     "altitude_amplitude": null,
@@ -1976,7 +2172,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -1995,7 +2193,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_8.25.BIN"
@@ -2003,8 +2203,8 @@
         "28": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011988860115605538,
+                    "airspeed_frequency": 0.2881484406327299,
                     "airspeed_overshoot": 0.03206443786621094,
                     "airspeed_undershoot": 0.44202232360839844,
                     "altitude_amplitude": null,
@@ -2019,15 +2219,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.01491461069493766,
+                    "airspeed_amplitude": 0.014914610694937663,
                     "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.05567359924316406,
                     "airspeed_undershoot": 0.044185638427734375,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.008580936555433294,
+                    "altitude_frequency": 0.4693777964268907,
                     "altitude_overshoot": 14.510787282361859,
                     "altitude_rise_time": 11.600358009338379,
                     "parameters": {
@@ -2038,7 +2240,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0767938259595772,
+                    "pitch_target_frequency": 1.0795689317818487
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -2057,11 +2261,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013155499878579958,
+                    "airspeed_frequency": 0.42242966387721254,
                     "airspeed_overshoot": 0.34771728515625,
                     "airspeed_undershoot": 0.17169189453125,
                     "altitude_amplitude": null,
@@ -2076,7 +2282,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2095,7 +2303,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.10132189962830021,
+                    "pitch_target_frequency": 1.0374568245681564
                 }
             },
             "log_name": "TECS_HGT_OMEGA_5.5.BIN"
@@ -2103,8 +2313,8 @@
         "29": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.02242401401602604,
+                    "airspeed_frequency": 0.14490886687552326,
                     "airspeed_overshoot": 0.03457450866699219,
                     "airspeed_undershoot": 0.5142059326171875,
                     "altitude_amplitude": null,
@@ -2119,15 +2329,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.01259602080324456,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.05855751037597656,
                     "airspeed_undershoot": 0.04461097717285156,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.015039827061855941,
+                    "altitude_frequency": 0.2829539410629509,
                     "altitude_overshoot": 7.681711368608712,
                     "altitude_rise_time": 11.600358009338379,
                     "parameters": {
@@ -2138,7 +2350,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0774358501417709,
+                    "pitch_target_frequency": 1.0374977838974868
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -2157,11 +2371,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012582803117996673,
+                    "airspeed_frequency": 0.42242342267734545,
                     "airspeed_overshoot": 0.31305503845214844,
                     "airspeed_undershoot": 0.1560077667236328,
                     "altitude_amplitude": null,
@@ -2176,7 +2392,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2195,7 +2413,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.1424173711923049,
+                    "pitch_target_frequency": 1.0326311521391596
                 }
             },
             "log_name": "TECS_PTCH_DAMP_0.325.BIN"
@@ -2203,8 +2423,8 @@
         "3": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.11329427606272613,
+                    "airspeed_frequency": 0.9508582289805223,
                     "airspeed_overshoot": 0.14414405822753906,
                     "airspeed_undershoot": 0.6345806121826172,
                     "altitude_amplitude": null,
@@ -2219,14 +2439,16 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.0930813426364736,
+                    "pitch_target_frequency": 0.9508582289805223
                 },
                 "level": {
                     "airspeed_amplitude": 0.11795580316163232,
                     "airspeed_frequency": 0.9431798035431698,
                     "airspeed_overshoot": 0.22562026977539062,
                     "airspeed_undershoot": 0.19620704650878906,
-                    "altitude_amplitude": 0.2595060262639889,
+                    "altitude_amplitude": 0.25950602626398883,
                     "altitude_frequency": 0.9431798035431698,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
@@ -2238,11 +2460,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 2.953163636108066,
+                    "pitch_target_frequency": 0.9431798035431698
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.10610616738116531,
+                    "airspeed_frequency": 0.9534234232496964,
                     "airspeed_overshoot": 0.5858058929443359,
                     "airspeed_undershoot": 0.6511459350585938,
                     "altitude_amplitude": null,
@@ -2257,15 +2481,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 2.763680414682339,
+                    "pitch_target_frequency": 0.9534234232496964
                 },
                 "step_down": {
                     "airspeed_amplitude": 0.1349324879397346,
                     "airspeed_frequency": 0.9387555928537814,
                     "airspeed_overshoot": 0.4641914367675781,
                     "airspeed_undershoot": 0.26521873474121094,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.42307971835177344,
+                    "altitude_frequency": 0.9387555928537814,
                     "altitude_overshoot": 4.4277341573861095,
                     "altitude_rise_time": 8.000132083892822,
                     "parameters": {
@@ -2276,15 +2502,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.428741607978691,
+                    "pitch_target_frequency": 0.9387555928537814
                 },
                 "step_up": {
                     "airspeed_amplitude": 0.13819372395659263,
                     "airspeed_frequency": 0.9387555928537814,
                     "airspeed_overshoot": 0.28293609619140625,
                     "airspeed_undershoot": 0.4580078125,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.4121427235486241,
+                    "altitude_frequency": 0.9387555928537814,
                     "altitude_overshoot": 3.9944194475047157,
                     "altitude_rise_time": 8.30001187324524,
                     "parameters": {
@@ -2295,7 +2523,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.5093497607061863,
+                    "pitch_target_frequency": 0.9387555928537814
                 }
             },
             "log_name": "TECS_PTCH_DAMP_0.55.BIN"
@@ -2303,8 +2533,8 @@
         "30": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012399383310538147,
+                    "airspeed_frequency": 0.4045594427946825,
                     "airspeed_overshoot": 0.025585174560546875,
                     "airspeed_undershoot": 0.5105876922607422,
                     "altitude_amplitude": null,
@@ -2319,15 +2549,17 @@
                         "TECS_SPD_OMEGA": 3.875,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.015657403087977733,
                     "airspeed_frequency": 0.32856446119393795,
                     "airspeed_overshoot": 0.07475471496582031,
                     "airspeed_undershoot": 0.051166534423828125,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.011889313213496988,
+                    "altitude_frequency": 0.2816266810233754,
                     "altitude_overshoot": 20.0008576697114,
                     "altitude_rise_time": 10.499964952468872,
                     "parameters": {
@@ -2338,11 +2570,13 @@
                         "TECS_SPD_OMEGA": 3.875,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06680291431458392,
+                    "pitch_target_frequency": 1.079568943922939
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013292491237785146,
+                    "airspeed_frequency": 0.22164548632964978,
                     "airspeed_overshoot": 0.45694541931152344,
                     "airspeed_undershoot": 0.0330810546875,
                     "altitude_amplitude": null,
@@ -2357,11 +2591,13 @@
                         "TECS_SPD_OMEGA": 3.875,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.00857181026902928,
+                    "airspeed_frequency": 0.751004482729001,
                     "airspeed_overshoot": 0.36968421936035156,
                     "airspeed_undershoot": 0.13946151733398438,
                     "altitude_amplitude": null,
@@ -2376,7 +2612,9 @@
                         "TECS_SPD_OMEGA": 3.875,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2395,7 +2633,9 @@
                         "TECS_SPD_OMEGA": 3.875,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_SPD_OMEGA_3.875.BIN"
@@ -2419,11 +2659,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.009111641865112171,
+                    "airspeed_frequency": 0.281619779085305,
                     "airspeed_overshoot": 0.06403732299804688,
                     "airspeed_undershoot": 0.036624908447265625,
                     "altitude_amplitude": null,
@@ -2438,11 +2680,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06225188204875303,
+                    "pitch_target_frequency": 1.0326058566461185
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.019402126226637423,
+                    "airspeed_frequency": 0.17239447971121458,
                     "airspeed_overshoot": 0.5719356536865234,
                     "airspeed_undershoot": 0.10874557495117188,
                     "altitude_amplitude": null,
@@ -2457,11 +2701,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010696357851843594,
+                    "airspeed_frequency": 0.42244002153506305,
                     "airspeed_overshoot": 0.3992881774902344,
                     "airspeed_undershoot": 0.22290420532226562,
                     "altitude_amplitude": null,
@@ -2476,7 +2722,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2495,7 +2743,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_INTEG_GAIN_0.1.BIN"
@@ -2519,15 +2769,17 @@
                         "TECS_SPD_OMEGA": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.006239545762269425,
+                    "airspeed_frequency": 0.9903387937203282,
                     "airspeed_overshoot": 0.025789260864257812,
                     "airspeed_undershoot": 0.028493881225585938,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.011874453525795333,
+                    "altitude_frequency": 0.9903387937203282,
                     "altitude_overshoot": 19.847689697352333,
                     "altitude_rise_time": 12.799878120422363,
                     "parameters": {
@@ -2538,7 +2790,9 @@
                         "TECS_SPD_OMEGA": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.1136145207080836,
+                    "pitch_target_frequency": 0.9903387937203282
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -2557,7 +2811,9 @@
                         "TECS_SPD_OMEGA": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
                     "airspeed_amplitude": null,
@@ -2576,7 +2832,9 @@
                         "TECS_SPD_OMEGA": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2595,7 +2853,9 @@
                         "TECS_SPD_OMEGA": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_SPD_OMEGA_0.5.BIN"
@@ -2603,8 +2863,8 @@
         "33": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.10684704574110032,
+                    "airspeed_frequency": 0.11394301679401332,
                     "airspeed_overshoot": 0.0021190643310546875,
                     "airspeed_undershoot": 1.0636405944824219,
                     "altitude_amplitude": null,
@@ -2619,15 +2879,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.8373926531611252,
+                    "pitch_target_frequency": 0.6266865923670732
                 },
                 "level": {
                     "airspeed_amplitude": 0.014779378560334787,
                     "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.056331634521484375,
                     "airspeed_undershoot": 0.046112060546875,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.010093599380291895,
+                    "altitude_frequency": 0.4693777964268907,
                     "altitude_overshoot": 39.70128855915658,
                     "altitude_rise_time": 8.000132083892822,
                     "parameters": {
@@ -2638,11 +2900,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07858351214499848,
+                    "pitch_target_frequency": 1.0795689317818487
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.022981552026300044,
+                    "airspeed_frequency": 0.6249239669390113,
                     "airspeed_overshoot": 1.05255126953125,
                     "airspeed_undershoot": -0.011583328247070312,
                     "altitude_amplitude": null,
@@ -2657,7 +2921,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.5522438252520294,
+                    "pitch_target_frequency": 0.6249239669390113
                 },
                 "step_down": {
                     "airspeed_amplitude": null,
@@ -2676,7 +2942,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.3492295680321023,
+                    "pitch_target_frequency": 0.6101911353549578
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2695,7 +2963,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.3737837901352907,
+                    "pitch_target_frequency": 0.6571289223878759
                 }
             },
             "log_name": "TECS_HDEM_TCONST_0.5.BIN"
@@ -2703,8 +2973,8 @@
         "34": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010817260918682507,
+                    "airspeed_frequency": 0.2889710305676303,
                     "airspeed_overshoot": -0.001972198486328125,
                     "airspeed_undershoot": 0.3922271728515625,
                     "altitude_amplitude": null,
@@ -2719,15 +2989,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.013313737522234975,
                     "airspeed_frequency": 0.33010476033020025,
                     "airspeed_overshoot": 0.05748176574707031,
                     "airspeed_undershoot": 0.04392433166503906,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.007363972729249271,
+                    "altitude_frequency": 0.9903142809906007,
                     "altitude_overshoot": 5.860976518822225,
                     "altitude_rise_time": 10.699885129928589,
                     "parameters": {
@@ -2738,11 +3010,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07469557548568509,
+                    "pitch_target_frequency": 1.037472103894915
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012664985263740417,
+                    "airspeed_frequency": 0.22165004534299015,
                     "airspeed_overshoot": 0.4229011535644531,
                     "airspeed_undershoot": -0.002178192138671875,
                     "altitude_amplitude": null,
@@ -2757,11 +3031,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.010712723251952785,
+                    "airspeed_frequency": 0.4224400167842016,
                     "airspeed_overshoot": 0.2520008087158203,
                     "airspeed_undershoot": 0.12814712524414062,
                     "altitude_amplitude": null,
@@ -2776,7 +3052,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2795,7 +3073,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.11404175135224424,
+                    "pitch_target_frequency": 1.0326311521391596
                 }
             },
             "log_name": "TECS_HDEM_TCONST_3.875.BIN"
@@ -2819,15 +3099,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.01414955432982456,
                     "airspeed_frequency": 0.33011293124010943,
                     "airspeed_overshoot": 0.058254241943359375,
                     "airspeed_undershoot": 0.04094696044921875,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.010660654016599953,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 32.812750708669846,
                     "altitude_rise_time": 8.499931812286377,
                     "parameters": {
@@ -2838,7 +3120,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07605718698943413,
+                    "pitch_target_frequency": 1.0846567740746451
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -2857,11 +3141,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011045367670274807,
+                    "airspeed_frequency": 0.4224400167842016,
                     "airspeed_overshoot": 0.34392738342285156,
                     "airspeed_undershoot": 0.0787200927734375,
                     "altitude_amplitude": null,
@@ -2876,7 +3162,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -2895,7 +3183,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_TIME_CONST_5.5.BIN"
@@ -2903,8 +3193,8 @@
         "36": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.009552018551149673,
+                    "airspeed_frequency": 0.31786813362439337,
                     "airspeed_overshoot": 0.024692535400390625,
                     "airspeed_undershoot": 0.34391021728515625,
                     "altitude_amplitude": null,
@@ -2919,15 +3209,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.01758089870307262,
                     "airspeed_frequency": 0.18775111857075627,
                     "airspeed_overshoot": 0.05680274963378906,
                     "airspeed_undershoot": 0.05220222473144531,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.017214688045713133,
+                    "altitude_frequency": 0.18775111857075627,
                     "altitude_overshoot": 23.88248419486798,
                     "altitude_rise_time": 9.79941201210022,
                     "parameters": {
@@ -2938,11 +3230,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.05419538991580054,
+                    "pitch_target_frequency": 1.0795689317818487
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013419498624716922,
+                    "airspeed_frequency": 0.2695729721905347,
                     "airspeed_overshoot": 0.3161449432373047,
                     "airspeed_undershoot": 0.02154541015625,
                     "altitude_amplitude": null,
@@ -2957,11 +3251,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.00682550468232228,
+                    "airspeed_frequency": 0.7073848526573773,
                     "airspeed_overshoot": 0.3076496124267578,
                     "airspeed_undershoot": 0.18390846252441406,
                     "altitude_amplitude": null,
@@ -2976,11 +3272,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.009276455986778615,
+                    "airspeed_frequency": 0.4224400167842016,
                     "airspeed_overshoot": 0.14985275268554688,
                     "airspeed_undershoot": 0.30054283142089844,
                     "altitude_amplitude": null,
@@ -2995,7 +3293,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_TIME_CONST_2.5.BIN"
@@ -3003,8 +3303,8 @@
         "37": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.008549122085735605,
+                    "airspeed_frequency": 0.31786813362439337,
                     "airspeed_overshoot": 0.013639450073242188,
                     "airspeed_undershoot": 0.3782825469970703,
                     "altitude_amplitude": null,
@@ -3019,15 +3319,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.17300597882194269,
+                    "pitch_target_frequency": 1.040295710043469
                 },
                 "level": {
                     "airspeed_amplitude": 0.017702398008845977,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.05784034729003906,
                     "airspeed_undershoot": 0.05144691467285156,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.016382999072473536,
+                    "altitude_frequency": 0.18863596070863395,
                     "altitude_overshoot": 21.31282614666301,
                     "altitude_rise_time": 9.699451923370361,
                     "parameters": {
@@ -3038,11 +3340,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.044424123226508565,
+                    "pitch_target_frequency": 1.0846567740746451
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.011802865782388403,
+                    "airspeed_frequency": 0.27023487651189065,
                     "airspeed_overshoot": 0.33988380432128906,
                     "airspeed_undershoot": 0.0160064697265625,
                     "altitude_amplitude": null,
@@ -3057,11 +3361,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.0073816352441757604,
+                    "airspeed_frequency": 0.704066694640336,
                     "airspeed_overshoot": 0.3086738586425781,
                     "airspeed_undershoot": 0.1867389678955078,
                     "altitude_amplitude": null,
@@ -3076,11 +3382,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.008918754466599758,
+                    "airspeed_frequency": 0.4224400167842016,
                     "airspeed_overshoot": 0.1402873992919922,
                     "airspeed_undershoot": 0.30852508544921875,
                     "altitude_amplitude": null,
@@ -3095,7 +3403,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_TIME_CONST_3.0.BIN"
@@ -3103,8 +3413,8 @@
         "38": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.015105999991944395,
+                    "airspeed_frequency": 0.31878882393959135,
                     "airspeed_overshoot": 0.046428680419921875,
                     "airspeed_undershoot": 0.24575424194335938,
                     "altitude_amplitude": null,
@@ -3119,15 +3429,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.24954626088541715,
+                    "pitch_target_frequency": 0.6665584500555092
                 },
                 "level": {
-                    "airspeed_amplitude": 0.020782435821437788,
+                    "airspeed_amplitude": 0.020782435821437784,
                     "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.06450080871582031,
                     "airspeed_undershoot": 0.0510711669921875,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.01714240663160593,
+                    "altitude_frequency": 0.18775111857075627,
                     "altitude_overshoot": 21.55275381552755,
                     "altitude_rise_time": 9.79941201210022,
                     "parameters": {
@@ -3138,11 +3450,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.0567403277786903,
+                    "pitch_target_frequency": 0.2816266778561344
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.016330598096672946,
+                    "airspeed_frequency": 0.27023487651189065,
                     "airspeed_overshoot": 0.2796649932861328,
                     "airspeed_undershoot": 0.04799461364746094,
                     "altitude_amplitude": null,
@@ -3157,7 +3471,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
                     "airspeed_amplitude": 0.05357331379265877,
@@ -3176,7 +3492,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.19688639270059496,
+                    "pitch_target_frequency": 0.751004482729001
                 },
                 "step_up": {
                     "airspeed_amplitude": 0.05497926385066607,
@@ -3195,7 +3513,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.20270090755220724,
+                    "pitch_target_frequency": 0.7073848526573773
                 }
             },
             "log_name": "TECS_TIME_CONST_1.5.BIN"
@@ -3203,8 +3523,8 @@
         "39": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01098884117367651,
+                    "airspeed_frequency": 0.31878882393959135,
                     "airspeed_overshoot": 0.03771018981933594,
                     "airspeed_undershoot": 0.3055152893066406,
                     "altitude_amplitude": null,
@@ -3219,15 +3539,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.017779162981486473,
                     "airspeed_frequency": 0.18775111857075627,
                     "airspeed_overshoot": 0.05685615539550781,
                     "airspeed_undershoot": 0.04820442199707031,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.01816080262838912,
+                    "altitude_frequency": 0.18775111857075627,
                     "altitude_overshoot": 23.544640875804433,
                     "altitude_rise_time": 9.79941201210022,
                     "parameters": {
@@ -3238,11 +3560,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.04965620055212303,
+                    "pitch_target_frequency": 1.0795689317818487
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.014250028778653454,
+                    "airspeed_frequency": 0.27023487651189065,
                     "airspeed_overshoot": 0.30304718017578125,
                     "airspeed_undershoot": 0.03309822082519531,
                     "altitude_amplitude": null,
@@ -3257,7 +3581,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
                     "airspeed_amplitude": 0.06543934394421426,
@@ -3276,7 +3602,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": 0.06410431150391535,
@@ -3295,7 +3623,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_TIME_CONST_2.0.BIN"
@@ -3303,8 +3633,8 @@
         "4": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.03273061832152694,
+                    "airspeed_frequency": 0.14448551528381515,
                     "airspeed_overshoot": 0.04222679138183594,
                     "airspeed_undershoot": 0.5047321319580078,
                     "altitude_amplitude": null,
@@ -3319,15 +3649,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.013099202872620324,
+                    "airspeed_amplitude": 0.013099202872620326,
                     "airspeed_frequency": 0.32855640523783197,
                     "airspeed_overshoot": 0.05825996398925781,
                     "airspeed_undershoot": 0.04240608215332031,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.008908400776585534,
+                    "altitude_frequency": 0.9856692157134959,
                     "altitude_overshoot": 10.37603511471108,
                     "altitude_rise_time": 10.799844980239868,
                     "parameters": {
@@ -3338,7 +3670,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06956592445088612,
+                    "pitch_target_frequency": 1.0326058450331863
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -3357,11 +3691,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.01585004026569349,
+                    "airspeed_frequency": 0.4224400167842016,
                     "airspeed_overshoot": 0.2976703643798828,
                     "airspeed_undershoot": 0.18174171447753906,
                     "altitude_amplitude": null,
@@ -3376,7 +3712,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -3395,7 +3733,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_HGT_OMEGA_7.75.BIN"
@@ -3419,15 +3759,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.18747492438025554,
+                    "pitch_target_frequency": 1.040295710043469
                 },
                 "level": {
-                    "airspeed_amplitude": 0.01667881049242121,
+                    "airspeed_amplitude": 0.016678810492421214,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.061496734619140625,
                     "airspeed_undershoot": 0.04549217224121094,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.009309129984803533,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 17.23304562268804,
                     "altitude_rise_time": 12.000197887420654,
                     "parameters": {
@@ -3438,11 +3780,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.038748856782520734,
+                    "pitch_target_frequency": 1.0374977838974868
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012135077610652046,
+                    "airspeed_frequency": 0.29552731510619973,
                     "airspeed_overshoot": 0.4416236877441406,
                     "airspeed_undershoot": 0.008403778076171875,
                     "altitude_amplitude": null,
@@ -3457,11 +3801,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012666883388344994,
+                    "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.3420906066894531,
                     "airspeed_undershoot": 0.1358356475830078,
                     "altitude_amplitude": null,
@@ -3476,7 +3822,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -3495,7 +3843,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_40.0.BIN"
@@ -3519,15 +3869,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.18935051777535666,
+                    "pitch_target_frequency": 1.040295710043469
                 },
                 "level": {
                     "airspeed_amplitude": 0.01663386530181735,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.06260871887207031,
                     "airspeed_undershoot": 0.04662132263183594,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.008043073139227879,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 17.288375145121403,
                     "altitude_rise_time": 10.799844980239868,
                     "parameters": {
@@ -3538,11 +3890,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.04416931404548325,
+                    "pitch_target_frequency": 1.0846567740746451
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012361356635815866,
+                    "airspeed_frequency": 0.2955273168459134,
                     "airspeed_overshoot": 0.44315528869628906,
                     "airspeed_undershoot": -0.002124786376953125,
                     "altitude_amplitude": null,
@@ -3557,11 +3911,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012874810769829896,
+                    "airspeed_frequency": 0.32856446119393795,
                     "airspeed_overshoot": 0.34625816345214844,
                     "airspeed_undershoot": 0.13716888427734375,
                     "altitude_amplitude": null,
@@ -3576,7 +3932,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -3595,7 +3953,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_50.0.BIN"
@@ -3619,15 +3979,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.18935051777535666,
+                    "pitch_target_frequency": 1.040295710043469
                 },
                 "level": {
                     "airspeed_amplitude": 0.01663386530181735,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.06260871887207031,
                     "airspeed_undershoot": 0.04662132263183594,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.008043073139227879,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 17.288375145121403,
                     "altitude_rise_time": 10.799844980239868,
                     "parameters": {
@@ -3638,11 +4000,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.04416931404548325,
+                    "pitch_target_frequency": 1.0846567740746451
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012361356635815866,
+                    "airspeed_frequency": 0.2955273168459134,
                     "airspeed_overshoot": 0.44315528869628906,
                     "airspeed_undershoot": -0.002124786376953125,
                     "altitude_amplitude": null,
@@ -3657,11 +4021,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012874810769829896,
+                    "airspeed_frequency": 0.32856446119393795,
                     "airspeed_overshoot": 0.34625816345214844,
                     "airspeed_undershoot": 0.13716888427734375,
                     "altitude_amplitude": null,
@@ -3676,7 +4042,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -3695,7 +4063,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_20.0.BIN"
@@ -3719,15 +4089,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.18935049187621564,
+                    "pitch_target_frequency": 1.040295710043469
                 },
                 "level": {
                     "airspeed_amplitude": 0.01663386530181735,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.06260871887207031,
                     "airspeed_undershoot": 0.04662132263183594,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.008043073139227879,
+                    "altitude_frequency": 0.4715899017715849,
                     "altitude_overshoot": 17.288375145121403,
                     "altitude_rise_time": 10.799844980239868,
                     "parameters": {
@@ -3738,11 +4110,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.04416931277803697,
+                    "pitch_target_frequency": 1.0846567740746451
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012279210844520796,
+                    "airspeed_frequency": 0.2955273168459134,
                     "airspeed_overshoot": 0.44315528869628906,
                     "airspeed_undershoot": -0.002124786376953125,
                     "altitude_amplitude": null,
@@ -3757,11 +4131,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.012875085296114959,
+                    "airspeed_frequency": 0.32856446119393795,
                     "airspeed_overshoot": 0.34625816345214844,
                     "airspeed_undershoot": 0.13717079162597656,
                     "altitude_amplitude": null,
@@ -3776,7 +4152,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -3795,7 +4173,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_VERT_ACC_30.0.BIN"
@@ -3803,8 +4183,8 @@
         "5": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.020015769254176558,
+                    "airspeed_frequency": 0.2881388572668249,
                     "airspeed_overshoot": 0.01165008544921875,
                     "airspeed_undershoot": 0.7185039520263672,
                     "altitude_amplitude": null,
@@ -3819,15 +4199,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.35090198706660863,
+                    "pitch_target_frequency": 0.3169527429935074
                 },
                 "level": {
-                    "airspeed_amplitude": 0.01342353133172907,
+                    "airspeed_amplitude": 0.013423531331729069,
                     "airspeed_frequency": 0.33011293124010943,
                     "airspeed_overshoot": 0.05602073669433594,
                     "airspeed_undershoot": 0.0435333251953125,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.016137882538653354,
+                    "altitude_frequency": 0.18863596070863395,
                     "altitude_overshoot": 17.218543046357617,
                     "altitude_rise_time": 8.399971961975098,
                     "parameters": {
@@ -3838,7 +4220,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.06957948708845038,
+                    "pitch_target_frequency": 0.9903387937203282
                 },
                 "sink": {
                     "airspeed_amplitude": null,
@@ -3857,11 +4241,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.3529677339265939,
+                    "pitch_target_frequency": 0.2955273168459134
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013949643249553072,
+                    "airspeed_frequency": 0.4224400167842016,
                     "airspeed_overshoot": 0.4766654968261719,
                     "airspeed_undershoot": 0.27375030517578125,
                     "altitude_amplitude": null,
@@ -3876,7 +4262,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -3895,7 +4283,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 }
             },
             "log_name": "TECS_HDEM_TCONST_1.625.BIN"
@@ -3903,8 +4293,8 @@
         "6": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.015717458862029035,
+                    "airspeed_frequency": 0.2600739275108673,
                     "airspeed_overshoot": -0.0063762664794921875,
                     "airspeed_undershoot": 0.4280548095703125,
                     "altitude_amplitude": null,
@@ -3919,15 +4309,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
-                    "airspeed_amplitude": 0.011474099070228625,
+                    "airspeed_amplitude": 0.011474099070228626,
                     "airspeed_frequency": 0.18863596070863395,
                     "airspeed_overshoot": 0.04421234130859375,
                     "airspeed_undershoot": 0.03428459167480469,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.010611208487788315,
+                    "altitude_frequency": 0.18863596070863395,
                     "altitude_overshoot": 189.0497737556561,
                     "altitude_rise_time": 0.2998800277709961,
                     "parameters": {
@@ -3938,11 +4330,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07133772822361552,
+                    "pitch_target_frequency": 0.9431798035431698
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013366807877318351,
+                    "airspeed_frequency": 0.2955273168459134,
                     "airspeed_overshoot": 0.39250755310058594,
                     "airspeed_undershoot": 0.0120086669921875,
                     "altitude_amplitude": null,
@@ -3957,11 +4351,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.007363621555912086,
+                    "airspeed_frequency": 0.6571289149976469,
                     "airspeed_overshoot": 0.2589874267578125,
                     "airspeed_undershoot": 0.08370018005371094,
                     "altitude_amplitude": null,
@@ -3976,11 +4372,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.15051137624380018,
+                    "pitch_target_frequency": 1.0326311521391596
                 },
                 "step_up": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.007352880786542564,
+                    "airspeed_frequency": 0.7073848526573773,
                     "airspeed_overshoot": 0.15691375732421875,
                     "airspeed_undershoot": 0.3183441162109375,
                     "altitude_amplitude": null,
@@ -3995,7 +4393,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 0.11773598784871435,
+                    "pitch_target_frequency": 0.9903387937203282
                 }
             },
             "log_name": "TECS_INTEG_GAIN_0.55.BIN"
@@ -4003,8 +4403,8 @@
         "7": {
             "data": {
                 "climb": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.1312575915593536,
+                    "airspeed_frequency": 0.8744981374674163,
                     "airspeed_overshoot": 0.4446239471435547,
                     "airspeed_undershoot": 0.5735015869140625,
                     "altitude_amplitude": null,
@@ -4019,14 +4419,16 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.2699345697383952,
+                    "pitch_target_frequency": 0.8744981374674163
                 },
                 "level": {
                     "airspeed_amplitude": 0.16656800027484936,
                     "airspeed_frequency": 0.8448468453546909,
                     "airspeed_overshoot": 0.24420166015625,
                     "airspeed_undershoot": 0.25199317932128906,
-                    "altitude_amplitude": 0.43310281281955554,
+                    "altitude_amplitude": 0.4331028128195555,
                     "altitude_frequency": 0.8448468453546909,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
@@ -4038,11 +4440,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.9975114534249716,
+                    "pitch_target_frequency": 0.8448468453546909
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.14159139498620127,
+                    "airspeed_frequency": 0.8673672506920883,
                     "airspeed_overshoot": 0.21073532104492188,
                     "airspeed_undershoot": 1.6352405548095703,
                     "altitude_amplitude": null,
@@ -4057,15 +4461,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.448031388684163,
+                    "pitch_target_frequency": 0.8673672506920883
                 },
                 "step_down": {
                     "airspeed_amplitude": 0.15750448999634062,
                     "airspeed_frequency": 0.8409354244225634,
                     "airspeed_overshoot": 0.30727577209472656,
                     "airspeed_undershoot": 0.37066078186035156,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.5043273828705374,
+                    "altitude_frequency": 0.8409354244225634,
                     "altitude_overshoot": 5.961508552248462,
                     "altitude_rise_time": 8.799812078475952,
                     "parameters": {
@@ -4076,7 +4482,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.8179520833536156,
+                    "pitch_target_frequency": 0.8409354244225634
                 },
                 "step_up": {
                     "airspeed_amplitude": 0.16464653657364434,
@@ -4095,7 +4503,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.840795019946164,
+                    "pitch_target_frequency": 0.844859337255915
                 }
             },
             "log_name": "TECS_PTCH_DAMP_0.775.BIN"
@@ -4119,7 +4529,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 3.845329920421233,
+                    "pitch_target_frequency": 0.2070709898361338
                 },
                 "level": {
                     "airspeed_amplitude": 5.807791034043306,
@@ -4138,7 +4550,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 14.883666301170672,
+                    "pitch_target_frequency": 0.14147138516838495
                 },
                 "sink": {
                     "airspeed_amplitude": 2.2551240094248164,
@@ -4157,15 +4571,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 5.671703133889413,
+                    "pitch_target_frequency": 0.12344276573086918
                 },
                 "step_down": {
-                    "airspeed_amplitude": 2.549175911882062,
+                    "airspeed_amplitude": 2.5491759118820623,
                     "airspeed_frequency": 0.13950122429616524,
                     "airspeed_overshoot": 6.362640380859375,
                     "airspeed_undershoot": 5.433671951293945,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 2.0217824385625174,
+                    "altitude_frequency": 0.2790024485923305,
                     "altitude_overshoot": 16.230407724696306,
                     "altitude_rise_time": 1.7992799282073975,
                     "parameters": {
@@ -4176,14 +4592,16 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 7.08497598745332,
+                    "pitch_target_frequency": 0.13950122429616524
                 },
                 "step_up": {
                     "airspeed_amplitude": 5.3978547452197185,
                     "airspeed_frequency": 0.14559981698813151,
                     "airspeed_overshoot": 6.623935699462891,
                     "airspeed_undershoot": 5.562414169311523,
-                    "altitude_amplitude": 9.028346155655791,
+                    "altitude_amplitude": 9.02834615565579,
                     "altitude_frequency": 0.14559981698813151,
                     "altitude_overshoot": 36.09269938549311,
                     "altitude_rise_time": 9.999331951141357,
@@ -4195,7 +4613,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
-                    }
+                    },
+                    "pitch_target_amplitude": 13.576624489062036,
+                    "pitch_target_frequency": 0.14559981698813151
                 }
             },
             "log_name": "TECS_TIME_CONST_1.0.BIN"
@@ -4219,15 +4639,17 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "level": {
                     "airspeed_amplitude": 0.01319412874781482,
                     "airspeed_frequency": 0.32856445749882346,
                     "airspeed_overshoot": 0.057525634765625,
                     "airspeed_undershoot": 0.043003082275390625,
-                    "altitude_amplitude": null,
-                    "altitude_frequency": null,
+                    "altitude_amplitude": 0.012317161681641207,
+                    "altitude_frequency": 0.32856445749882346,
                     "altitude_overshoot": 9.150216759964636,
                     "altitude_rise_time": 7.800212144851685,
                     "parameters": {
@@ -4238,11 +4660,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
-                    }
+                    },
+                    "pitch_target_amplitude": 0.07359197854400891,
+                    "pitch_target_frequency": 0.9856933724964704
                 },
                 "sink": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.016279025394302482,
+                    "airspeed_frequency": 0.17238977780958215,
                     "airspeed_overshoot": 0.4390544891357422,
                     "airspeed_undershoot": 0.03755760192871094,
                     "altitude_amplitude": null,
@@ -4257,11 +4681,13 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_down": {
-                    "airspeed_amplitude": null,
-                    "airspeed_frequency": null,
+                    "airspeed_amplitude": 0.013023371922379802,
+                    "airspeed_frequency": 0.42443091159442636,
                     "airspeed_overshoot": 0.2917766571044922,
                     "airspeed_undershoot": 0.18212318420410156,
                     "altitude_amplitude": null,
@@ -4276,7 +4702,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
-                    }
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
                 },
                 "step_up": {
                     "airspeed_amplitude": null,
@@ -4295,7 +4723,9 @@
                         "TECS_SPD_OMEGA": 2.0,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
-                    }
+                    },
+                    "pitch_target_amplitude": 0.11462175737220182,
+                    "pitch_target_frequency": 1.0374977721742624
                 }
             },
             "log_name": "TECS_VERT_ACC_4.75.BIN"

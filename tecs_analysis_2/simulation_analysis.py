@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
 import numpy as np
 
+PLOT_ROWS = 4
+
 # Open the database.
 db = TinyDB("performance_results.json", access_mode="r")
 
@@ -32,8 +34,22 @@ for parameter in parameter_names:
         data["data"] for data in all_data if data["log_name"].startswith(parameter)
     ]
 
-    fig, axs = plt.subplots(4, 2)
-    fig.set_size_inches(16, 12)
+    quantities = [
+        "airspeed_frequency",
+        "airspeed_amplitude",
+        "airspeed_overshoot",
+        "airspeed_undershoot",
+        "altitude_frequency",
+        "altitude_amplitude",
+        "altitude_rise_time",
+        "altitude_overshoot",
+        "pitch_target_frequency",
+        "pitch_target_amplitude",
+    ]
+    div_res, mod_res = divmod(len(quantities), PLOT_ROWS)
+
+    fig, axs = plt.subplots(PLOT_ROWS, div_res + 1)
+    fig.set_size_inches(20, 12)
     fig.suptitle(f"{parameter} influence")
 
     # For each segment:
@@ -50,27 +66,15 @@ for parameter in parameter_names:
         sort_idx = np.argsort(x)
         x.sort()
 
-        quantities = [
-            "airspeed_frequency",
-            "airspeed_amplitude",
-            "airspeed_overshoot",
-            "airspeed_undershoot",
-            "altitude_frequency",
-            "altitude_amplitude",
-            "altitude_rise_time",
-            "altitude_overshoot",
-        ]
-
         for index, quantity in enumerate(quantities):
 
             data = np.array([data[segment][quantity] for data in data_per_param])[
                 sort_idx
             ]
-            idy, idx = divmod(index, int(np.ceil(len(quantities) / 2)))
+            idy, idx = divmod(index, PLOT_ROWS)
             draw_axis(axs[idx, idy], x, data, quantity, segment)
-
-        axs[3, 0].set_xlabel("Parameter value")
-        axs[3, 1].set_xlabel("Parameter value")
+            if idx == PLOT_ROWS - 1:
+                axs[idx, idy].set_xlabel("Parameter value")
 
     axs[0, 0].legend(loc="upper left")
 

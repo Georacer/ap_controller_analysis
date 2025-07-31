@@ -14,10 +14,12 @@ from pathlib import Path
 from dataclasses import dataclass, asdict
 from typing import Tuple
 import sys
+import random
 
 import numpy as np
 from pymavlink import DFReader
 from rich.pretty import pprint
+import scipy as scp
 import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
 
@@ -27,6 +29,7 @@ sys.path.append("..")
 import ardupilot_utils as apu
 
 LOGS_DIR = "~/Dropbox/George/60-69 Personal hobby projects/63 Aerospace/63.18_ardupilot_controller_analysis/tecs_analysis_2/temp_dir/logs"
+RAD2DEG = 180 / np.pi
 
 # A dictionary with the start and end waypoint numbers of each segment.
 segments = {
@@ -46,6 +49,7 @@ class SegmentRawData:
     airspeed_target: Tuple[np.ndarray, np.ndarray]
     altitude: Tuple[np.ndarray, np.ndarray]
     altitude_target: Tuple[np.ndarray, np.ndarray]
+    pitch_target: Tuple[np.ndarray, np.ndarray]
     parameters: dict
 
 
@@ -53,14 +57,16 @@ class SegmentRawData:
 class SegmentMetadata:
     """Class containing the metadata of a segment."""
 
-    airspeed_frequency: float | None
-    airspeed_amplitude: float | None
-    airspeed_overshoot: float | None
-    airspeed_undershoot: float | None
-    altitude_frequency: float | None
-    altitude_amplitude: float | None
-    altitude_overshoot: float | None
-    altitude_rise_time: float | None
+    airspeed_frequency: float | None  # Hz
+    airspeed_amplitude: float | None  # m/s
+    airspeed_overshoot: float | None  # m/s
+    airspeed_undershoot: float | None  # m/s
+    altitude_frequency: float | None  # Hz
+    altitude_amplitude: float | None  # m
+    altitude_overshoot: float | None  # %
+    altitude_rise_time: float | None  # %
+    pitch_target_frequency: float | None  # Hz
+    pitch_target_amplitude: float | None  # deg
     parameters: dict
 
 
@@ -76,18 +82,32 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
     """
 
     peaks = np.absolute(
-        np.fft.rfft(timeseries[1] - timeseries[1].mean())
-    )  # Remove the signal DC value.
+        np.fft.rfft(timeseries[1] - timeseries[1].mean()) / len(timeseries[0]) * 2
+    )  # Remove the signal DC value and convert to real units.
     freqs = np.fft.rfftfreq(len(timeseries[0]), d=np.average(np.diff(timeseries[0])))
-    peak_idx = np.argmax(peaks)
+    prominence = (
+        peaks.max() * 0.05
+    )  # Find peaks that stand out at least that much from their baseline.
+    peaks_idx, properties = scp.signal.find_peaks(
+        peaks, height=(None, None), prominence=prominence
+    )
 
-    freq = freqs[peak_idx]
-    peak = peaks[peak_idx] / len(timeseries[0]) * 2
+    # Sort by peak amplitude.
+    sort_idx = peaks_idx[np.flip(np.argsort(properties["peak_heights"]))]
 
-    if freq < 0.1:
-        return None, None
-    else:
-        return freq, peak
+    peak = None
+    freq = None
+
+    for peak_idx in sort_idx:
+
+        if freqs[peak_idx] < 0.1:  # We've probably captured the transient sine.
+            continue
+
+        freq = freqs[peak_idx]
+        peak = peaks[peak_idx]
+        break
+
+    return freq, peak
 
 
 def calc_regulation_stats(
@@ -184,6 +204,7 @@ def extract_metadata(raw_data: SegmentRawData):
     altitude_overshoot, altitude_rise_time = calc_rise_stats(
         raw_data.altitude, raw_data.altitude_target
     )
+    pitch_target_frequency, pitch_target_amplitude = do_fft(raw_data.pitch_target)
 
     return SegmentMetadata(
         airspeed_frequency=airspeed_frequency,
@@ -194,6 +215,10 @@ def extract_metadata(raw_data: SegmentRawData):
         altitude_amplitude=altitude_amplitude,
         altitude_overshoot=altitude_overshoot,
         altitude_rise_time=altitude_rise_time,
+        pitch_target_frequency=pitch_target_frequency,
+        pitch_target_amplitude=(
+            None if pitch_target_amplitude is None else pitch_target_amplitude * RAD2DEG
+        ),
         parameters=raw_data.parameters,
     )
 
@@ -249,6 +274,7 @@ def parse_log(log_path):
                         airspeed_target=topics["TECS"].as_numpy("spdem"),
                         altitude=topics["TECS"].as_numpy("h"),
                         altitude_target=topics["TECS"].as_numpy("hin"),
+                        pitch_target=topics["TECS"].as_numpy("ph"),
                         parameters=parameters,
                     )
 
