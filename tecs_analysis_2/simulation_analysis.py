@@ -20,7 +20,7 @@ parameter_names = list(all_data[0]["data"][segment_names[0]]["parameters"].keys(
 
 def draw_axis(ah, x, y, quantity, segment):
     """Draw one axis."""
-    ah.plot(x, y, label=segment)
+    ah.plot(x, y, label=segment, marker="x")
     ah.set_xlim(x.min(), x.max())
     ah.set_ylabel(quantity)
 
@@ -32,8 +32,8 @@ for parameter in parameter_names:
         data["data"] for data in all_data if data["log_name"].startswith(parameter)
     ]
 
-    fig, axs = plt.subplots(6, 1)
-    fig.set_size_inches(12, 12)
+    fig, axs = plt.subplots(4, 2)
+    fig.set_size_inches(16, 12)
     fig.suptitle(f"{parameter} influence")
 
     # For each segment:
@@ -50,54 +50,29 @@ for parameter in parameter_names:
         sort_idx = np.argsort(x)
         x.sort()
 
-        for idx, quantity in enumerate(
-            [
-                "airspeed_frequency",
-                "airspeed_amplitude",
-                "altitude_frequency",
-                "altitude_amplitude",
-                "altitude_rise_time",
-                "altitude_overshoot",
-            ]
-        ):
+        quantities = [
+            "airspeed_frequency",
+            "airspeed_amplitude",
+            "airspeed_overshoot",
+            "airspeed_undershoot",
+            "altitude_frequency",
+            "altitude_amplitude",
+            "altitude_rise_time",
+            "altitude_overshoot",
+        ]
+
+        for index, quantity in enumerate(quantities):
 
             data = np.array([data[segment][quantity] for data in data_per_param])[
                 sort_idx
             ]
-            draw_axis(axs[idx], x, data, quantity, segment)
+            idy, idx = divmod(index, int(np.ceil(len(quantities) / 2)))
+            draw_axis(axs[idx, idy], x, data, quantity, segment)
 
-        # airspeed_freq = np.array(
-        #     [data[segment]["airspeed_frequency"] for data in data_per_param]
-        # )[sort_idx]
-        # draw_axis(axs[0], x, airspeed_freq, parameter, segment)
+        axs[3, 0].set_xlabel("Parameter value")
+        axs[3, 1].set_xlabel("Parameter value")
 
-        # airspeed_amplitude = np.array(
-        #     [data[segment]["airspeed_amplitude"] for data in data_per_param]
-        # )[sort_idx]
-        # draw_axis(axs[1], x, airspeed_amplitude, parameter, segment)
-
-        # altitude_freq = np.array(
-        #     [data[segment]["altitude_frequency"] for data in data_per_param]
-        # )[sort_idx]
-        # draw_axis(axs[2], x, altitude_freq, parameter, segment)
-
-        # altitude_amplitude = np.array(
-        #     [data[segment]["altitude_amplitude"] for data in data_per_param]
-        # )[sort_idx]
-        # draw_axis(axs[3], x, altitude_amplitude, parameter, segment)
-
-        # altitude_rise_time = np.array(
-        #     [data[segment]["altitude_rise_time"] for data in data_per_param]
-        # )[sort_idx]
-        # axs[4].plot(x, altitude_rise_time, label=segment)
-
-        # altitude_overshoot = np.array(
-        #     [data[segment]["altitude_overshoot"] for data in data_per_param]
-        # )[sort_idx]
-        # axs[5].plot(x, altitude_overshoot, label=segment)
-        axs[5].set_xlabel("Parameter value")
-
-    axs[0].legend(loc="upper left")
+    axs[0, 0].legend(loc="upper left")
 
     # Save each plot into a .png.
     fig.savefig(f"artifacts/{parameter}.png")

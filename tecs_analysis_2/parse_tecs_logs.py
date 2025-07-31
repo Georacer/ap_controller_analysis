@@ -43,6 +43,7 @@ class SegmentRawData:
     """Class containing parsed data from a flight segment."""
 
     airspeed: Tuple[np.ndarray, np.ndarray]
+    airspeed_target: Tuple[np.ndarray, np.ndarray]
     altitude: Tuple[np.ndarray, np.ndarray]
     altitude_target: Tuple[np.ndarray, np.ndarray]
     parameters: dict
@@ -54,6 +55,8 @@ class SegmentMetadata:
 
     airspeed_frequency: float | None
     airspeed_amplitude: float | None
+    airspeed_overshoot: float | None
+    airspeed_undershoot: float | None
     altitude_frequency: float | None
     altitude_amplitude: float | None
     altitude_overshoot: float | None
@@ -85,6 +88,36 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
         return None, None
     else:
         return freq, peak
+
+
+def calc_regulation_stats(
+    timeseries: Tuple[np.ndarray, np.ndarray], target: Tuple[np.ndarray, np.ndarray]
+):
+    """Find the maximum and minimum error.
+
+    Assumes the input response and demand are for a regulation problem.
+
+    Args:
+        timeseries:
+            A length-2 iterable with the series timestamps and the series values.
+        target:
+            A length-2 iterable with the target value timestamps and the series values.
+
+    Returns:
+        maximum positive error: How much higher the response got from the target. Positive value.
+        maximum negative error: How much lower the response got from the target. Positive value.
+    """
+
+    # Interpolate the target.
+    target_timestamps = target[0]
+    target_values = target[1]
+    if (timeseries[0] != target[0]).all():
+        target_timestamps = timeseries[0]
+        target_values = np.interp(timeseries[0], target_timestamps, target_values)
+
+    error = timeseries[1] - target_values
+
+    return error.max(), -error.min()
 
 
 def calc_rise_stats(
@@ -144,6 +177,9 @@ def extract_metadata(raw_data: SegmentRawData):
     """
 
     airspeed_frequency, airspeed_amplitude = do_fft(raw_data.airspeed)
+    airspeed_overshoot, airspeed_undershoot = calc_regulation_stats(
+        raw_data.airspeed, raw_data.airspeed_target
+    )
     altitude_frequency, altitude_amplitude = do_fft(raw_data.altitude)
     altitude_overshoot, altitude_rise_time = calc_rise_stats(
         raw_data.altitude, raw_data.altitude_target
@@ -152,6 +188,8 @@ def extract_metadata(raw_data: SegmentRawData):
     return SegmentMetadata(
         airspeed_frequency=airspeed_frequency,
         airspeed_amplitude=airspeed_amplitude,
+        airspeed_overshoot=airspeed_overshoot,
+        airspeed_undershoot=airspeed_undershoot,
         altitude_frequency=altitude_frequency,
         altitude_amplitude=altitude_amplitude,
         altitude_overshoot=altitude_overshoot,
@@ -207,7 +245,8 @@ def parse_log(log_path):
                 else:
                     # Consume airspeed and altitude messages and put them in SegmentRawData.
                     data[list(segments.keys())[segment_idx]] = SegmentRawData(
-                        airspeed=topics["CTUN"].as_numpy("As"),
+                        airspeed=topics["TECS"].as_numpy("sp"),
+                        airspeed_target=topics["TECS"].as_numpy("spdem"),
                         altitude=topics["TECS"].as_numpy("h"),
                         altitude_target=topics["TECS"].as_numpy("hin"),
                         parameters=parameters,
