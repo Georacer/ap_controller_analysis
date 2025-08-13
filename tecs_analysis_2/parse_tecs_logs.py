@@ -219,7 +219,7 @@ def extract_metadata(raw_data: SegmentRawData):
         raw_data.altitude, raw_data.altitude_target
     )
     pitch_target_frequency, pitch_target_amplitude = do_fft(
-        raw_data.pitch_target, height_threshold=1 * DEG2RAD
+        raw_data.pitch_target, height_threshold=0.5 * DEG2RAD
     )
 
     return SegmentMetadata(
