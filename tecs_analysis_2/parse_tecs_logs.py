@@ -19,6 +19,7 @@ import random
 import numpy as np
 from pymavlink import DFReader
 from rich.pretty import pprint
+from rich.progress import Progress
 import scipy as scp
 import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
@@ -30,6 +31,7 @@ import ardupilot_utils as apu
 
 LOGS_DIR = "~/Dropbox/George/60-69 Personal hobby projects/63 Aerospace/63.18_ardupilot_controller_analysis/tecs_analysis_2/temp_dir/logs"
 RAD2DEG = 180 / np.pi
+DEG2RAD = 1 / RAD2DEG
 
 # A dictionary with the start and end waypoint numbers of each segment.
 segments = {
@@ -70,7 +72,9 @@ class SegmentMetadata:
     parameters: dict
 
 
-def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
+def do_fft(
+    timeseries: Tuple[np.ndarray, np.ndarray], height_threshold=None, freq_threshold=0.1
+):
     """Carry out Fourier analysis on the passed timeseries.
 
     Args:
@@ -100,7 +104,13 @@ def do_fft(timeseries: Tuple[np.ndarray, np.ndarray]):
 
     for peak_idx in sort_idx:
 
-        if freqs[peak_idx] < 0.1:  # We've probably captured the transient sine.
+        if (
+            freqs[peak_idx] < freq_threshold
+        ):  # We've probably captured the transient sine.
+            continue
+
+        if height_threshold and (peaks[peak_idx] < height_threshold):
+            # Not a very significant peak
             continue
 
         freq = freqs[peak_idx]
@@ -196,15 +206,21 @@ def extract_metadata(raw_data: SegmentRawData):
         An instance of SegmentMetadata.
     """
 
-    airspeed_frequency, airspeed_amplitude = do_fft(raw_data.airspeed)
+    airspeed_frequency, airspeed_amplitude = do_fft(
+        raw_data.airspeed, height_threshold=0.25
+    )
     airspeed_overshoot, airspeed_undershoot = calc_regulation_stats(
         raw_data.airspeed, raw_data.airspeed_target
     )
-    altitude_frequency, altitude_amplitude = do_fft(raw_data.altitude)
+    altitude_frequency, altitude_amplitude = do_fft(
+        raw_data.altitude, height_threshold=0.5
+    )
     altitude_overshoot, altitude_rise_time = calc_rise_stats(
         raw_data.altitude, raw_data.altitude_target
     )
-    pitch_target_frequency, pitch_target_amplitude = do_fft(raw_data.pitch_target)
+    pitch_target_frequency, pitch_target_amplitude = do_fft(
+        raw_data.pitch_target, height_threshold=1 * DEG2RAD
+    )
 
     return SegmentMetadata(
         airspeed_frequency=airspeed_frequency,
@@ -257,6 +273,7 @@ def parse_log(log_path):
         msg_data = m.to_dict()
 
         # Capture the parameters.
+        # Make sure the full dictionary of common.parameter_matrix is uncommented, to capture all of the parameters.
         if msg_name == "PARM" and (msg_data["Name"] in common.parameter_matrix.keys()):
             parameters[msg_data["Name"]] = msg_data["Value"]
 
@@ -339,13 +356,18 @@ def add_to_db(data):
 
 if __name__ == "__main__":
     logs_dir = Path(LOGS_DIR).expanduser()
-    logs_paths = Path(common.ARTIFACTS_PATH).glob("*.BIN")
+    logs_paths = list(Path(common.ARTIFACTS_PATH).glob("*.BIN"))
 
     all_data = []
-    for log_path in logs_paths:
-        data_one_log = {}
-        data_one_log["data"] = convert_data_to_dict(parse_log(log_path))
-        data_one_log["log_name"] = log_path.name
-        all_data.append(data_one_log)
-    # pprint(all_data)
-    add_to_db(all_data)
+
+    with Progress() as progress:
+
+        task1 = progress.add_task("Parsing logs...", total=len(logs_paths))
+        for log_path in logs_paths:
+            progress.update(task1, advance=1)
+            data_one_log = {}
+            data_one_log["data"] = convert_data_to_dict(parse_log(log_path))
+            data_one_log["log_name"] = log_path.name
+            all_data.append(data_one_log)
+        # pprint(all_data)
+        add_to_db(all_data)
