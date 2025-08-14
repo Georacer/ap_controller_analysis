@@ -11,6 +11,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.11156061138348188,
                     "parameters": {
                         "TECS_HDEM_TCONST": 5.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -33,6 +34,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.058398390271074074,
                     "parameters": {
                         "TECS_HDEM_TCONST": 5.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -55,6 +57,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.09690188050654941,
                     "parameters": {
                         "TECS_HDEM_TCONST": 5.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -77,6 +80,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -0.5634042331535971,
                     "altitude_rise_time": 14.700783967971802,
+                    "climb_rate_rmse": 0.08341341624228074,
                     "parameters": {
                         "TECS_HDEM_TCONST": 5.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -99,6 +103,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -0.26288302699329913,
                     "altitude_rise_time": 14.699951171875,
+                    "climb_rate_rmse": 0.10768919420185656,
                     "parameters": {
                         "TECS_HDEM_TCONST": 5.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -126,6 +131,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1686698335363212,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 1.0,
@@ -148,6 +154,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 24.478716248678765,
                     "altitude_rise_time": 10.100125074386597,
+                    "climb_rate_rmse": 0.04717305872449164,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 1.0,
@@ -170,6 +177,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15248380087320396,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 1.0,
@@ -192,6 +200,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.0601101223053133,
                     "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.13216220847816415,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 1.0,
@@ -214,6 +223,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.4527573558855034,
                     "altitude_rise_time": 9.300445079803467,
+                    "climb_rate_rmse": 0.13938640812073833,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 1.0,
@@ -241,6 +251,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.7432316984382883,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -263,6 +274,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.747027728143157,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -285,6 +297,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.7209502299830097,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -307,6 +320,7 @@
                     "altitude_frequency": 0.8331358128760655,
                     "altitude_overshoot": 7.427908126524874,
                     "altitude_rise_time": 10.699885129928589,
+                    "climb_rate_rmse": 1.743381186964291,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -329,6 +343,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 5.94361289895895,
                     "altitude_rise_time": 7.5003321170806885,
+                    "climb_rate_rmse": 1.7535584031938787,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -356,6 +371,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1739915902154303,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 10.0,
@@ -378,6 +394,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 12.97751782123926,
                     "altitude_rise_time": 12.800710916519165,
+                    "climb_rate_rmse": 0.060117053847165626,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 10.0,
@@ -400,6 +417,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15798051757855805,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 10.0,
@@ -422,6 +440,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2438746881265228,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.12110426459937,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 10.0,
@@ -444,6 +463,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.6878555505405846,
                     "altitude_rise_time": 9.099692106246948,
+                    "climb_rate_rmse": 0.13910038089318544,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 10.0,
@@ -471,6 +491,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1821672235385004,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -493,6 +514,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 5.695311249799961,
                     "altitude_rise_time": 17.99946403503418,
+                    "climb_rate_rmse": 0.06836143345679345,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -515,6 +537,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15951762329282454,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -537,6 +560,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.1367229868248128,
                     "altitude_rise_time": 8.899771928787231,
+                    "climb_rate_rmse": 0.14552460863046596,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -559,6 +583,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.454330631208368,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.15354487331381564,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -586,6 +611,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1813009301137819,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -608,6 +634,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 50.25472583456227,
                     "altitude_rise_time": 8.000131845474243,
+                    "climb_rate_rmse": 0.042308362318035135,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -630,6 +657,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15965501757353529,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -652,6 +680,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2984140977142733,
                     "altitude_rise_time": 8.699851989746094,
+                    "climb_rate_rmse": 0.13738049551051243,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -674,6 +703,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.19301664413749,
                     "altitude_rise_time": 9.09969186782837,
+                    "climb_rate_rmse": 0.14498733111145765,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -701,6 +731,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17362187771103338,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -723,6 +754,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 15.10363820843601,
                     "altitude_rise_time": 9.69945216178894,
+                    "climb_rate_rmse": 0.06030330251487688,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -745,6 +777,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15812759066771576,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -767,6 +800,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2700048427906285,
                     "altitude_rise_time": 9.300444841384888,
+                    "climb_rate_rmse": 0.12331216271891181,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -789,6 +823,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.4336039513589638,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13378034630918584,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -816,6 +851,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17014722834963444,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -838,6 +874,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 15.89201332403749,
                     "altitude_rise_time": 11.300477981567383,
+                    "climb_rate_rmse": 0.062299450983055046,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -860,6 +897,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15865748585509354,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -882,6 +920,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2882874534580369,
                     "altitude_rise_time": 9.399571895599365,
+                    "climb_rate_rmse": 0.13291550095841942,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -904,6 +943,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.4501789543571064,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.1368244765732085,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -931,6 +971,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16620822739313162,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -953,6 +994,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 22.25684975977145,
                     "altitude_rise_time": 9.700284957885742,
+                    "climb_rate_rmse": 0.057293736045181815,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -975,6 +1017,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15795637573201216,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -997,6 +1040,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7791451469683963,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.11096941846608206,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1019,6 +1063,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.0746215227208644,
                     "altitude_rise_time": 9.400404930114746,
+                    "climb_rate_rmse": 0.13248061695512384,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1046,6 +1091,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18263021967869775,
                     "parameters": {
                         "TECS_HDEM_TCONST": 2.75,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1068,6 +1114,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 21.760536479775894,
                     "altitude_rise_time": 7.600291967391968,
+                    "climb_rate_rmse": 0.04971902585051784,
                     "parameters": {
                         "TECS_HDEM_TCONST": 2.75,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1090,6 +1137,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16852532890311345,
                     "parameters": {
                         "TECS_HDEM_TCONST": 2.75,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1112,6 +1160,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3631973766107919,
                     "altitude_rise_time": 8.799812078475952,
+                    "climb_rate_rmse": 0.14279758892366848,
                     "parameters": {
                         "TECS_HDEM_TCONST": 2.75,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1134,6 +1183,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.801697952029535,
                     "altitude_rise_time": 8.900604963302612,
+                    "climb_rate_rmse": 0.13787376440157678,
                     "parameters": {
                         "TECS_HDEM_TCONST": 2.75,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1161,6 +1211,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18018672363864474,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1183,6 +1234,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.709986180068583,
                     "altitude_rise_time": 12.100157976150513,
+                    "climb_rate_rmse": 0.04499748018982383,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1205,6 +1257,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15611601345156942,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1227,6 +1280,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2463102904207268,
                     "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.13195924910029294,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1249,6 +1303,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2829563617582362,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13401563544354808,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1276,6 +1331,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1916929890009863,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1298,6 +1354,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -14.719588297268826,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.09097816093699608,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1320,6 +1377,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15978945374627385,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1342,6 +1400,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.112102063818978,
                     "altitude_rise_time": 9.09969186782837,
+                    "climb_rate_rmse": 0.16168033955702069,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1364,6 +1423,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.149787786339253,
                     "altitude_rise_time": 9.199652194976807,
+                    "climb_rate_rmse": 0.166725184335453,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1391,6 +1451,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1687599592458902,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1413,6 +1474,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 20.603977198555334,
                     "altitude_rise_time": 10.499964952468872,
+                    "climb_rate_rmse": 0.05284620868371849,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1435,6 +1497,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15481086625032606,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1457,6 +1520,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.1183757872548439,
                     "altitude_rise_time": 9.500365018844604,
+                    "climb_rate_rmse": 0.13367409392192464,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1479,6 +1543,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.5225399294497954,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.1402297545844165,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1506,6 +1571,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16663894818472483,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1528,6 +1594,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 23.685302662002726,
                     "altitude_rise_time": 9.300445079803467,
+                    "climb_rate_rmse": 0.05829780912932128,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1550,6 +1617,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15695525588151474,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1572,6 +1640,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.5046275251377361,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.13215791219585496,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1594,6 +1663,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2433142929590302,
                     "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.14892418392490533,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1621,6 +1691,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17729405483629065,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1643,6 +1714,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.08906767701391188,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1665,6 +1737,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1708260274751727,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1687,6 +1760,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.32742016616440495,
                     "altitude_rise_time": 8.499931812286377,
+                    "climb_rate_rmse": 0.15564619788864645,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1709,6 +1783,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.41832670842811837,
                     "altitude_rise_time": 8.599891901016235,
+                    "climb_rate_rmse": 0.1926428114656013,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1736,6 +1811,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16883519426645213,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.25,
@@ -1758,6 +1834,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 18.364197530864203,
                     "altitude_rise_time": 13.600391149520874,
+                    "climb_rate_rmse": 0.06644120061214925,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.25,
@@ -1780,6 +1857,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15819098842663165,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.25,
@@ -1802,6 +1880,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3880871738112477,
                     "altitude_rise_time": 9.399572134017944,
+                    "climb_rate_rmse": 0.13138250085895728,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.25,
@@ -1824,6 +1903,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.1815862116782538,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.12845779978198316,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.25,
@@ -1851,6 +1931,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.25571807072784597,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1873,6 +1954,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 189.55861414333174,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.09567321517251143,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1895,6 +1977,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17333663354555637,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1917,6 +2000,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.5125380193952145,
                     "altitude_rise_time": 8.900605201721191,
+                    "climb_rate_rmse": 0.1885165391356813,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1939,6 +2023,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.07737106093637092,
                     "altitude_rise_time": 8.599892139434814,
+                    "climb_rate_rmse": 0.22721582919332667,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1966,6 +2051,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1701310395536359,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -1988,6 +2074,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 7.155067155067152,
                     "altitude_rise_time": 11.5003981590271,
+                    "climb_rate_rmse": 0.05717908920364407,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2010,6 +2097,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15487728141192703,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2032,6 +2120,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3062976565417772,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.1263038853130927,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2054,6 +2143,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.496098728304629,
                     "altitude_rise_time": 9.400404930114746,
+                    "climb_rate_rmse": 0.13799276805673086,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2081,6 +2171,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17054820585363292,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2103,6 +2194,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 7.757283930465997,
                     "altitude_rise_time": 11.600358009338379,
+                    "climb_rate_rmse": 0.0559980292338632,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2125,6 +2217,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15333734388477063,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2147,6 +2240,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3121528673600613,
                     "altitude_rise_time": 9.300444841384888,
+                    "climb_rate_rmse": 0.1296226527992822,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2169,6 +2263,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.4623270086556728,
                     "altitude_rise_time": 9.300445079803467,
+                    "climb_rate_rmse": 0.14109045895656722,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2196,6 +2291,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16920572038504061,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2218,6 +2314,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 22.56877518836515,
                     "altitude_rise_time": 10.499965190887451,
+                    "climb_rate_rmse": 0.06059346370381807,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2240,6 +2337,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15650769170657575,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2262,6 +2360,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2995755513322216,
                     "altitude_rise_time": 9.400404930114746,
+                    "climb_rate_rmse": 0.13593579084292476,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2284,6 +2383,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3917426773650599,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.13163575865281468,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2311,6 +2411,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16897432106891555,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 5.5,
@@ -2333,6 +2434,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 14.510787282361859,
                     "altitude_rise_time": 11.600358009338379,
+                    "climb_rate_rmse": 0.057705497231180646,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 5.5,
@@ -2355,6 +2457,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1576169679544564,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 5.5,
@@ -2377,6 +2480,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.5888896540920294,
                     "altitude_rise_time": 9.399572134017944,
+                    "climb_rate_rmse": 0.12840287529579292,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 5.5,
@@ -2399,6 +2503,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3658733163184333,
                     "altitude_rise_time": 9.300444841384888,
+                    "climb_rate_rmse": 0.1444429522128244,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 5.5,
@@ -2426,6 +2531,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1700558725066665,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2448,6 +2554,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 7.681711368608712,
                     "altitude_rise_time": 11.600358009338379,
+                    "climb_rate_rmse": 0.06032129590983639,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2470,6 +2577,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1519131855062352,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2492,6 +2600,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3635087979412264,
                     "altitude_rise_time": 9.300444841384888,
+                    "climb_rate_rmse": 0.13033349247181977,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2514,6 +2623,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.51961488719643,
                     "altitude_rise_time": 9.400405168533325,
+                    "climb_rate_rmse": 0.14676180603707412,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2541,6 +2651,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.261177931299953,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2563,6 +2674,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.347654236226362,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2585,6 +2697,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.175444596729275,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2607,6 +2720,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.4277341573861095,
                     "altitude_rise_time": 8.000132083892822,
+                    "climb_rate_rmse": 1.350318308913561,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2629,6 +2743,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.9944194475047157,
                     "altitude_rise_time": 8.30001187324524,
+                    "climb_rate_rmse": 1.320178681785744,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2656,6 +2771,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.168226568231075,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2678,6 +2794,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 20.0008576697114,
                     "altitude_rise_time": 10.499964952468872,
+                    "climb_rate_rmse": 0.052307145445376714,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2700,6 +2817,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15471508974727238,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2722,6 +2840,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.111125374056221,
                     "altitude_rise_time": 9.400404930114746,
+                    "climb_rate_rmse": 0.12970182769723104,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2744,6 +2863,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.5353114750333852,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.14025864102754224,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2771,6 +2891,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2040594042989174,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2793,6 +2914,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -32.90436001890811,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.06703441929091233,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2815,6 +2937,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17175045306197148,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2837,6 +2960,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.5179725370960897,
                     "altitude_rise_time": 11.400437831878662,
+                    "climb_rate_rmse": 0.13900149776875342,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2859,6 +2983,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.147223513764198,
                     "altitude_rise_time": 9.700284957885742,
+                    "climb_rate_rmse": 0.13917951571804973,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2886,6 +3011,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1688841269408422,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2908,6 +3034,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 19.847689697352333,
                     "altitude_rise_time": 12.799878120422363,
+                    "climb_rate_rmse": 0.07050777343068251,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2930,6 +3057,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1582998169920782,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2952,6 +3080,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3672118724631366,
                     "altitude_rise_time": 9.399572134017944,
+                    "climb_rate_rmse": 0.13213620314886218,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -2974,6 +3103,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.1418361347325545,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13186281449447673,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3001,6 +3131,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.8978424267332544,
                     "parameters": {
                         "TECS_HDEM_TCONST": 0.5,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3023,6 +3154,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 39.70128855915658,
                     "altitude_rise_time": 8.000132083892822,
+                    "climb_rate_rmse": 0.05900447819776432,
                     "parameters": {
                         "TECS_HDEM_TCONST": 0.5,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3045,6 +3177,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.8717491365364876,
                     "parameters": {
                         "TECS_HDEM_TCONST": 0.5,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3067,6 +3200,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.9694559215353022,
                     "altitude_rise_time": 2.7005860805511475,
+                    "climb_rate_rmse": 0.5507107047906857,
                     "parameters": {
                         "TECS_HDEM_TCONST": 0.5,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3089,6 +3223,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.74396770879335,
                     "altitude_rise_time": 2.6997528076171875,
+                    "climb_rate_rmse": 0.5695177359980975,
                     "parameters": {
                         "TECS_HDEM_TCONST": 0.5,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3116,6 +3251,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1366386160272158,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.875,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3138,6 +3274,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 5.860976518822225,
                     "altitude_rise_time": 10.699885129928589,
+                    "climb_rate_rmse": 0.05704844588347458,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.875,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3160,6 +3297,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.12104394653736827,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.875,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3182,6 +3320,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.5424534003819925,
                     "altitude_rise_time": 11.5003981590271,
+                    "climb_rate_rmse": 0.10538027809869115,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.875,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3204,6 +3343,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7626957362423248,
                     "altitude_rise_time": 11.699485063552856,
+                    "climb_rate_rmse": 0.12133003156001011,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.875,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3231,6 +3371,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1704480398964073,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3253,6 +3394,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 32.812750708669846,
                     "altitude_rise_time": 8.499931812286377,
+                    "climb_rate_rmse": 0.05488288625029713,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3275,6 +3417,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15650711939609047,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3297,6 +3440,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.4782705178437938,
                     "altitude_rise_time": 8.899771928787231,
+                    "climb_rate_rmse": 0.13403033089978722,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3319,6 +3463,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.584820134887388,
                     "altitude_rise_time": 9.199652194976807,
+                    "climb_rate_rmse": 0.14584981782455222,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3346,6 +3491,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17580420303078942,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3368,6 +3514,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 23.88248419486798,
                     "altitude_rise_time": 9.79941201210022,
+                    "climb_rate_rmse": 0.05058102978446859,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3390,6 +3537,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1573601195581039,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3412,6 +3560,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.68648724770628,
                     "altitude_rise_time": 9.400405168533325,
+                    "climb_rate_rmse": 0.12241411555849767,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3434,6 +3583,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7157801078256476,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.1304081445704534,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3461,6 +3611,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17627913519610464,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3483,6 +3634,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 21.31282614666301,
                     "altitude_rise_time": 9.699451923370361,
+                    "climb_rate_rmse": 0.048611152168554495,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3505,6 +3657,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15898494098681187,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3527,6 +3680,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7890861372996216,
                     "altitude_rise_time": 9.400405168533325,
+                    "climb_rate_rmse": 0.12025355668439973,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3549,6 +3703,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7529521840964337,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.12800531288095876,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3576,6 +3731,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18678885486500105,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3598,6 +3754,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 21.55275381552755,
                     "altitude_rise_time": 9.79941201210022,
+                    "climb_rate_rmse": 0.0665779083036799,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3620,6 +3777,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16379619108118662,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3642,6 +3800,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.5285409056238644,
                     "altitude_rise_time": 9.600324869155884,
+                    "climb_rate_rmse": 0.17753945923945344,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3664,6 +3823,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7276758409785922,
                     "altitude_rise_time": 9.399572134017944,
+                    "climb_rate_rmse": 0.19545381904955184,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3691,6 +3851,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17782538154231137,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3713,6 +3874,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 23.544640875804433,
                     "altitude_rise_time": 9.79941201210022,
+                    "climb_rate_rmse": 0.055451712447975476,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3735,6 +3897,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15812100600433554,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3757,6 +3920,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.6069142765786406,
                     "altitude_rise_time": 9.600324869155884,
+                    "climb_rate_rmse": 0.1328373918817887,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3779,6 +3943,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.6361331911037604,
                     "altitude_rise_time": 9.399572134017944,
+                    "climb_rate_rmse": 0.14254270744568145,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3806,6 +3971,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17204819254044884,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 7.75,
@@ -3828,6 +3994,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 10.37603511471108,
                     "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.05821920042772103,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 7.75,
@@ -3850,6 +4017,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15552892165215462,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 7.75,
@@ -3872,6 +4040,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2753036284191444,
                     "altitude_rise_time": 9.400405168533325,
+                    "climb_rate_rmse": 0.12903509054939877,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 7.75,
@@ -3894,6 +4063,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.443300226108657,
                     "altitude_rise_time": 9.299611806869507,
+                    "climb_rate_rmse": 0.14202685855907277,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 7.75,
@@ -3921,6 +4091,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1800555779019104,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3943,6 +4114,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.23304562268804,
                     "altitude_rise_time": 12.000197887420654,
+                    "climb_rate_rmse": 0.0444240416333925,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3965,6 +4137,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1559030194627202,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -3987,6 +4160,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2556738161404235,
                     "altitude_rise_time": 9.100525140762329,
+                    "climb_rate_rmse": 0.13179637797815097,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4009,6 +4183,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2742951187421747,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13593668879084517,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4036,6 +4211,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18006184849423895,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4058,6 +4234,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.288375145121403,
                     "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.045095360632857705,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4080,6 +4257,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15601354839429923,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4102,6 +4280,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.254741514340596,
                     "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.1319377926256036,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4124,6 +4303,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2753267967614113,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13384436531188473,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4151,6 +4331,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18006184849423895,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4173,6 +4354,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.288375145121403,
                     "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.045095360632857705,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4195,6 +4377,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15601354839429923,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4217,6 +4400,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.254741514340596,
                     "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.1319377926256036,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4239,6 +4423,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2753267967614113,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13384436531188473,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4266,6 +4451,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18006184849423895,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4288,6 +4474,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.288375145121403,
                     "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.045095360632857705,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4310,6 +4497,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1560122365331854,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4332,6 +4520,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.254741514340596,
                     "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.1319377926256036,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4354,6 +4543,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2753267967614113,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13384436531188473,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4381,6 +4571,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.9754076557594871,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4403,6 +4594,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.1606165253777667,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4425,6 +4617,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.0026170949419781,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4447,6 +4640,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.0500865208333625,
                     "altitude_rise_time": 8.100091934204102,
+                    "climb_rate_rmse": 1.1711405284964742,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4469,6 +4663,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.0989773868694845,
                     "altitude_rise_time": 9.09969186782837,
+                    "climb_rate_rmse": 1.199363135738384,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4496,6 +4691,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.19387214499707714,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4518,6 +4714,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 19.641307492045136,
                     "altitude_rise_time": 10.100124835968018,
+                    "climb_rate_rmse": 0.07413619167817918,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4540,6 +4737,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15680348491541826,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4562,6 +4760,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.36674740980538,
                     "altitude_rise_time": 8.799812078475952,
+                    "climb_rate_rmse": 0.14851580780832913,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4584,6 +4783,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2912013989095028,
                     "altitude_rise_time": 9.299612045288086,
+                    "climb_rate_rmse": 0.1303659806209199,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4611,6 +4811,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18041248557012293,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4633,6 +4834,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.441269195565944,
                     "altitude_rise_time": 12.100157976150513,
+                    "climb_rate_rmse": 0.045301235102481685,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4655,6 +4857,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15648778952238404,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4677,6 +4880,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2376256308908928,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.1316819103866086,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4699,6 +4903,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2679664870018037,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13318630996185385,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4726,6 +4931,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17881287596566448,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4748,6 +4954,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 23.9341517857143,
                     "altitude_rise_time": 12.100157976150513,
+                    "climb_rate_rmse": 0.04187940937881167,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4770,6 +4977,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15651630878739622,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4792,6 +5000,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.212207224175299,
                     "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.13075186561947205,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4814,6 +5023,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2180325664409075,
                     "altitude_rise_time": 9.09969186782837,
+                    "climb_rate_rmse": 0.14110296268884504,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4841,6 +5051,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.2916248763166294,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4863,6 +5074,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 184.1648735879505,
                     "altitude_rise_time": 0.0999598503112793,
+                    "climb_rate_rmse": 0.632794777455468,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4885,6 +5097,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.2323801620586061,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4907,6 +5120,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.6473689958034905,
                     "altitude_rise_time": 8.000131845474243,
+                    "climb_rate_rmse": 1.4461060732054474,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4929,6 +5143,7 @@
                     "altitude_frequency": 0.8876325188166753,
                     "altitude_overshoot": 4.319486258659566,
                     "altitude_rise_time": 7.399538993835449,
+                    "climb_rate_rmse": 1.4039822739722225,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4956,6 +5171,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.9470301480468155,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -4978,6 +5194,7 @@
                     "altitude_frequency": 0.7474689215696414,
                     "altitude_overshoot": 108.70432177093443,
                     "altitude_rise_time": 0.40067291259765625,
+                    "climb_rate_rmse": 2.0482042001961047,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5000,6 +5217,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.6453799374823506,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5022,6 +5240,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 6.751891645616337,
                     "altitude_rise_time": 8.000131845474243,
+                    "climb_rate_rmse": 2.0150670571058797,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5044,6 +5263,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 7.510932433715767,
                     "altitude_rise_time": 6.999699115753174,
+                    "climb_rate_rmse": 2.0387542489669577,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5071,6 +5291,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2871842623811716,
                     "parameters": {
                         "TECS_HDEM_TCONST": 1.625,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5093,6 +5314,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.218543046357617,
                     "altitude_rise_time": 8.399971961975098,
+                    "climb_rate_rmse": 0.05630379358442959,
                     "parameters": {
                         "TECS_HDEM_TCONST": 1.625,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5115,6 +5337,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.28954112230364437,
                     "parameters": {
                         "TECS_HDEM_TCONST": 1.625,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5137,6 +5360,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.5997792212600457,
                     "altitude_rise_time": 6.299978971481323,
+                    "climb_rate_rmse": 0.1937298167008564,
                     "parameters": {
                         "TECS_HDEM_TCONST": 1.625,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5159,6 +5383,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.606240459441289,
                     "altitude_rise_time": 6.1000590324401855,
+                    "climb_rate_rmse": 0.2159744536967459,
                     "parameters": {
                         "TECS_HDEM_TCONST": 1.625,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5186,6 +5411,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.8038675067381893,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5208,6 +5434,7 @@
                     "altitude_frequency": 0.794185729167744,
                     "altitude_overshoot": 86.40940444570124,
                     "altitude_rise_time": 0.30071282386779785,
+                    "climb_rate_rmse": 1.8684155579263453,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5230,6 +5457,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.5353086586120386,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5252,6 +5480,7 @@
                     "altitude_frequency": 0.7979422628995636,
                     "altitude_overshoot": 5.267156514589977,
                     "altitude_rise_time": 7.8002119064331055,
+                    "climb_rate_rmse": 1.8224452379578355,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5274,6 +5503,7 @@
                     "altitude_frequency": 0.8017028330116943,
                     "altitude_overshoot": 5.210533972255926,
                     "altitude_rise_time": 7.299578905105591,
+                    "climb_rate_rmse": 1.859333860862905,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5301,6 +5531,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.9044823440624121,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5323,6 +5554,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 83.55625491738788,
                     "altitude_rise_time": 0.20075297355651855,
+                    "climb_rate_rmse": 1.9269429104780618,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5345,6 +5577,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.614535212641723,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5367,6 +5600,7 @@
                     "altitude_frequency": 0.751004482729001,
                     "altitude_overshoot": 5.368247767979462,
                     "altitude_rise_time": 7.600291967391968,
+                    "climb_rate_rmse": 1.941030489029157,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5389,6 +5623,7 @@
                     "altitude_frequency": 0.7474800158456213,
                     "altitude_overshoot": 5.562252578313642,
                     "altitude_rise_time": 7.699419021606445,
+                    "climb_rate_rmse": 1.9392409242671937,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5416,6 +5651,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.6123803916518378,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5438,6 +5674,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 83.80281690140845,
                     "altitude_rise_time": 0.600593090057373,
+                    "climb_rate_rmse": 1.6726689032776008,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5460,6 +5697,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.4543428764150421,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5482,6 +5720,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.637601516598444,
                     "altitude_rise_time": 7.29957914352417,
+                    "climb_rate_rmse": 1.6918494173426029,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5504,6 +5743,7 @@
                     "altitude_frequency": 0.8448800335684032,
                     "altitude_overshoot": 4.761717867035298,
                     "altitude_rise_time": 7.699419021606445,
+                    "climb_rate_rmse": 1.6526169726072923,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5531,6 +5771,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1851691431782364,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5553,6 +5794,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.7089512911239835,
                     "altitude_rise_time": 11.499565124511719,
+                    "climb_rate_rmse": 0.04744591584066842,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5575,6 +5817,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16445959191471649,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5597,6 +5840,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3146244522712403,
                     "altitude_rise_time": 8.799812078475952,
+                    "climb_rate_rmse": 0.14251667502234242,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5619,6 +5863,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2191282859257635,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.1558147944238524,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5646,6 +5891,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.20941649839014698,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5668,6 +5914,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -98.96553158194554,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.03383052850649325,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5690,6 +5937,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15190753009603078,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5712,6 +5960,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -43.9900960705116,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.11805550844640439,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5734,6 +5983,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 359.5996959538747,
                     "altitude_rise_time": 1.9000730514526367,
+                    "climb_rate_rmse": 0.12630056191723668,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5761,6 +6011,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.24648584183651928,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5783,6 +6034,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -60.718280579033234,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.06030057206316399,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5805,6 +6057,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.19695840448714513,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5827,6 +6080,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -4.970932687560891,
                     "altitude_rise_time": 20.800009965896606,
+                    "climb_rate_rmse": 0.14143650461691123,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5849,6 +6103,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 15.439103244317408,
                     "altitude_rise_time": 7.500331878662109,
+                    "climb_rate_rmse": 0.15069595813381187,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -5876,6 +6131,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18041248557012293,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.0,
@@ -5898,6 +6154,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.441269195565944,
                     "altitude_rise_time": 12.100157976150513,
+                    "climb_rate_rmse": 0.045301235102481685,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.0,
@@ -5920,6 +6177,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15648778952238404,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.0,
@@ -5942,6 +6200,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2376256308908928,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.1316819103866086,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.0,
@@ -5964,6 +6223,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2679664870018037,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13318630996185385,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.0,
@@ -5991,6 +6251,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18041248557012293,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.25,
@@ -6013,6 +6274,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.441269195565944,
                     "altitude_rise_time": 12.100157976150513,
+                    "climb_rate_rmse": 0.045301235102481685,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.25,
@@ -6035,6 +6297,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15648778952238404,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.25,
@@ -6057,6 +6320,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2376256308908928,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.1316819103866086,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.25,
@@ -6079,6 +6343,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2679664870018037,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13318630996185385,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 0.25,
@@ -6106,6 +6371,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18353240475499405,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6128,6 +6394,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 42.90687554395127,
                     "altitude_rise_time": 4.699785947799683,
+                    "climb_rate_rmse": 0.04277636760133908,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6150,6 +6417,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1570914358671295,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6172,6 +6440,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2563772955807906,
                     "altitude_rise_time": 8.899771928787231,
+                    "climb_rate_rmse": 0.13880611512867408,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6194,6 +6463,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2255943972827588,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13461349655503055,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6221,6 +6491,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17534943090442742,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6243,6 +6514,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.0273224043715787,
                     "altitude_rise_time": 16.5000638961792,
+                    "climb_rate_rmse": 0.02919614641255748,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6265,6 +6537,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.13443800742546497,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6287,6 +6560,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.772810146350335,
                     "altitude_rise_time": 8.499932050704956,
+                    "climb_rate_rmse": 0.19613819890475012,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6309,6 +6583,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 2.9517041746152106,
                     "altitude_rise_time": 8.599892139434814,
+                    "climb_rate_rmse": 0.19739954944338817,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6336,6 +6611,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1748191549903176,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6358,6 +6634,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 189.0497737556561,
                     "altitude_rise_time": 0.2998800277709961,
+                    "climb_rate_rmse": 0.055545642649325315,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6380,6 +6657,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16266628957701107,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6402,6 +6680,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.3144716313406182,
                     "altitude_rise_time": 8.599892139434814,
+                    "climb_rate_rmse": 0.15350858488730515,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6424,6 +6703,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.34945785612980895,
                     "altitude_rise_time": 8.599891901016235,
+                    "climb_rate_rmse": 0.15739927689737335,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6451,6 +6731,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18725155009260416,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6473,6 +6754,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 12.59525644318864,
                     "altitude_rise_time": 12.200118064880371,
+                    "climb_rate_rmse": 0.044115423661348775,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6495,6 +6777,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16272810862547865,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6517,6 +6800,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.5342086243370634,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.13956127184257439,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6539,6 +6823,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.6233066678891461,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.1405830626698591,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6566,6 +6851,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.19849325965866504,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6588,6 +6874,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 10.319879540196109,
                     "altitude_rise_time": 13.79947805404663,
+                    "climb_rate_rmse": 0.04413369558102966,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6610,6 +6897,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17250350556166438,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6632,6 +6920,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.90075967193728,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.1481397975194906,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6654,6 +6943,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.946536535863408,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.14974209770673494,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6681,6 +6971,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.17516975901635637,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6703,6 +6994,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 24.257062492356617,
                     "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.0448853332687081,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6725,6 +7017,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15198532018337418,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6747,6 +7040,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.9444693183605857,
                     "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.1284244019950515,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6769,6 +7063,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.9274441444778292,
                     "altitude_rise_time": 9.299611806869507,
+                    "climb_rate_rmse": 0.12918305729868634,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6796,6 +7091,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.18041248557012293,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6818,6 +7114,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 17.441269195565944,
                     "altitude_rise_time": 12.100157976150513,
+                    "climb_rate_rmse": 0.045301235102481685,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6840,6 +7137,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15648778952238404,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6862,6 +7160,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2376256308908928,
                     "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.1316819103866086,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6884,6 +7183,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.2679664870018037,
                     "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.13318630996185385,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6911,6 +7211,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1733851360853471,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6933,6 +7234,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 33.42571208622016,
                     "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.04645408397986316,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6955,6 +7257,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15143635676748546,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6977,6 +7280,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.7357363954674012,
                     "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.12910712430562699,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -6999,6 +7303,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 0.6220083270457977,
                     "altitude_rise_time": 9.399571895599365,
+                    "climb_rate_rmse": 0.13050145418898287,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7026,6 +7331,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.4445480732598551,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7048,6 +7354,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -8.408205820122049,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.05281430491876681,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7070,6 +7377,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.40661043258767027,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7092,6 +7400,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 7.439638670065896,
                     "altitude_rise_time": 10.100125074386597,
+                    "climb_rate_rmse": 0.2983973003494343,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7114,6 +7423,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 8.31789424989875,
                     "altitude_rise_time": 10.000164985656738,
+                    "climb_rate_rmse": 0.3219637624093548,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7141,6 +7451,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.4165095919842909,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7163,6 +7474,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -5.888383493200722,
                     "altitude_rise_time": 0.0,
+                    "climb_rate_rmse": 0.0510683782287649,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7185,6 +7497,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.3634638065059178,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7207,6 +7520,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 6.620220890560113,
                     "altitude_rise_time": 9.8002450466156,
+                    "climb_rate_rmse": 0.27535414076272274,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7229,6 +7543,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 7.249876276082734,
                     "altitude_rise_time": 9.900205135345459,
+                    "climb_rate_rmse": 0.29602786492253064,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7256,6 +7571,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.25368591602531876,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7278,6 +7594,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.4683006012940387,
                     "altitude_rise_time": 14.100190877914429,
+                    "climb_rate_rmse": 0.04310966409958772,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7300,6 +7617,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.21837966997420072,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7322,6 +7640,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.506897454110436,
                     "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.18951925757924018,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7344,6 +7663,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 3.601441862208965,
                     "altitude_rise_time": 9.399571895599365,
+                    "climb_rate_rmse": 0.19715134792943323,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7371,6 +7691,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.3614472424929641,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7393,6 +7714,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -4.026902296262946,
                     "altitude_rise_time": 15.49963092803955,
+                    "climb_rate_rmse": 0.046364126868239174,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7415,6 +7737,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.30834255762015567,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7437,6 +7760,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 5.631327209000281,
                     "altitude_rise_time": 9.600324869155884,
+                    "climb_rate_rmse": 0.25056826848868474,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7459,6 +7783,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 6.138528709270918,
                     "altitude_rise_time": 9.700284957885742,
+                    "climb_rate_rmse": 0.2671725604673147,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7486,6 +7811,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.30091953460109633,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7508,6 +7834,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": -0.9776925758103849,
                     "altitude_rise_time": 15.199750900268555,
+                    "climb_rate_rmse": 0.044857012290010746,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7530,6 +7857,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2576333252463526,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7552,6 +7880,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.662122322082651,
                     "altitude_rise_time": 9.300444841384888,
+                    "climb_rate_rmse": 0.22065473993981044,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7574,6 +7903,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 4.935099546703903,
                     "altitude_rise_time": 9.499531984329224,
+                    "climb_rate_rmse": 0.23216657371347607,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7601,6 +7931,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.588988752263176,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7623,6 +7954,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.7306671992025033,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7645,6 +7977,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 1.5684801530149401,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7667,6 +8000,7 @@
                     "altitude_frequency": 0.8409354244225634,
                     "altitude_overshoot": 5.961508552248462,
                     "altitude_rise_time": 8.799812078475952,
+                    "climb_rate_rmse": 1.6817274987826132,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7689,6 +8023,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 5.208387488085964,
                     "altitude_rise_time": 8.100091934204102,
+                    "climb_rate_rmse": 1.7331834486756805,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7716,6 +8051,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 3.385933807319437,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7738,6 +8074,7 @@
                     "altitude_frequency": 0.14147138516838495,
                     "altitude_overshoot": 82.80169887031931,
                     "altitude_rise_time": 1.5002331733703613,
+                    "climb_rate_rmse": 5.221625708166146,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7760,6 +8097,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 3.904373498103096,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7782,6 +8120,7 @@
                     "altitude_frequency": 0.2790024485923305,
                     "altitude_overshoot": 16.230407724696306,
                     "altitude_rise_time": 1.7992799282073975,
+                    "climb_rate_rmse": 4.615553921922282,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7804,6 +8143,7 @@
                     "altitude_frequency": 0.14559981698813151,
                     "altitude_overshoot": 36.09269938549311,
                     "altitude_rise_time": 9.999331951141357,
+                    "climb_rate_rmse": 4.836924189199168,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7831,6 +8171,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.16976647768651476,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7853,6 +8194,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 9.150216759964636,
                     "altitude_rise_time": 7.800212144851685,
+                    "climb_rate_rmse": 0.05782672148133185,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7875,6 +8217,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": null,
                     "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.15442434825695597,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7897,6 +8240,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.4946148626311384,
                     "altitude_rise_time": 9.399571895599365,
+                    "climb_rate_rmse": 0.12422132435019584,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,
@@ -7919,6 +8263,7 @@
                     "altitude_frequency": null,
                     "altitude_overshoot": 1.3871467909729374,
                     "altitude_rise_time": 9.300445079803467,
+                    "climb_rate_rmse": 0.14393881853939175,
                     "parameters": {
                         "TECS_HDEM_TCONST": 3.0,
                         "TECS_HGT_OMEGA": 3.0,

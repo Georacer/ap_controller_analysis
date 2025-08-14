@@ -21,7 +21,7 @@ Thoughts and points to discuss in the presentation.
 ## Remarks
 
 - [ ] Too small TECS_TIME_CONST causes a lot of oscillation.
-- [ ] TECS_HDEM_CONST is a clear way to decrease rise time. It also increases overshoot.
+- [ ] Decreasing TECS_HDEM_TCONST is a clear way to decrease rise time. It also increases overshoot and climb rate error. Making this value too small causes oscillations in climb rate and pitch reference.
 - [ ] Regarding TECS_PTCH_DAMP: It acts as a proportional gain regulating the relation from the Specific Energy Balance Derivative (SEBD) to the pitch demand. There is a feed-forward term, but may not fast enough, it goes with the natural pitch time constant. There are also integrators at play, but they are also slow. So TECS_PTCH_DAMP increases this regulation gain, and makes the SEBD system pole faster. But make it too fast and oscillations start to develop. These are probably stemming from inability of attitude control to follow the pitch reference (no "phase margin"), leading to inability to regulate kinetic and potential energy. This manifests as oscillation in airspeed and altitude, which feeds back into the pitch control.
   - In the simulation, values above 0.4 start raising major pitch oscillations and secondary airspeed and altitude oscillations and generally degraded control.
   - The beneficial effect of TECS_PTCH_DAMP isn't visible in the default simulation. Meaning that by tuning it you can only make things worse, not better.

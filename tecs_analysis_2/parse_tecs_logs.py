@@ -52,6 +52,8 @@ class SegmentRawData:
     altitude: Tuple[np.ndarray, np.ndarray]
     altitude_target: Tuple[np.ndarray, np.ndarray]
     pitch_target: Tuple[np.ndarray, np.ndarray]
+    climb_rate: Tuple[np.ndarray, np.ndarray]
+    climb_rate_target: Tuple[np.ndarray, np.ndarray]
     parameters: dict
 
 
@@ -69,6 +71,7 @@ class SegmentMetadata:
     altitude_rise_time: float | None  # %
     pitch_target_frequency: float | None  # Hz
     pitch_target_amplitude: float | None  # deg
+    climb_rate_rmse: float | None  # m/s
     parameters: dict
 
 
@@ -221,6 +224,9 @@ def extract_metadata(raw_data: SegmentRawData):
     pitch_target_frequency, pitch_target_amplitude = do_fft(
         raw_data.pitch_target, height_threshold=0.5 * DEG2RAD
     )
+    climb_rate_rmse = np.sqrt(
+        np.average((raw_data.climb_rate_target[1] - raw_data.climb_rate[1]) ** 2)
+    )
 
     return SegmentMetadata(
         airspeed_frequency=airspeed_frequency,
@@ -235,6 +241,7 @@ def extract_metadata(raw_data: SegmentRawData):
         pitch_target_amplitude=(
             None if pitch_target_amplitude is None else pitch_target_amplitude * RAD2DEG
         ),
+        climb_rate_rmse=climb_rate_rmse,
         parameters=raw_data.parameters,
     )
 
@@ -292,6 +299,8 @@ def parse_log(log_path):
                         altitude=topics["TECS"].as_numpy("h"),
                         altitude_target=topics["TECS"].as_numpy("hin"),
                         pitch_target=topics["TECS"].as_numpy("ph"),
+                        climb_rate=topics["TECS"].as_numpy("dh"),
+                        climb_rate_target=topics["TECS"].as_numpy("dhdem"),
                         parameters=parameters,
                     )
 

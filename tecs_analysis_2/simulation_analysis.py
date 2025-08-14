@@ -45,6 +45,7 @@ for parameter in parameter_names:
         "altitude_overshoot",
         "pitch_target_frequency",
         "pitch_target_amplitude",
+        "climb_rate_rmse",
     ]
     div_res, mod_res = divmod(len(quantities), PLOT_ROWS)
 
