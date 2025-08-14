@@ -17,6 +17,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -38,6 +39,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -59,6 +61,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -80,6 +83,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -101,6 +105,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -127,6 +132,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -148,6 +154,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -169,6 +176,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -190,6 +198,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -211,6 +220,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -237,6 +247,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 1.0,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -258,6 +269,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 1.0,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -279,6 +291,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 1.0,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -300,6 +313,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 1.0,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -321,6 +335,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 1.0,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -347,6 +362,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -368,6 +384,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -389,6 +406,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -410,6 +428,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -431,6 +450,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -457,6 +477,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -478,6 +499,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -499,6 +521,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -520,6 +543,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -541,6 +565,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 7.75,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -567,6 +592,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.10000000149011612,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -588,6 +614,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.10000000149011612,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -609,6 +636,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.10000000149011612,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -630,6 +658,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.10000000149011612,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -651,6 +680,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.10000000149011612,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -677,6 +707,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 5.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -698,6 +729,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 5.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -719,6 +751,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 5.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -740,6 +773,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 5.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -761,6 +795,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 5.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -787,6 +822,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.75,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -808,6 +844,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.75,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -829,6 +866,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.75,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -850,6 +888,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.75,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -871,6 +910,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.75,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -897,6 +937,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -918,6 +959,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -939,6 +981,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -960,6 +1003,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -981,6 +1025,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.25,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1007,6 +1052,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1028,6 +1074,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1049,6 +1096,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1070,6 +1118,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1091,6 +1140,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1117,6 +1167,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
                     },
@@ -1138,6 +1189,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
                     },
@@ -1159,6 +1211,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
                     },
@@ -1180,6 +1233,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
                     },
@@ -1201,6 +1255,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 10.0
                     },
@@ -1227,6 +1282,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1248,6 +1304,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1269,6 +1326,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1290,6 +1348,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1311,6 +1370,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 10.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1337,6 +1397,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
                     },
@@ -1358,6 +1419,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
                     },
@@ -1379,6 +1441,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
                     },
@@ -1400,6 +1463,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
                     },
@@ -1421,6 +1485,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 3.0
                     },
@@ -1447,6 +1512,7 @@
                         "TECS_INTEG_GAIN": 0.32499998807907104,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1468,6 +1534,7 @@
                         "TECS_INTEG_GAIN": 0.32499998807907104,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1489,6 +1556,7 @@
                         "TECS_INTEG_GAIN": 0.32499998807907104,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1510,6 +1578,7 @@
                         "TECS_INTEG_GAIN": 0.32499998807907104,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1531,6 +1600,7 @@
                         "TECS_INTEG_GAIN": 0.32499998807907104,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1557,6 +1627,7 @@
                         "TECS_INTEG_GAIN": 0.7749999761581421,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1578,6 +1649,7 @@
                         "TECS_INTEG_GAIN": 0.7749999761581421,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1599,6 +1671,7 @@
                         "TECS_INTEG_GAIN": 0.7749999761581421,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1620,6 +1693,7 @@
                         "TECS_INTEG_GAIN": 0.7749999761581421,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1641,6 +1715,7 @@
                         "TECS_INTEG_GAIN": 0.7749999761581421,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1667,6 +1742,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1688,6 +1764,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1709,6 +1786,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1730,6 +1808,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1751,6 +1830,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1777,6 +1857,7 @@
                         "TECS_INTEG_GAIN": 1.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1798,6 +1879,7 @@
                         "TECS_INTEG_GAIN": 1.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1819,6 +1901,7 @@
                         "TECS_INTEG_GAIN": 1.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1840,6 +1923,7 @@
                         "TECS_INTEG_GAIN": 1.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1861,6 +1945,7 @@
                         "TECS_INTEG_GAIN": 1.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -1887,6 +1972,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
                     },
@@ -1908,6 +1994,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
                     },
@@ -1929,6 +2016,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
                     },
@@ -1950,6 +2038,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
                     },
@@ -1971,6 +2060,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 6.5
                     },
@@ -1997,6 +2087,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 1.625,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2018,6 +2109,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 1.625,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2039,6 +2131,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 1.625,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2060,6 +2153,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 1.625,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2081,6 +2175,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 1.625,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2107,6 +2202,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
                     },
@@ -2128,6 +2224,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
                     },
@@ -2149,6 +2246,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
                     },
@@ -2170,6 +2268,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
                     },
@@ -2191,6 +2290,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 8.25
                     },
@@ -2217,6 +2317,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2238,6 +2339,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2259,6 +2361,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2280,6 +2383,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2301,6 +2405,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2327,6 +2432,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.32499998807907104,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2348,6 +2454,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.32499998807907104,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2369,6 +2476,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.32499998807907104,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2390,6 +2498,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.32499998807907104,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2411,6 +2520,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.32499998807907104,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2437,6 +2547,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.550000011920929,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2458,6 +2569,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.550000011920929,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2479,6 +2591,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.550000011920929,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2500,6 +2613,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.550000011920929,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2521,6 +2635,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.550000011920929,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2547,6 +2662,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 3.875,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2568,6 +2684,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 3.875,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2589,6 +2706,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 3.875,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2610,6 +2728,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 3.875,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2631,6 +2750,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 3.875,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2657,6 +2777,7 @@
                         "TECS_INTEG_GAIN": 0.10000000149011612,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2678,6 +2799,7 @@
                         "TECS_INTEG_GAIN": 0.10000000149011612,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2699,6 +2821,7 @@
                         "TECS_INTEG_GAIN": 0.10000000149011612,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2720,6 +2843,7 @@
                         "TECS_INTEG_GAIN": 0.10000000149011612,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2741,6 +2865,7 @@
                         "TECS_INTEG_GAIN": 0.10000000149011612,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2767,6 +2892,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 0.5,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2788,6 +2914,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 0.5,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2809,6 +2936,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 0.5,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2830,6 +2958,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 0.5,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2851,6 +2980,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 0.5,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2877,6 +3007,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2898,6 +3029,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2919,6 +3051,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2940,6 +3073,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2961,6 +3095,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -2987,6 +3122,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3008,6 +3144,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3029,6 +3166,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3050,6 +3188,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3071,6 +3210,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3097,6 +3237,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3118,6 +3259,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3139,6 +3281,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3160,6 +3303,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3181,6 +3325,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3207,6 +3352,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3228,6 +3374,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3249,6 +3396,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3270,6 +3418,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3291,6 +3440,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3317,6 +3467,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3338,6 +3489,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3359,6 +3511,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3380,6 +3533,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3401,6 +3555,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 3.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3427,6 +3582,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3448,6 +3604,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3469,6 +3626,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3490,6 +3648,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3511,6 +3670,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.5,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3537,6 +3697,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3558,6 +3719,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3579,6 +3741,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3600,6 +3763,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3621,6 +3785,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 2.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3647,6 +3812,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3668,6 +3834,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3689,6 +3856,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3710,6 +3878,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3731,6 +3900,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -3757,6 +3927,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
                     },
@@ -3778,6 +3949,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
                     },
@@ -3799,6 +3971,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
                     },
@@ -3820,6 +3993,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
                     },
@@ -3841,6 +4015,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 40.0
                     },
@@ -3867,6 +4042,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
                     },
@@ -3888,6 +4064,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
                     },
@@ -3909,6 +4086,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
                     },
@@ -3930,6 +4108,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
                     },
@@ -3951,6 +4130,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 50.0
                     },
@@ -3977,6 +4157,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
                     },
@@ -3998,6 +4179,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
                     },
@@ -4019,6 +4201,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
                     },
@@ -4040,6 +4223,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
                     },
@@ -4061,6 +4245,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 20.0
                     },
@@ -4087,6 +4272,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
                     },
@@ -4108,6 +4294,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
                     },
@@ -4129,6 +4316,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
                     },
@@ -4150,6 +4338,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
                     },
@@ -4171,6 +4360,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 30.0
                     },
@@ -4197,6 +4387,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.5,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4218,6 +4409,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.5,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4239,6 +4431,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.5,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4260,6 +4453,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.5,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4281,6 +4475,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.5,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4307,6 +4502,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.4000000059604645,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4328,6 +4524,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.4000000059604645,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4349,6 +4546,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.4000000059604645,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4370,6 +4568,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.4000000059604645,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4391,6 +4590,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.4000000059604645,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4417,6 +4617,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4438,6 +4639,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4459,6 +4661,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4480,6 +4683,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4501,6 +4705,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4527,6 +4732,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.20000000298023224,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4548,6 +4754,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.20000000298023224,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4569,6 +4776,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.20000000298023224,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4590,6 +4798,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.20000000298023224,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4611,6 +4820,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.20000000298023224,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4637,6 +4847,7 @@
                         "TECS_INTEG_GAIN": 1.2000000476837158,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4658,6 +4869,7 @@
                         "TECS_INTEG_GAIN": 1.2000000476837158,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4679,6 +4891,7 @@
                         "TECS_INTEG_GAIN": 1.2000000476837158,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4700,6 +4913,7 @@
                         "TECS_INTEG_GAIN": 1.2000000476837158,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4721,6 +4935,7 @@
                         "TECS_INTEG_GAIN": 1.2000000476837158,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4747,6 +4962,7 @@
                         "TECS_INTEG_GAIN": 2.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4768,6 +4984,7 @@
                         "TECS_INTEG_GAIN": 2.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4789,6 +5006,7 @@
                         "TECS_INTEG_GAIN": 2.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4810,6 +5028,7 @@
                         "TECS_INTEG_GAIN": 2.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4831,6 +5050,7 @@
                         "TECS_INTEG_GAIN": 2.0,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4857,6 +5077,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4878,6 +5099,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4899,6 +5121,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4920,6 +5143,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4941,6 +5165,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4967,6 +5192,7 @@
                         "TECS_INTEG_GAIN": 1.600000023841858,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -4988,6 +5214,7 @@
                         "TECS_INTEG_GAIN": 1.600000023841858,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5009,6 +5236,7 @@
                         "TECS_INTEG_GAIN": 1.600000023841858,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5030,6 +5258,7 @@
                         "TECS_INTEG_GAIN": 1.600000023841858,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5051,6 +5280,7 @@
                         "TECS_INTEG_GAIN": 1.600000023841858,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5077,6 +5307,7 @@
                         "TECS_INTEG_GAIN": 1.7999999523162842,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5098,6 +5329,7 @@
                         "TECS_INTEG_GAIN": 1.7999999523162842,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5119,6 +5351,7 @@
                         "TECS_INTEG_GAIN": 1.7999999523162842,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5140,6 +5373,7 @@
                         "TECS_INTEG_GAIN": 1.7999999523162842,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5161,6 +5395,7 @@
                         "TECS_INTEG_GAIN": 1.7999999523162842,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5187,6 +5422,7 @@
                         "TECS_INTEG_GAIN": 1.399999976158142,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5208,6 +5444,7 @@
                         "TECS_INTEG_GAIN": 1.399999976158142,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5229,6 +5466,7 @@
                         "TECS_INTEG_GAIN": 1.399999976158142,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5250,6 +5488,7 @@
                         "TECS_INTEG_GAIN": 1.399999976158142,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5271,6 +5510,7 @@
                         "TECS_INTEG_GAIN": 1.399999976158142,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5279,6 +5519,811 @@
                 }
             },
             "log_name": "TECS_INTEG_GAIN_1.4.BIN"
+        },
+        "53": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.01709747314453125,
+                    "airspeed_undershoot": 0.4732017517089844,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.0,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.12143898010253906,
+                    "airspeed_undershoot": 0.0189666748046875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.7089512911239835,
+                    "altitude_rise_time": 11.499565124511719,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.0,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.42836952209472656,
+                    "airspeed_undershoot": 0.018625259399414062,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.0,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3620128631591797,
+                    "airspeed_undershoot": 0.06539726257324219,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.3146244522712403,
+                    "altitude_rise_time": 8.799812078475952,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.0,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.13947486877441406,
+                    "airspeed_undershoot": 0.3633441925048828,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2191282859257635,
+                    "altitude_rise_time": 8.99973201751709,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.0,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_PTCH_DAMP_0.BIN"
+        },
+        "54": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -1.1557960510253906,
+                    "airspeed_undershoot": 2.6780548095703125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.0,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -1.119028091430664,
+                    "airspeed_undershoot": 1.2324275970458984,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -98.96553158194554,
+                    "altitude_rise_time": 0.0,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.0,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -0.2995338439941406,
+                    "airspeed_undershoot": 1.1442394256591797,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.0,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -0.6429538726806641,
+                    "airspeed_undershoot": 1.2048606872558594,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -43.9900960705116,
+                    "altitude_rise_time": 0.0,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.0,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -1.1359825134277344,
+                    "airspeed_undershoot": 1.7036476135253906,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 359.5996959538747,
+                    "altitude_rise_time": 1.9000730514526367,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.0,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_INTEG_GAIN_0.BIN"
+        },
+        "55": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.23804473876953125,
+                    "airspeed_undershoot": 0.6656150817871094,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.05000000074505806,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.073394775390625,
+                    "airspeed_undershoot": 0.036712646484375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -60.718280579033234,
+                    "altitude_rise_time": 0.0,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.05000000074505806,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5856971740722656,
+                    "airspeed_undershoot": 0.2104206085205078,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.05000000074505806,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4160480499267578,
+                    "airspeed_undershoot": 0.2673816680908203,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -4.970932687560891,
+                    "altitude_rise_time": 20.800009965896606,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.05000000074505806,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.281097412109375,
+                    "airspeed_undershoot": 0.39148521423339844,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 15.439103244317408,
+                    "altitude_rise_time": 7.500331878662109,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.05000000074505806,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_INTEG_GAIN_0.05.BIN"
+        },
+        "56": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.036663055419921875,
+                    "airspeed_undershoot": 0.4953956604003906,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06186866760253906,
+                    "airspeed_undershoot": 0.04508018493652344,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 17.441269195565944,
+                    "altitude_rise_time": 12.100157976150513,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4439716339111328,
+                    "airspeed_undershoot": -0.0023021697998046875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3456153869628906,
+                    "airspeed_undershoot": 0.13146018981933594,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2376256308908928,
+                    "altitude_rise_time": 8.99973201751709,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.1510028839111328,
+                    "airspeed_undershoot": 0.34710121154785156,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2679664870018037,
+                    "altitude_rise_time": 9.199651956558228,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_HGT_OMEGA_0.BIN"
+        },
+        "57": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.036663055419921875,
+                    "airspeed_undershoot": 0.4953956604003906,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.25,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06186866760253906,
+                    "airspeed_undershoot": 0.04508018493652344,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 17.441269195565944,
+                    "altitude_rise_time": 12.100157976150513,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.25,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4439716339111328,
+                    "airspeed_undershoot": -0.0023021697998046875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.25,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3456153869628906,
+                    "airspeed_undershoot": 0.13146018981933594,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2376256308908928,
+                    "altitude_rise_time": 8.99973201751709,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.25,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.1510028839111328,
+                    "airspeed_undershoot": 0.34710121154785156,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2679664870018037,
+                    "altitude_rise_time": 9.199651956558228,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 0.25,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_HGT_OMEGA_0.25.BIN"
+        },
+        "58": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -0.00673675537109375,
+                    "airspeed_undershoot": 0.4357490539550781,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.25,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.04351043701171875,
+                    "airspeed_undershoot": -0.0075969696044921875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 42.90687554395127,
+                    "altitude_rise_time": 4.699785947799683,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.25,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3956146240234375,
+                    "airspeed_undershoot": -0.003559112548828125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.25,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3185291290283203,
+                    "airspeed_undershoot": 0.05501556396484375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2563772955807906,
+                    "altitude_rise_time": 8.899771928787231,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.25,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.12168693542480469,
+                    "airspeed_undershoot": 0.3243885040283203,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2255943972827588,
+                    "altitude_rise_time": 9.199651956558228,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.25,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_SPD_OMEGA_0.25.BIN"
+        },
+        "59": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.11288833618164062,
+                    "airspeed_undershoot": 0.1540203094482422,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.03582763671875,
+                    "airspeed_undershoot": -0.0058231353759765625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.0273224043715787,
+                    "altitude_rise_time": 16.5000638961792,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.20226669311523438,
+                    "airspeed_undershoot": 0.1487102508544922,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.2879657745361328,
+                    "airspeed_undershoot": 0.08146476745605469,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.772810146350335,
+                    "altitude_rise_time": 8.499932050704956,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.1786518096923828,
+                    "airspeed_undershoot": 0.2523212432861328,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.9517041746152106,
+                    "altitude_rise_time": 8.599892139434814,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 0.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_SPD_OMEGA_0.BIN"
         },
         "6": {
             "data": {
@@ -5297,6 +6342,7 @@
                         "TECS_INTEG_GAIN": 0.550000011920929,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5318,6 +6364,7 @@
                         "TECS_INTEG_GAIN": 0.550000011920929,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5339,6 +6386,7 @@
                         "TECS_INTEG_GAIN": 0.550000011920929,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5360,6 +6408,7 @@
                         "TECS_INTEG_GAIN": 0.550000011920929,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5381,6 +6430,7 @@
                         "TECS_INTEG_GAIN": 0.550000011920929,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5389,6 +6439,1156 @@
                 }
             },
             "log_name": "TECS_INTEG_GAIN_0.55.BIN"
+        },
+        "60": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.03806304931640625,
+                    "airspeed_undershoot": 0.5715427398681641,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06163978576660156,
+                    "airspeed_undershoot": 0.04736518859863281,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 12.59525644318864,
+                    "altitude_rise_time": 12.200118064880371,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5127639770507812,
+                    "airspeed_undershoot": -0.003932952880859375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3962116241455078,
+                    "airspeed_undershoot": 0.1412067413330078,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.5342086243370634,
+                    "altitude_rise_time": 8.99973201751709,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.1859149932861328,
+                    "airspeed_undershoot": 0.4022331237792969,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.6233066678891461,
+                    "altitude_rise_time": 9.199651956558228,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_0.75.BIN"
+        },
+        "61": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.0387725830078125,
+                    "airspeed_undershoot": 0.6427822113037109,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 1.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06191253662109375,
+                    "airspeed_undershoot": 0.04804420471191406,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 10.319879540196109,
+                    "altitude_rise_time": 13.79947805404663,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 1.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5766544342041016,
+                    "airspeed_undershoot": -0.0043048858642578125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 1.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4441642761230469,
+                    "airspeed_undershoot": 0.1562042236328125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.90075967193728,
+                    "altitude_rise_time": 8.99973201751709,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 1.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.22033309936523438,
+                    "airspeed_undershoot": 0.45110511779785156,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.946536535863408,
+                    "altitude_rise_time": 9.199651956558228,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 1.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_1.0.BIN"
+        },
+        "62": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.03498649597167969,
+                    "airspeed_undershoot": 0.41414642333984375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06258773803710938,
+                    "airspeed_undershoot": 0.044818878173828125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 24.257062492356617,
+                    "altitude_rise_time": 10.799844980239868,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3666839599609375,
+                    "airspeed_undershoot": -0.00261688232421875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.2875785827636719,
+                    "airspeed_undershoot": 0.10314559936523438,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 0.9444693183605857,
+                    "altitude_rise_time": 9.10052490234375,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.11768341064453125,
+                    "airspeed_undershoot": 0.29184722900390625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 0.9274441444778292,
+                    "altitude_rise_time": 9.299611806869507,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_0.25.BIN"
+        },
+        "63": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.036663055419921875,
+                    "airspeed_undershoot": 0.4953956604003906,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06186866760253906,
+                    "airspeed_undershoot": 0.04508018493652344,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 17.441269195565944,
+                    "altitude_rise_time": 12.100157976150513,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4439716339111328,
+                    "airspeed_undershoot": -0.0023021697998046875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3456153869628906,
+                    "airspeed_undershoot": 0.13146018981933594,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2376256308908928,
+                    "altitude_rise_time": 8.99973201751709,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.1510028839111328,
+                    "airspeed_undershoot": 0.34710121154785156,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.2679664870018037,
+                    "altitude_rise_time": 9.199651956558228,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_0.5.BIN"
+        },
+        "64": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.030763626098632812,
+                    "airspeed_undershoot": 0.3285694122314453,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06163787841796875,
+                    "airspeed_undershoot": 0.04429054260253906,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 33.42571208622016,
+                    "altitude_rise_time": 10.799844980239868,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.28840065002441406,
+                    "airspeed_undershoot": -0.00215911865234375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.22191238403320312,
+                    "airspeed_undershoot": 0.07904052734375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 0.7357363954674012,
+                    "altitude_rise_time": 9.200484991073608,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.08718490600585938,
+                    "airspeed_undershoot": 0.2252044677734375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 0.6220083270457977,
+                    "altitude_rise_time": 9.399571895599365,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_0.0.BIN"
+        },
+        "65": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.36900901794433594,
+                    "airspeed_undershoot": 1.503744125366211,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 5.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06185340881347656,
+                    "airspeed_undershoot": 0.039745330810546875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -8.408205820122049,
+                    "altitude_rise_time": 0.0,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 5.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 1.3957843780517578,
+                    "airspeed_undershoot": 0.3681144714355469,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 5.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.8697128295898438,
+                    "airspeed_undershoot": 0.34461021423339844,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 7.439638670065896,
+                    "altitude_rise_time": 10.100125074386597,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 5.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5291652679443359,
+                    "airspeed_undershoot": 0.8950634002685547,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 8.31789424989875,
+                    "altitude_rise_time": 10.000164985656738,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 5.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_5.0.BIN"
+        },
+        "66": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4114971160888672,
+                    "airspeed_undershoot": 1.3671798706054688,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 4.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06230926513671875,
+                    "airspeed_undershoot": 0.04259490966796875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -5.888383493200722,
+                    "altitude_rise_time": 0.0,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 4.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 1.2627449035644531,
+                    "airspeed_undershoot": 0.35151100158691406,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 4.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.8157176971435547,
+                    "airspeed_undershoot": 0.32045555114746094,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 6.620220890560113,
+                    "altitude_rise_time": 9.8002450466156,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 4.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.49993896484375,
+                    "airspeed_undershoot": 0.8414077758789062,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 7.249876276082734,
+                    "altitude_rise_time": 9.900205135345459,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 4.25,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_4.25.BIN"
+        },
+        "67": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.1510486602783203,
+                    "airspeed_undershoot": 0.8941440582275391,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06150245666503906,
+                    "airspeed_undershoot": 0.04805946350097656,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.4683006012940387,
+                    "altitude_rise_time": 14.100190877914429,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.8246479034423828,
+                    "airspeed_undershoot": -0.0062198638916015625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5966720581054688,
+                    "airspeed_undershoot": 0.21255874633789062,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.506897454110436,
+                    "altitude_rise_time": 9.10052490234375,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3417701721191406,
+                    "airspeed_undershoot": 0.6113605499267578,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.601441862208965,
+                    "altitude_rise_time": 9.399571895599365,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.0,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_2.0.BIN"
+        },
+        "68": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.3336830139160156,
+                    "airspeed_undershoot": 1.2253589630126953,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 3.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.0609283447265625,
+                    "airspeed_undershoot": 0.04614830017089844,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -4.026902296262946,
+                    "altitude_rise_time": 15.49963092803955,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 3.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 1.1268177032470703,
+                    "airspeed_undershoot": 0.2731819152832031,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 3.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.7564983367919922,
+                    "airspeed_undershoot": 0.29694175720214844,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 5.631327209000281,
+                    "altitude_rise_time": 9.600324869155884,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 3.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4615459442138672,
+                    "airspeed_undershoot": 0.7782058715820312,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 6.138528709270918,
+                    "altitude_rise_time": 9.700284957885742,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 3.5,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_3.5.BIN"
+        },
+        "69": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.24146270751953125,
+                    "airspeed_undershoot": 1.0721149444580078,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06131744384765625,
+                    "airspeed_undershoot": 0.04829597473144531,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": -0.9776925758103849,
+                    "altitude_rise_time": 15.199750900268555,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.9797859191894531,
+                    "airspeed_undershoot": -0.00860595703125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.6845188140869141,
+                    "airspeed_undershoot": 0.24884033203125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 4.662122322082651,
+                    "altitude_rise_time": 9.300444841384888,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4078388214111328,
+                    "airspeed_undershoot": 0.7017822265625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 4.935099546703903,
+                    "altitude_rise_time": 9.499531984329224,
+                    "parameters": {
+                        "TECS_HDEM_TCONST": 3.0,
+                        "TECS_HGT_OMEGA": 3.0,
+                        "TECS_INTEG_GAIN": 0.30000001192092896,
+                        "TECS_PTCH_DAMP": 0.30000001192092896,
+                        "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 2.75,
+                        "TECS_TIME_CONST": 5.0,
+                        "TECS_VERT_ACC": 7.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_THR_DAMP_2.75.BIN"
         },
         "7": {
             "data": {
@@ -5407,6 +7607,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.7749999761581421,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5428,6 +7629,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.7749999761581421,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5449,6 +7651,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.7749999761581421,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5470,6 +7673,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.7749999761581421,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5491,6 +7695,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.7749999761581421,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5517,6 +7722,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5538,6 +7744,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5559,6 +7766,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5580,6 +7788,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5601,6 +7810,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 1.0,
                         "TECS_VERT_ACC": 7.0
                     },
@@ -5627,6 +7837,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
                     },
@@ -5648,6 +7859,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
                     },
@@ -5669,6 +7881,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
                     },
@@ -5690,6 +7903,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
                     },
@@ -5711,6 +7925,7 @@
                         "TECS_INTEG_GAIN": 0.30000001192092896,
                         "TECS_PTCH_DAMP": 0.30000001192092896,
                         "TECS_SPD_OMEGA": 2.0,
+                        "TECS_THR_DAMP": 0.5,
                         "TECS_TIME_CONST": 5.0,
                         "TECS_VERT_ACC": 4.75
                     },

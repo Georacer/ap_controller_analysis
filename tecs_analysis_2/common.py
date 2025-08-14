@@ -16,6 +16,7 @@ parameter_matrix = {
     "TECS_HGT_OMEGA": np.linspace(1, 10, 5),  # Default: 3
     "TECS_INTEG_GAIN": np.linspace(0.1, 1, 5),  # Default: 0.3
     "TECS_PTCH_DAMP": np.linspace(0.1, 1.0, 5),  # Default: 0.3
+    "TECS_THR_DAMP": np.linspace(0, 1.0, 5),  # Default: 0.5
     "TECS_SPD_OMEGA": np.linspace(0.5, 5, 5),  # Default: 2
     "TECS_TIME_CONST": np.linspace(1, 10, 5),  # Default: 5
     "TECS_VERT_ACC": np.linspace(3, 50, 5),  # Default: 7
