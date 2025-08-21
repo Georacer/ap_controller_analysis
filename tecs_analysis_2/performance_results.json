@@ -8040,6 +8040,856 @@
             },
             "log_name": "TECS_PTCH_DAMP_0.775.BIN"
         },
+        "70": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.027917861938476562,
+                    "airspeed_undershoot": 0.6279258728027344,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.20403482828000824,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 6.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.02867889404296875,
+                    "airspeed_undershoot": 0.029596328735351562,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 10.004341134219974,
+                    "altitude_rise_time": 10.799844980239868,
+                    "climb_rate_rmse": 0.0428065233138121,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 6.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.49143218994140625,
+                    "airspeed_undershoot": 0.009075164794921875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1615357799440966,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 6.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.35967063903808594,
+                    "airspeed_undershoot": 0.17966842651367188,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.7997533528595566,
+                    "altitude_rise_time": 9.500365018844604,
+                    "climb_rate_rmse": 0.13799181423975992,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 6.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.20025062561035156,
+                    "airspeed_undershoot": 0.37772178649902344,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.8316238633641069,
+                    "altitude_rise_time": 9.099692106246948,
+                    "climb_rate_rmse": 0.16561976644617343,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 6.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_6.0.BIN"
+        },
+        "71": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.002681732177734375,
+                    "airspeed_undershoot": 0.9125690460205078,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2544415964493165,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 14.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.05915260314941406,
+                    "airspeed_undershoot": 0.05132865905761719,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 5.540552705013946,
+                    "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.04531897887309508,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 14.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.6959877014160156,
+                    "airspeed_undershoot": -0.0051136016845703125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2134024587839611,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 14.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.46672821044921875,
+                    "airspeed_undershoot": 0.1274547576904297,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.336814086661044,
+                    "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.16511100356701408,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 14.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.2661590576171875,
+                    "airspeed_undershoot": 0.5702419281005859,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.6760929961413114,
+                    "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.3047490770038506,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 14.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_14.0.BIN"
+        },
+        "72": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.016178131103515625,
+                    "airspeed_undershoot": 0.15438461303710938,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.07365592488885078,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 2.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.07168388366699219,
+                    "airspeed_undershoot": 0.029790878295898438,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.589359640623613,
+                    "altitude_rise_time": 20.200249910354614,
+                    "climb_rate_rmse": 0.042749167021251165,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 2.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4726142883300781,
+                    "airspeed_undershoot": 0.06523704528808594,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.13578782734836248,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 2.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.2586498260498047,
+                    "airspeed_undershoot": 0.10745811462402344,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 0.79649396897985,
+                    "altitude_rise_time": 9.499531984329224,
+                    "climb_rate_rmse": 0.1229003720899219,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 2.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.09893608093261719,
+                    "airspeed_undershoot": 0.15654945373535156,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 0.9160732828108253,
+                    "altitude_rise_time": 11.200517892837524,
+                    "climb_rate_rmse": 0.07163850763629503,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 2.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_2.0.BIN"
+        },
+        "73": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": -0.019147872924804688,
+                    "airspeed_undershoot": 0.9679756164550781,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2649723165241106,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 16.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.05673027038574219,
+                    "airspeed_undershoot": 0.04031181335449219,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 4.913051115404876,
+                    "altitude_rise_time": 14.400070905685425,
+                    "climb_rate_rmse": 0.04824518299839479,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 16.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.7542457580566406,
+                    "airspeed_undershoot": -0.024332046508789062,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.22062791923203337,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 16.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5107192993164062,
+                    "airspeed_undershoot": 0.12650680541992188,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.6147922221907214,
+                    "altitude_rise_time": 8.99973201751709,
+                    "climb_rate_rmse": 0.16836440340298028,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 16.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.2447338104248047,
+                    "airspeed_undershoot": 0.6047439575195312,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.9762930458225876,
+                    "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.3418618980614952,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 16.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_16.0.BIN"
+        },
+        "74": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.04191017150878906,
+                    "airspeed_undershoot": 0.3418598175048828,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.13758606302290502,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 4.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06221961975097656,
+                    "airspeed_undershoot": 0.029848098754882812,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 11.998556021840168,
+                    "altitude_rise_time": 14.79991102218628,
+                    "climb_rate_rmse": 0.03595508035732056,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 4.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4139080047607422,
+                    "airspeed_undershoot": -0.011003494262695312,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.14013855281633286,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 4.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.29348182678222656,
+                    "airspeed_undershoot": 0.1414661407470703,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.0382442737723263,
+                    "altitude_rise_time": 9.300445079803467,
+                    "climb_rate_rmse": 0.12456492949079392,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 4.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.14505767822265625,
+                    "airspeed_undershoot": 0.291534423828125,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 1.118442768248995,
+                    "altitude_rise_time": 9.700284957885742,
+                    "climb_rate_rmse": 0.11224430254825729,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 4.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_4.0.BIN"
+        },
+        "75": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.028167724609375,
+                    "airspeed_undershoot": 1.0377483367919922,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2828582030623389,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 18.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.03253364562988281,
+                    "airspeed_undershoot": 0.0504150390625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 7.131269318123601,
+                    "altitude_rise_time": 13.199717998504639,
+                    "climb_rate_rmse": 0.057019176594142414,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 18.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.8298873901367188,
+                    "airspeed_undershoot": 0.0229339599609375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.22701445361455266,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 18.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5455551147460938,
+                    "airspeed_undershoot": 0.14837646484375,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 4.286656293991253,
+                    "altitude_rise_time": 9.10052490234375,
+                    "climb_rate_rmse": 0.17726327283954194,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 18.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.26813697814941406,
+                    "airspeed_undershoot": 0.6643390655517578,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 4.957770199278211,
+                    "altitude_rise_time": 9.400405168533325,
+                    "climb_rate_rmse": 0.40981163717505187,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 18.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_18.0.BIN"
+        },
+        "76": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.010320663452148438,
+                    "airspeed_undershoot": 0.7171401977539062,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.21527683588381066,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 8.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.06264495849609375,
+                    "airspeed_undershoot": 0.04725074768066406,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 8.615461453390893,
+                    "altitude_rise_time": 13.300510883331299,
+                    "climb_rate_rmse": 0.04292172621736779,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 8.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5313262939453125,
+                    "airspeed_undershoot": -0.01445770263671875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1746368280022,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 8.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4276599884033203,
+                    "airspeed_undershoot": 0.18767738342285156,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.0181202332546277,
+                    "altitude_rise_time": 9.499532222747803,
+                    "climb_rate_rmse": 0.1406692262109621,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 8.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.20470809936523438,
+                    "airspeed_undershoot": 0.4540824890136719,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.1243539139264467,
+                    "altitude_rise_time": 9.00056505203247,
+                    "climb_rate_rmse": 0.17306682367413292,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 8.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_8.0.BIN"
+        },
+        "77": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.029560089111328125,
+                    "airspeed_undershoot": 1.071573257446289,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2890181914238695,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 20.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.05881690979003906,
+                    "airspeed_undershoot": 0.031436920166015625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.7887915236730842,
+                    "altitude_rise_time": 14.00023102760315,
+                    "climb_rate_rmse": 0.04348170336555159,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 20.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.8114051818847656,
+                    "airspeed_undershoot": 0.022912979125976562,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.23635931082427217,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 20.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.5596122741699219,
+                    "airspeed_undershoot": 0.12640953063964844,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.900228565353747,
+                    "altitude_rise_time": 9.199651956558228,
+                    "climb_rate_rmse": 0.17788088567126767,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 20.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.2945404052734375,
+                    "airspeed_undershoot": 0.6840324401855469,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 4.832453387060398,
+                    "altitude_rise_time": 9.400405168533325,
+                    "climb_rate_rmse": 0.41539020536876076,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 20.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_20.0.BIN"
+        },
+        "78": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.030542373657226562,
+                    "airspeed_undershoot": 0.7745285034179688,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.2254375633956762,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 10.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.02864837646484375,
+                    "airspeed_undershoot": 0.029710769653320312,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 10.578854105138813,
+                    "altitude_rise_time": 10.899804830551147,
+                    "climb_rate_rmse": 0.04664647508216188,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 10.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.6146736145019531,
+                    "airspeed_undershoot": 0.013742446899414062,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1815308339010861,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 10.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.423065185546875,
+                    "airspeed_undershoot": 0.20304107666015625,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.883558874413983,
+                    "altitude_rise_time": 9.400404930114746,
+                    "climb_rate_rmse": 0.15720334540768283,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 10.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.24454689025878906,
+                    "airspeed_undershoot": 0.46567726135253906,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.9684664583132125,
+                    "altitude_rise_time": 8.899771928787231,
+                    "climb_rate_rmse": 0.20002510008767832,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 10.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_10.0.BIN"
+        },
+        "79": {
+            "data": {
+                "climb": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.00376129150390625,
+                    "airspeed_undershoot": 0.8385848999023438,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.24107285727564196,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 12.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "level": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.03684043884277344,
+                    "airspeed_undershoot": 0.046611785888671875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 8.403197504386828,
+                    "altitude_rise_time": 13.299677848815918,
+                    "climb_rate_rmse": 0.04975899434087792,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 12.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "sink": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.6567668914794922,
+                    "airspeed_undershoot": -0.010187149047851562,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": null,
+                    "altitude_rise_time": null,
+                    "climb_rate_rmse": 0.1962499789915105,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 12.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_down": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.4397869110107422,
+                    "airspeed_undershoot": 0.1738739013671875,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 2.8073486699828676,
+                    "altitude_rise_time": 9.200484991073608,
+                    "climb_rate_rmse": 0.1696450040168567,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 12.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                },
+                "step_up": {
+                    "airspeed_amplitude": null,
+                    "airspeed_frequency": null,
+                    "airspeed_overshoot": 0.27645111083984375,
+                    "airspeed_undershoot": 0.5568637847900391,
+                    "altitude_amplitude": null,
+                    "altitude_frequency": null,
+                    "altitude_overshoot": 3.0469514481421545,
+                    "altitude_rise_time": 8.799812078475952,
+                    "climb_rate_rmse": 0.2502796528115898,
+                    "parameters": {
+                        "TECS_CLMB_MAX": 12.0
+                    },
+                    "pitch_target_amplitude": null,
+                    "pitch_target_frequency": null
+                }
+            },
+            "log_name": "TECS_CLMB_MAX_12.0.BIN"
+        },
         "8": {
             "data": {
                 "climb": {

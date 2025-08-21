@@ -129,6 +129,7 @@ dependencies = [
     "scipy>=1.16.0",
     "rich>=14.0.0",
     "tinydb>=4.8.2",
+    "click>=8.1.7",
 ]
 
 [tool.uv.sources]

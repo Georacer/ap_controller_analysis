@@ -4,6 +4,9 @@ Thoughts and points to discuss in the presentation.
 
 ## Questions
 
+- [ ] Do sweep for TECS_CLIMB_MAX.
+- [ ] Do sweep for TRIM_AIRSPEED.
+- [ ] Do sweep for max pitch parameter.
 - [ ] How does pitch control gain affect the metrics?
 - [ ] Is there a relation between pitch rise time and the ideal TECS_TIME_CONST?
 - [ ] Are there parameter combinations that are more unstable than sweeping one at a time?
@@ -29,6 +32,6 @@ Thoughts and points to discuss in the presentation.
   - Adding just a little bit (0.3 in the default simulation) helps with airspeed and altitude overshoot and rise time.
   - A non-zero value is quite necessary to have zero steady-state energy error (altitude and airspeed).
 - [ ] TECS_HGT_OMEGA is applicable only if EKF can't provide a climb rate. So it doesn't apply by default.
-- [ ] The difference between `SEBdot_dem` (TECS2.EBDD) and `SEBdom_dem_tot` (TECS2.EBDDT) is directly proportional to the `SEBdot_error`. Kind of a moot point, since we also have access to the error via TECS2.EBDD-TECS2.EBDE.
+- [ ] The difference between `SEBdot_dem` (TECS2.EBDD) and `SEBdom_dem_tot` (TECS2.EBDDT) is directly proportional to the `SEBdot_error`. But kind of a moot point, since we also have access to the error via TECS2.EBDD-TECS2.EBDE.
 - [ ] TECS_SPD_OMEGA must not be set to zero. It will completely cripple the airspeed estimator, making it merely integrate longitudinal acceleration. This will lead either to overspeed or stall.
 - [ ] TECS_THR_DAMP doesn't seem to have a positive effect in the default simulation. At 0 the performance is OK. As the value increases, the airspeed/altitude overshoot becomes more and more. This parameter seems to works as a true damper to energy regulation.

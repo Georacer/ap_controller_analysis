@@ -12,6 +12,7 @@
 
 from pathlib import Path
 from dataclasses import dataclass, asdict
+from datetime import datetime
 from typing import Tuple
 import sys
 import random
@@ -23,13 +24,13 @@ from rich.progress import Progress
 import scipy as scp
 import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
+import click
 
 import common
 
 sys.path.append("..")
 import ardupilot_utils as apu
 
-LOGS_DIR = "~/Dropbox/George/60-69 Personal hobby projects/63 Aerospace/63.18_ardupilot_controller_analysis/tecs_analysis_2/temp_dir/logs"
 RAD2DEG = 180 / np.pi
 DEG2RAD = 1 / RAD2DEG
 
@@ -363,9 +364,30 @@ def add_to_db(data):
         db.upsert(log_data, logdata.log_name == log_data["log_name"])
 
 
-if __name__ == "__main__":
-    logs_dir = Path(LOGS_DIR).expanduser()
+@click.command()
+@click.option(
+    "--clean", "-c", default=False, help="Parse all logs, not just the new ones."
+)
+def main(
+    clean,
+):
+
     logs_paths = list(Path(common.ARTIFACTS_PATH).glob("*.BIN"))
+
+    timestamp_file = Path(common.ARTIFACTS_PATH) / "LASTRUN.txt"
+    # Look for a LASTRUN.txt file.
+    if timestamp_file.exists() and not clean:
+        # If it exists, load only those logs that are newer.
+        with open(timestamp_file, "r") as tf:
+            lines = tf.readlines()
+            pprint(lines)
+            timestamp = datetime.fromisoformat(lines[0][0:-1])
+
+        logs_paths = [
+            log
+            for log in logs_paths
+            if datetime.fromtimestamp(log.stat().st_mtime) > timestamp
+        ]
 
     all_data = []
 
@@ -378,5 +400,12 @@ if __name__ == "__main__":
             data_one_log["data"] = convert_data_to_dict(parse_log(log_path))
             data_one_log["log_name"] = log_path.name
             all_data.append(data_one_log)
-        # pprint(all_data)
         add_to_db(all_data)
+
+    # Mark the current datetime in LASTRUN.txt.
+    with open(timestamp_file, "w") as tf:
+        tf.writelines([datetime.now().isoformat()])
+
+
+if __name__ == "__main__":
+    main()

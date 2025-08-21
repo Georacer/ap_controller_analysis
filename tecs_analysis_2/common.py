@@ -20,4 +20,5 @@ parameter_matrix = {
     "TECS_SPD_OMEGA": np.linspace(0.5, 5, 5),  # Default: 2
     "TECS_TIME_CONST": np.linspace(1, 10, 5),  # Default: 5
     "TECS_VERT_ACC": np.linspace(3, 50, 5),  # Default: 7
+    "TECS_CLMB_MAX": np.linspace(2, 20, 10),  # Default: 4
 }
