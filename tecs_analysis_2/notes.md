@@ -4,8 +4,8 @@ Thoughts and points to discuss in the presentation.
 
 ## Questions
 
-- [ ] Do sweep for TECS_CLIMB_MAX.
 - [ ] Do sweep for TRIM_AIRSPEED.
+- [ ] Do sweep for TRIM_THROTTLE.
 - [ ] Do sweep for max pitch parameter.
 - [ ] How does pitch control gain affect the metrics?
 - [ ] Is there a relation between pitch rise time and the ideal TECS_TIME_CONST?
@@ -20,6 +20,7 @@ Thoughts and points to discuss in the presentation.
 - [ ] Are there tell-tale signs re. whether oscillation issues exist in the pitch-control side or throttle control side?
 - [ ] Which parameter affects the maximum climb rate during the climbing segment?
 - [ ] What can TECS_THR_DAMP help with?
+- [ ] Do a run where you increase TECS_CLIMB_MAX and sweep max pitch.
 
 ## Remarks
 
@@ -35,3 +36,4 @@ Thoughts and points to discuss in the presentation.
 - [ ] The difference between `SEBdot_dem` (TECS2.EBDD) and `SEBdom_dem_tot` (TECS2.EBDDT) is directly proportional to the `SEBdot_error`. But kind of a moot point, since we also have access to the error via TECS2.EBDD-TECS2.EBDE.
 - [ ] TECS_SPD_OMEGA must not be set to zero. It will completely cripple the airspeed estimator, making it merely integrate longitudinal acceleration. This will lead either to overspeed or stall.
 - [ ] TECS_THR_DAMP doesn't seem to have a positive effect in the default simulation. At 0 the performance is OK. As the value increases, the airspeed/altitude overshoot becomes more and more. This parameter seems to works as a true damper to energy regulation.
+- [ ] TECS_CLMB_MAX will be capped as max_climb_condition probably due to expected pitch saturation well before throttle saturation. Same for TECS_SINK_MIN.

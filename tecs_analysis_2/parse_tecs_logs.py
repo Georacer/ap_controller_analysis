@@ -40,7 +40,7 @@ segments = {
     "step_up": (5, 6),
     "step_down": (6, 7),
     "climb": (7, 8),
-    "sink": (9, 10),
+    "sink": (9, 11),
 }
 
 
@@ -263,10 +263,12 @@ def parse_log(log_path):
 
     data = dict()
     parameters = dict()
+    logged_parameters = dict()
 
     segment_idx = 0
     segment_start = list(segments.values())[segment_idx][0]
     segment_end = list(segments.values())[segment_idx][1]
+    segment_names = list(segments.keys())
     started_segmenting = False
 
     while True:
@@ -282,8 +284,10 @@ def parse_log(log_path):
 
         # Capture the parameters.
         # Make sure the full dictionary of common.parameter_matrix is uncommented, to capture all of the parameters.
-        if msg_name == "PARM" and (msg_data["Name"] in common.parameter_matrix.keys()):
+        if msg_name == "PARM":
             parameters[msg_data["Name"]] = msg_data["Value"]
+            if msg_data["Name"] in common.parameter_matrix.keys():
+                logged_parameters[msg_data["Name"]] = msg_data["Value"]
 
         # Split the segments.
         if msg_name == "MISE":
@@ -293,6 +297,25 @@ def parse_log(log_path):
                 if not started_segmenting:
                     raise RuntimeError(f"Did not find start of segment {segment_idx}")
                 else:
+                    # Special treatment for climb/descent rates.
+                    if segment_names[segment_idx] == "climb":
+                        # We ideally want our aircraft to climb at max rate.
+                        climb_rate_target = (
+                            topics["TECS"].as_numpy("dhdem")[0],
+                            parameters["TECS_CLMB_MAX"]
+                            * np.ones(topics["TECS"].as_numpy("dhdem")[1].shape),
+                        )
+                    elif segment_names[segment_idx] == "sink":
+                        # We ideally want our aircraft to sink at max rate.
+                        climb_rate_target = (
+                            topics["TECS"].as_numpy("dhdem")[0],
+                            -parameters["TECS_SINK_MAX"]
+                            * np.ones(topics["TECS"].as_numpy("dhdem")[1].shape),
+                        )
+                    else:
+                        # The vehicle is free to choose its climb rate.
+                        climb_rate_target = topics["TECS"].as_numpy("dhdem")
+
                     # Consume airspeed and altitude messages and put them in SegmentRawData.
                     data[list(segments.keys())[segment_idx]] = SegmentRawData(
                         airspeed=topics["TECS"].as_numpy("sp"),
@@ -301,8 +324,8 @@ def parse_log(log_path):
                         altitude_target=topics["TECS"].as_numpy("hin"),
                         pitch_target=topics["TECS"].as_numpy("ph"),
                         climb_rate=topics["TECS"].as_numpy("dh"),
-                        climb_rate_target=topics["TECS"].as_numpy("dhdem"),
-                        parameters=parameters,
+                        climb_rate_target=climb_rate_target,
+                        parameters=logged_parameters,
                     )
 
                     # Reset the topic ledger.
@@ -366,7 +389,11 @@ def add_to_db(data):
 
 @click.command()
 @click.option(
-    "--clean", "-c", default=False, help="Parse all logs, not just the new ones."
+    "--clean",
+    "-c",
+    is_flag=True,
+    default=False,
+    help="Parse all logs, not just the new ones.",
 )
 def main(
     clean,
@@ -380,8 +407,7 @@ def main(
         # If it exists, load only those logs that are newer.
         with open(timestamp_file, "r") as tf:
             lines = tf.readlines()
-            pprint(lines)
-            timestamp = datetime.fromisoformat(lines[0][0:-1])
+            timestamp = datetime.fromisoformat(lines[0][0:-1])  # Don't parse the \0.
 
         logs_paths = [
             log

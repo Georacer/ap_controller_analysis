@@ -5,6 +5,7 @@
 import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
 import numpy as np
+from rich.pretty import pprint
 
 PLOT_ROWS = 4
 
@@ -15,9 +16,13 @@ db = TinyDB("performance_results.json", access_mode="r")
 log = Query()
 all_data = db.all()
 
-# Initialize the data structures.
-segment_names = list(all_data[0]["data"].keys())
-parameter_names = list(all_data[0]["data"][segment_names[0]]["parameters"].keys())
+# Use the latest entry to build the parameter names.
+# Others might not be up to date with all the parameters.
+max_id = max([entry.doc_id for entry in all_data])
+last_entry = db.get(doc_id=max_id)
+pprint(max_id)
+segment_names = list(last_entry["data"].keys())  # type: ignore This entry is sure to exist in the db.
+parameter_names = list(last_entry["data"][segment_names[0]]["parameters"].keys())  # type: ignore
 
 
 def draw_axis(ah, x, y, quantity, segment):
