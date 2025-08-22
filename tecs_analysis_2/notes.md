@@ -18,7 +18,6 @@ Thoughts and points to discuss in the presentation.
 - [ ] Is there a system model that shows well why high values of TECS_PTCH_DAMP lead to pitch oscillation?
 - [ ] Is there a set of parameters that bring out the positive effect of TECS_PTCH_DAMP?
 - [ ] Are there tell-tale signs re. whether oscillation issues exist in the pitch-control side or throttle control side?
-- [ ] Which parameter affects the maximum climb rate during the climbing segment?
 - [ ] What can TECS_THR_DAMP help with?
 - [ ] Do a run where you increase TECS_CLIMB_MAX and sweep max pitch.
 

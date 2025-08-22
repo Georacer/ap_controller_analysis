@@ -20,7 +20,6 @@ all_data = db.all()
 # Others might not be up to date with all the parameters.
 max_id = max([entry.doc_id for entry in all_data])
 last_entry = db.get(doc_id=max_id)
-pprint(max_id)
 segment_names = list(last_entry["data"].keys())  # type: ignore This entry is sure to exist in the db.
 parameter_names = list(last_entry["data"][segment_names[0]]["parameters"].keys())  # type: ignore
 
@@ -73,6 +72,10 @@ for parameter in parameter_names:
         x.sort()
 
         for index, quantity in enumerate(quantities):
+
+            # Plot climb rate only in specific segments.
+            if quantity == "climb_rate_rmse" and segment not in ["climb", "sink"]:
+                continue
 
             data = np.array([data[segment][quantity] for data in data_per_param])[
                 sort_idx

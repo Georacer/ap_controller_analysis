@@ -48,6 +48,7 @@ segments = {
 class SegmentRawData:
     """Class containing parsed data from a flight segment."""
 
+    segment_name: str
     airspeed: Tuple[np.ndarray, np.ndarray]
     airspeed_target: Tuple[np.ndarray, np.ndarray]
     altitude: Tuple[np.ndarray, np.ndarray]
@@ -219,9 +220,14 @@ def extract_metadata(raw_data: SegmentRawData):
     altitude_frequency, altitude_amplitude = do_fft(
         raw_data.altitude, height_threshold=0.5
     )
-    altitude_overshoot, altitude_rise_time = calc_rise_stats(
-        raw_data.altitude, raw_data.altitude_target
-    )
+    # In climb/descent altitude overshoot doesn't really make sense.
+    if raw_data.segment_name in ["climb", "sink"]:
+        altitude_overshoot = None
+        altitude_rise_time = None
+    else:
+        altitude_overshoot, altitude_rise_time = calc_rise_stats(
+            raw_data.altitude, raw_data.altitude_target
+        )
     pitch_target_frequency, pitch_target_amplitude = do_fft(
         raw_data.pitch_target, height_threshold=0.5 * DEG2RAD
     )
@@ -297,15 +303,16 @@ def parse_log(log_path):
                 if not started_segmenting:
                     raise RuntimeError(f"Did not find start of segment {segment_idx}")
                 else:
+                    segment_name = segment_names[segment_idx]
                     # Special treatment for climb/descent rates.
-                    if segment_names[segment_idx] == "climb":
+                    if segment_name == "climb":
                         # We ideally want our aircraft to climb at max rate.
                         climb_rate_target = (
                             topics["TECS"].as_numpy("dhdem")[0],
                             parameters["TECS_CLMB_MAX"]
                             * np.ones(topics["TECS"].as_numpy("dhdem")[1].shape),
                         )
-                    elif segment_names[segment_idx] == "sink":
+                    elif segment_name == "sink":
                         # We ideally want our aircraft to sink at max rate.
                         climb_rate_target = (
                             topics["TECS"].as_numpy("dhdem")[0],
@@ -318,6 +325,7 @@ def parse_log(log_path):
 
                     # Consume airspeed and altitude messages and put them in SegmentRawData.
                     data[list(segments.keys())[segment_idx]] = SegmentRawData(
+                        segment_name=segment_name,
                         airspeed=topics["TECS"].as_numpy("sp"),
                         airspeed_target=topics["TECS"].as_numpy("spdem"),
                         altitude=topics["TECS"].as_numpy("h"),
