@@ -4,8 +4,7 @@ Thoughts and points to discuss in the presentation.
 
 ## Questions
 
-- [ ] Do sweep for TRIM_AIRSPEED.
-- [ ] Do sweep for TRIM_THROTTLE.
+- [ ] Are there tell-tale signs re. whether oscillation issues exist in the pitch-control side or throttle control side?
 - [ ] How does pitch control gain affect the metrics?
 - [ ] Is there a relation between pitch rise time and the ideal TECS_TIME_CONST?
 - [ ] Are there parameter combinations that are more unstable than sweeping one at a time?
@@ -16,9 +15,8 @@ Thoughts and points to discuss in the presentation.
 - [ ] What does TECS_HGT_OMEGA help with? Show it.
 - [ ] Is there a system model that shows well why high values of TECS_PTCH_DAMP lead to pitch oscillation?
 - [ ] Is there a set of parameters that bring out the positive effect of TECS_PTCH_DAMP?
-- [ ] Are there tell-tale signs re. whether oscillation issues exist in the pitch-control side or throttle control side?
 - [ ] What can TECS_THR_DAMP help with?
-- [ ] Do a run where you increase TECS_CLIMB_MAX and sweep max pitch.
+- [ ] Ensure that in the run of AIRSPEED_CRUISE=30 the `integSEB_delta` is very large and causes the pitch integrators to freeze.
 
 ## Remarks
 
@@ -36,3 +34,12 @@ Thoughts and points to discuss in the presentation.
 - [ ] TECS_THR_DAMP doesn't seem to have a positive effect in the default simulation. At 0 the performance is OK. As the value increases, the airspeed/altitude overshoot becomes more and more. This parameter seems to works as a true damper to energy regulation.
 - [ ] TECS_CLMB_MAX will be capped as max_climb_condition probably due to expected pitch saturation well before throttle saturation. Same for TECS_SINK_MIN.
 - [ ] When PTCH_LIM_MAX_DEG is set past the required pitch for a max climb, then any higher value isn't harmful.
+- [ ] Both a max pitch and max throttle will trigger a max climb condition, leading to reduction of climb rate limit. So don't try to hit a sustained climb with 100% throttle.
+- [ ] During an overspeed dive, the unconstrained pitch can easily hit the lower limit. The `integSEB_delta` is probably large enough that the integrators aren't wound any more. This results in pitch not reducing anymore and the descent rate isn't being met. In general the max descent condition is overly pessimistic.
+- [ ] Too slow a pitch angle control is detrimental to TECS. It can be that climb behaves differently to descent.
+
+## Don't forget
+
+- [ ] Explain methodology.
+- [ ] Mention total number of simulations.
+- [ ] When discussing the effect of pitch tuning, show some attitude control plots.

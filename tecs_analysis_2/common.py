@@ -41,6 +41,22 @@ parameter_matrix = [
     {"TECS_SINK_MAX": np.linspace(2, 10, 5)},  # Default: 5
     {"TRIM_THROTTLE": np.linspace(10, 80, 8)},  # Default: 50
     {"PTCH_LIM_MAX_DEG": np.linspace(5, 50, 10), "TECS_PITCH_MAX": [0]},  # Default: 15
+    {
+        "PTCH_LIM_MAX_DEG": np.linspace(5, 50, 10),
+        "TECS_PITCH_MAX": [0],
+        "TECS_CLMB_MAX": [20],
+    },
+    {"AIRSPEED_CRUISE": np.linspace(6, 30, 5)},  # Default: 22
+    {
+        "PTCH2SRV_TCONST": np.concatenate(
+            (np.linspace(0.1, 1, 5), np.linspace(1.4, 3, 5))
+        )
+    },  # Default: 0.25
+    {"PTCH_RATE_P": [0.05, 0.1, 0.15, 0.25, 0.5, 0.75, 1.0]},  # Default: 0.15
+    {
+        "PTCH_RATE_FF": np.concatenate(([0.05], np.linspace(0.2, 1.0, 5))),
+        "PTCH_RATE_P": [0.05],
+    },  # Default: 0.596
 ]
 
 
