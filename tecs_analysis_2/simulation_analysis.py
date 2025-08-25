@@ -7,7 +7,18 @@ from tinydb import TinyDB, Query
 import numpy as np
 from rich.pretty import pprint
 
+import common
+
 PLOT_ROWS = 4
+
+
+def draw_axis(ah, x, y, quantity, segment):
+    """Draw one axis."""
+    ah.plot(x, y, label=segment, marker="x")
+    ah.set_xlim(x.min(), x.max())
+    ah.set_ylabel(quantity)
+    ah.ticklabel_format(style="plain", axis="y", useOffset=False)
+
 
 # Open the database.
 db = TinyDB("performance_results.json", access_mode="r")
@@ -16,26 +27,32 @@ db = TinyDB("performance_results.json", access_mode="r")
 log = Query()
 all_data = db.all()
 
-# Use the latest entry to build the parameter names.
+# Find the list of cases which merit their own figure.
+sweeps = dict()
+for case in common.parameter_matrix:
+    # Convert numpy arrays to lists, in order to hash them.
+    for key in case.keys():
+        case[key] = np.array(case[key]).tolist()
+    primary_param_name = list(case.keys())[0]
+    sweeps[f"{primary_param_name}_{common.generate_hash(case, 2)}"] = case
+
+# Use the latest entry to build the segment names.
 # Others might not be up to date with all the parameters.
 max_id = max([entry.doc_id for entry in all_data])
 last_entry = db.get(doc_id=max_id)
 segment_names = list(last_entry["data"].keys())  # type: ignore This entry is sure to exist in the db.
-parameter_names = list(last_entry["data"][segment_names[0]]["parameters"].keys())  # type: ignore
-
-
-def draw_axis(ah, x, y, quantity, segment):
-    """Draw one axis."""
-    ah.plot(x, y, label=segment, marker="x")
-    ah.set_xlim(x.min(), x.max())
-    ah.set_ylabel(quantity)
+# parameter_names = list(last_entry["data"][segment_names[0]]["parameters"].keys())  # type: ignore
 
 
 # For each parameter:
-for parameter in parameter_names:
+for image_name, case in sweeps.items():
 
-    data_per_param = [
-        data["data"] for data in all_data if data["log_name"].startswith(parameter)
+    combinations = common.generate_combinations([case])
+    primary_param_name = list(case.keys())[0]
+    log_names = [f"{common.generate_name(sample)}.BIN" for sample in combinations]
+
+    data_per_case = [
+        entry["data"] for entry in all_data if entry["log_name"] in log_names
     ]
 
     quantities = [
@@ -55,7 +72,16 @@ for parameter in parameter_names:
 
     fig, axs = plt.subplots(PLOT_ROWS, div_res + 1)
     fig.set_size_inches(20, 12)
-    fig.suptitle(f"{parameter} influence")
+
+    title = None
+    for name, value in case.items():
+        # Assumes secondary parameters have a single value.
+        if title is None:
+            title = f"{name} influence\n"
+        else:
+            title = title + f"{name}={value[0]}\n"
+
+    fig.suptitle(title)
 
     # For each segment:
     for segment in segment_names:
@@ -66,7 +92,7 @@ for parameter in parameter_names:
 
         # Create the plot:
         x = np.array(
-            [data[segment]["parameters"][parameter] for data in data_per_param]
+            [data[segment]["parameters"][primary_param_name] for data in data_per_case]
         )
         sort_idx = np.argsort(x)
         x.sort()
@@ -77,7 +103,7 @@ for parameter in parameter_names:
             if quantity == "climb_rate_rmse" and segment not in ["climb", "sink"]:
                 continue
 
-            data = np.array([data[segment][quantity] for data in data_per_param])[
+            data = np.array([data[segment][quantity] for data in data_per_case])[
                 sort_idx
             ]
             idy, idx = divmod(index, PLOT_ROWS)
@@ -88,4 +114,4 @@ for parameter in parameter_names:
     axs[0, 0].legend(loc="upper left")
 
     # Save each plot into a .png.
-    fig.savefig(f"artifacts/{parameter}.png")
+    fig.savefig(f"artifacts/{image_name}.png")

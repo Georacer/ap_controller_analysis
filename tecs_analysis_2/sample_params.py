@@ -14,13 +14,14 @@ import numpy as np
 from pathlib import Path
 import os
 
+from rich.pretty import pprint
+
 import common
 
 # Create the sampling space.
-combinations = []
-for parameter, values in common.parameter_matrix.items():
-    for value in values:
-        combinations.append((parameter, value))
+# combinations is a list of lists.
+# Each list item is a dictionary of parameters to alter.
+combinations = common.generate_combinations(common.parameter_matrix)
 
 try:
     os.makedirs(common.SITL_RUN_DIR)
@@ -31,15 +32,14 @@ try:
 except FileExistsError:
     pass
 
-for sample_point in combinations:
+for sample in combinations:
     # Generate a temporary parameter file.
-    param_name = sample_point[0]
-    param_value = sample_point[1]
     with open(common.SAMPLE_PARAM_FILE, "w") as f:
-        f.write(f"{param_name} {param_value}")
+        for name, value in sample.items():
+            f.write(f"{name} {value}\n")
 
     # Run the autotest.
-    print(f"*** Running test for sample: {param_name}={param_value}")
+    print(f"*** Running test for sample: {sample}")
     subprocess.run(
         f"{common.SITL_PYTHON} /home/george/projects_no_dropbox/ardupilot/Tools/autotest/autotest.py test.Plane.fly_tecs_test",
         cwd=common.SITL_RUN_DIR,
@@ -53,5 +53,6 @@ for sample_point in combinations:
 
     # Copy and rename it.
     shutil.copyfile(
-        flight_log, str(Path(common.ARTIFACTS_PATH) / f"{param_name}_{param_value}.BIN")
+        flight_log,
+        str(Path(common.ARTIFACTS_PATH) / f"{common.generate_name(sample)}.BIN"),
     )

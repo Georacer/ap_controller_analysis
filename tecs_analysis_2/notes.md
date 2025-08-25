@@ -6,7 +6,6 @@ Thoughts and points to discuss in the presentation.
 
 - [ ] Do sweep for TRIM_AIRSPEED.
 - [ ] Do sweep for TRIM_THROTTLE.
-- [ ] Do sweep for max pitch parameter.
 - [ ] How does pitch control gain affect the metrics?
 - [ ] Is there a relation between pitch rise time and the ideal TECS_TIME_CONST?
 - [ ] Are there parameter combinations that are more unstable than sweeping one at a time?
@@ -36,3 +35,4 @@ Thoughts and points to discuss in the presentation.
 - [ ] TECS_SPD_OMEGA must not be set to zero. It will completely cripple the airspeed estimator, making it merely integrate longitudinal acceleration. This will lead either to overspeed or stall.
 - [ ] TECS_THR_DAMP doesn't seem to have a positive effect in the default simulation. At 0 the performance is OK. As the value increases, the airspeed/altitude overshoot becomes more and more. This parameter seems to works as a true damper to energy regulation.
 - [ ] TECS_CLMB_MAX will be capped as max_climb_condition probably due to expected pitch saturation well before throttle saturation. Same for TECS_SINK_MIN.
+- [ ] When PTCH_LIM_MAX_DEG is set past the required pitch for a max climb, then any higher value isn't harmful.

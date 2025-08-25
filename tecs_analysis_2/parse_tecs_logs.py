@@ -289,10 +289,12 @@ def parse_log(log_path):
         msg_data = m.to_dict()
 
         # Capture the parameters.
-        # Make sure the full dictionary of common.parameter_matrix is uncommented, to capture all of the parameters.
+        # Make sure the full list of common.parameter_matrix is uncommented, to capture all of the parameters.
+
+        parameters_of_interest = common.get_parameter_names(common.parameter_matrix)
         if msg_name == "PARM":
             parameters[msg_data["Name"]] = msg_data["Value"]
-            if msg_data["Name"] in common.parameter_matrix.keys():
+            if msg_data["Name"] in parameters_of_interest:
                 logged_parameters[msg_data["Name"]] = msg_data["Value"]
 
         # Split the segments.
