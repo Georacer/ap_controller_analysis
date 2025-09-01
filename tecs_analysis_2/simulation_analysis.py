@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from tinydb import TinyDB, Query
 import numpy as np
 from rich.pretty import pprint
+import copy
 
 import common
 
@@ -29,12 +30,30 @@ all_data = db.all()
 
 # Find the list of cases which merit their own figure.
 sweeps = dict()
-for case in common.parameter_matrix:
+
+# Generate the graph cases as combinations of the secondary parameters.
+for experiment in common.parameter_matrix:
+
     # Convert numpy arrays to lists, in order to hash them.
-    for key in case.keys():
-        case[key] = np.array(case[key]).tolist()
-    primary_param_name = list(case.keys())[0]
-    sweeps[f"{primary_param_name}_{common.generate_hash(case, 2)}"] = case
+    for key in experiment.keys():
+        experiment[key] = np.array(experiment[key]).tolist()
+
+    primary_param_name = list(experiment.keys())[0]
+
+    # Copy the experiments dictionary.
+    secondary_params = copy.copy(experiment)
+    # Delete the primary parameter.
+    del secondary_params[primary_param_name]
+    # Generate the remaining combinations.
+    flat_secondary_params = common.generate_combinations([secondary_params])
+    for case in flat_secondary_params:
+        # Re-convert the values into lists.
+        case = {key: [value] for key, value in case.items()}
+        # Add back the primary parameter sweep.
+        # Create the entry in the sweeps dictionary.
+        sweeps[f"{primary_param_name}_{common.generate_hash(case, 2)}"] = {
+            primary_param_name: experiment[primary_param_name]
+        } | case
 
 # Use the latest entry to build the segment names.
 # Others might not be up to date with all the parameters.
@@ -42,7 +61,6 @@ max_id = max([entry.doc_id for entry in all_data])
 last_entry = db.get(doc_id=max_id)
 segment_names = list(last_entry["data"].keys())  # type: ignore This entry is sure to exist in the db.
 # parameter_names = list(last_entry["data"][segment_names[0]]["parameters"].keys())  # type: ignore
-
 
 # For each parameter:
 for image_name, case in sweeps.items():
